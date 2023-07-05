@@ -2,6 +2,9 @@
 import Link from "next/link";
 import Logo from "../../public/logo.svg";
 import Sygnet from "../../public/sygnet_getpromo.svg";
+import Facebook from "../../public/facebook.svg";
+import Twitter from "../../public/twitter.svg";
+import Linkedin from "../../public/linkedin.svg";
 import Image from "next/image";
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
@@ -19,14 +22,14 @@ const NavBar = () => {
     return (
         <>
             {/* NAVBAR */}
-            <div className="bg-red-500 h-32 flex absolute inset-0 items-center">
-                <div className="max-w-7xl container px-4 md:px-0 mx-auto bg-green-500 flex items-center justify-between">
+            <div className="h-32 flex mt-4 items-center">
+                <div className="max-w-7xl container px-4 md:px-0 mx-auto flex items-center justify-between">
                     <Link href="/" className=""><Image alt="" src={Logo} /></Link>
                     <div className="flex items-center relative z-30">
                         <div className="h-0.5 hidden md:block bg-primary w-24"></div>
                         <div className="w-24 h-24 bg-primary flex items-center justify-center">
                             <svg
-                                className="text-black flex group-hover:transition-all duration-300 group-hover:text-black"
+                                className="text-secondary flex group-hover:transition-all duration-300 group-hover:text-secondary"
                                 width="24"
                                 height="24"
                                 viewBox="0 0 24 24"
@@ -44,7 +47,7 @@ const NavBar = () => {
                         <button className="outline-none" type="button" onClick={openModal}>
                             <div className="w-24 h-24 border-primary border-r border-t border-b flex justify-center items-center">
                                 <svg
-                                    className="text-primary group-hover:transition-all duration-300 group-hover:text-black"
+                                    className="text-primary group-hover:transition-all duration-300 group-hover:text-secondary"
                                     width="24"
                                     height="24"
                                     viewBox="0 0 24 24"
@@ -74,7 +77,7 @@ const NavBar = () => {
                                 leaveFrom="opacity-100"
                                 leaveTo="opacity-0"
                             >
-                                <div className="fixed inset-0 bg-black bg-opacity-25" />
+                                <div className="fixed inset-0 bg-secondary bg-opacity-25" />
                             </Transition.Child>
 
                             <div className="fixed inset-0 overflow-y-auto ml-auto md:w-1/2">
@@ -88,8 +91,8 @@ const NavBar = () => {
                                         leaveFrom='translate-x-0'
                                         leaveTo='translate-x-full'
                                     >
-                                        <Dialog.Panel className="w-full h-full transform overflow-hidden bg-red-500 text-left align-middle shadow-xl transition-all">
-                                            <nav className="relative px-9 pt-8 bg-blue-500 z-0 h-full overflow-y-auto">
+                                        <Dialog.Panel className="w-full h-full transform overflow-hidden text-left align-middle shadow-xl transition-all">
+                                            <nav className="relative px-9 pt-8 bg-primary z-0 h-full overflow-y-auto">
                                                 <div className="flex flex-wrap justify-between h-full">
                                                     <div className="absolute right-0 w-full">
                                                         <div className="flex items-center justify-between md:mr-20 px-4">
@@ -99,10 +102,10 @@ const NavBar = () => {
                                                                 </Link>
                                                             </div>
                                                             <div className="flex items-center">
-                                                                <div className="h-0.5 bg-white hidden md:block w-24"></div>
-                                                                <div className="w-24 h-24 bg-primary flex items-center justify-center">
+                                                                <div className="h-0.5 bg-secondary hidden md:block w-24"></div>
+                                                                <div className="w-24 h-24 bg-secondary flex items-center justify-center">
                                                                     <svg
-                                                                        className="text-black flex group-hover:transition-all duration-300 group-hover:text-black"
+                                                                        className="text-primary flex group-hover:transition-all duration-300 group-hover:text-secondary"
                                                                         width="24"
                                                                         height="24"
                                                                         viewBox="0 0 24 24"
@@ -119,9 +122,9 @@ const NavBar = () => {
                                                                 </div>
 
                                                                 <button className="outline-none" type="button" onClick={closeModal}>
-                                                                    <div className="w-24 h-24 border-primary border-r border-t border-b flex justify-center items-center">
+                                                                    <div className="w-24 h-24 border-secondary border-r border-t border-b flex justify-center items-center">
                                                                         <svg
-                                                                            className={`text-black`}
+                                                                            className={`text-secondary`}
                                                                             width="24"
                                                                             height="24"
                                                                             viewBox="0 0 24 24"
@@ -144,9 +147,15 @@ const NavBar = () => {
                                                     </div>
                                                     <div className="flex flex-col font-serif justify-center py-20 w-full">
                                                         <ul>
-                                                            <li className="mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-grayText hover:text-white" onClick={closeModal} href="/oferta/">Strona główna</Link></li>
-                                                            <li className="mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-grayText hover:text-white" onClick={closeModal} href="/o-firmie/">Oferta</Link></li>
-                                                            <li className="mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-grayText hover:text-white" onClick={closeModal} href="/referencje/">Kontakt</Link></li>
+                                                            <li className="mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/oferta/">Strona główna</Link></li>
+                                                            <li className="mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/o-firmie/">Oferta</Link></li>
+                                                            <li className="mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/referencje/">Kontakt</Link></li>
+                                                        </ul>
+                                                        <div className="bg-secondary h-0.5 w-80"></div>
+                                                        <ul className="flex items-end space-x-8 mt-12">
+                                                            <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://www.facebook.com/GetpromoMarketing"><Image alt="Facebook" src={Facebook} /></Link></li>
+                                                            <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://www.linkedin.com/company/getpromo/"><Image alt="Linkedin" src={Linkedin} /></Link></li>
+                                                            <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://twitter.com/GetpromoReklama"><Image alt="Twitter" src={Twitter} /></Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
