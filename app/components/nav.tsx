@@ -76,10 +76,9 @@ const NavBar = () => {
                                 leaveFrom="opacity-100"
                                 leaveTo="opacity-0"
                             >
-                                <div className="fixed inset-0 bg-secondary bg-opacity-25" />
+                                <div className="fixed inset-0 bg-gradient-to-l from-secondary via-secondary to-transparent" />
                             </Transition.Child>
-
-                            <div className="fixed inset-0 overflow-y-auto ml-auto md:w-1/2">
+                            <div className="fixed inset-0 w-full md:w-1/2 ml-auto overflow-y-auto">
                                 <div className="flex h-full justify-end text-center">
                                     <Transition.Child
                                         as={Fragment}
