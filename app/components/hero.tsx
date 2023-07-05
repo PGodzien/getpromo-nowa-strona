@@ -45,7 +45,7 @@ export default function Hero() {
                             </button>
                         </div>
                         <div className="w-full absolute inset-0 lg:relative overflow-hidden">
-                            <Image className="relative" alt="design-god" src={apollo} />
+                            <Image className="relative h-full" alt="design-god" src={apollo} />
                             <div className="animate-flash -z-10 w-10 h-10 p-40 md:p-72 absolute top-1/2 m-3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                                 <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-4 border-primary blur-sm rounded-full"></div>
                                 <div className="absolute inset-0 z-20  bg-transparent border-2 border-white rounded-full"></div>
