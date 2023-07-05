@@ -12,9 +12,9 @@ const Features = () => {
                     <button className="flex items-center">
                         <div className="w-24 bg-primary h-[1px]"></div>
                         <Link href="/marketing-internetowy">
-                            <div className="w-16 h-16 flex justify-center items-center border border-primary">
+                            <div className="w-16 h-16 flex justify-center bg-transparent items-center border border-primary group hover:bg-primary">
                                 <svg
-                                    className="text-primary"
+                                    className="text-primary group-hover:text-secondary"
                                     width="24"
                                     height="19"
                                     viewBox="0 0 24 19"
@@ -39,9 +39,9 @@ const Features = () => {
                     <button className="flex items-center">
                         <div className="w-24 bg-secondary h-[1px]"></div>
                         <Link href="/strony-internetowe">
-                            <div className="w-16 h-16 flex justify-center items-center border border-secondary">
+                            <div className="w-16 h-16 flex justify-center items-center border border-secondary group hover:bg-secondary">
                                 <svg
-                                    className="text-secondary"
+                                    className="text-secondary group-hover:text-primary"
                                     width="24"
                                     height="19"
                                     viewBox="0 0 24 19"
@@ -66,9 +66,9 @@ const Features = () => {
                     <button className="flex items-center">
                         <div className="w-24 bg-secondary h-[1px]"></div>
                         <Link href="/projektowanie-graficzne">
-                            <div className="w-16 h-16 flex justify-center items-center border border-secondary">
+                            <div className="w-16 h-16 flex justify-center items-center border border-secondary group hover:bg-secondary">
                                 <svg
-                                    className="text-secondary"
+                                    className="text-secondary group-hover:text-white"
                                     width="24"
                                     height="19"
                                     viewBox="0 0 24 19"
