@@ -76,18 +76,18 @@ const NavBar = () => {
                                 <div className="fixed inset-0 bg-black bg-opacity-25" />
                             </Transition.Child>
 
-                            <div className="fixed inset-0 overflow-y-auto">
+                            <div className="fixed inset-0 overflow-y-auto ml-auto md:w-1/2">
                                 <div className="flex h-full justify-end text-center">
                                     <Transition.Child
                                         as={Fragment}
-                                        enter="ease-out duration-300"
-                                        enterFrom="opacity-0 scale-95"
-                                        enterTo="opacity-100 scale-100"
-                                        leave="ease-in duration-200"
-                                        leaveFrom="opacity-100 scale-100"
-                                        leaveTo="opacity-0 scale-95"
+                                        enter='transform transition ease-in-out duration-500 sm:duration-700'
+                                        enterFrom='-translate-x-full'
+                                        enterTo='-translate-x-0'
+                                        leave='transform transition ease-in-out duration-500 sm:duration-700'
+                                        leaveFrom='translate-x-0'
+                                        leaveTo='translate-x-full'
                                     >
-                                        <Dialog.Panel className="w-full h-full md:w-1/2 transform overflow-hidden bg-red-500 text-left align-middle shadow-xl transition-all">
+                                        <Dialog.Panel className="w-full h-full transform overflow-hidden bg-red-500 text-left align-middle shadow-xl transition-all">
                                             <nav className="relative z-10 px-9 pt-8 bg-blue-500 bg-opacity-50 h-full overflow-y-auto">
                                                 <div className="flex flex-wrap justify-between h-full">
                                                     <div className="absolute left-1/2 transform -translate-x-1/2 top-4">
