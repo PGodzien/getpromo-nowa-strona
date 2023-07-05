@@ -34,7 +34,7 @@ const Features = () => {
                 </div>
                 {/* strony internetowe */}
                 <div className="bg-primary md:ml-auto md:-mt-56 flex flex-col items-center text-center py-20 space-y-10 w-full md:w-1/2">
-                    <h3 className="max-w-xs font-serif text-3xl md:text-4xl font-semibold">Tworzenie stron www</h3>
+                    <h3 className="max-w-xs font-serif text-3xl md:text-4xl font-semibold">Strony internetowe</h3>
                     <p className="max-w-sm leading-loose">Strony www, sklepy internetowe, landing page i wizytówki internetowe. Nasz cel to dostarczenie Ci strony internetowej, która wzbudza zaufanie i zwiększa sprzedaż.</p>
                     <button className="flex items-center">
                         <div className="w-24 bg-secondary h-[1px]"></div>
