@@ -18,10 +18,10 @@ const NavBar = () => {
     return (
         <>
             {/* NAVBAR */}
-            <div className="bg-red-500 h-32 flex items-center">
+            <div className="bg-red-500 h-32 flex absolute inset-0 items-center">
                 <div className="max-w-7xl container px-4 md:px-0 mx-auto bg-green-500 flex items-center justify-between">
-                    <div className=""><Image alt="" src={Logo} /></div>
-                    <div className="flex items-center">
+                    <Link href="/" className=""><Image alt="" src={Logo} /></Link>
+                    <div className="flex items-center relative z-30">
                         <div className="h-0.5 bg-primary w-24"></div>
                         <div className="w-24 h-24 bg-primary flex items-center justify-center">
                             <svg
@@ -40,7 +40,7 @@ const NavBar = () => {
                                 />
                             </svg>
                         </div>
-                        <button className="" type="button" onClick={openModal}>
+                        <button className="outline-none" type="button" onClick={openModal}>
                             <div className="w-24 h-24 border-primary border-r border-t border-b flex justify-center items-center">
                                 <svg
                                     className="text-primary group-hover:transition-all duration-300 group-hover:text-black"
@@ -88,13 +88,11 @@ const NavBar = () => {
                                         leaveTo='translate-x-full'
                                     >
                                         <Dialog.Panel className="w-full h-full transform overflow-hidden bg-red-500 text-left align-middle shadow-xl transition-all">
-                                            <nav className="relative z-10 px-9 pt-8 bg-blue-500 bg-opacity-50 h-full overflow-y-auto">
+                                            <nav className="relative px-9 pt-8 bg-blue-500 z-0 h-full overflow-y-auto">
                                                 <div className="flex flex-wrap justify-between h-full">
-                                                    <div className="absolute left-1/2 transform -translate-x-1/2 top-4">
-
-
+                                                    <div className="absolute right-0">
                                                         <div className="flex items-center mr-20">
-                                                            <div className="h-0.5 bg-primary w-24"></div>
+                                                            <div className="h-0.5 hidden md:block bg-primary w-24"></div>
                                                             <div className="w-24 h-24 bg-primary flex items-center justify-center">
                                                                 <svg
                                                                     className="text-black flex group-hover:transition-all duration-300 group-hover:text-black"
@@ -112,19 +110,20 @@ const NavBar = () => {
                                                                     />
                                                                 </svg>
                                                             </div>
-                                                            <button className="" type="button" onClick={closeModal}>
+                                                            <button className="outline-none" type="button" onClick={closeModal}>
                                                                 <div className="w-24 h-24 border-primary border-r border-t border-b flex justify-center items-center">
                                                                     <svg
-                                                                        className="text-primary group-hover:transition-all duration-300 group-hover:text-black"
+                                                                        className={`text-black`}
                                                                         width="24"
                                                                         height="24"
                                                                         viewBox="0 0 24 24"
+                                                                        fill="none"
                                                                         xmlns="http://www.w3.org/2000/svg"
                                                                     >
                                                                         <path
                                                                             fillRule="evenodd"
                                                                             clipRule="evenodd"
-                                                                            d="M24 16.5C24 16.224 23.776 16 23.5 16H0.5C0.224 16 0 16.224 0 16.5C0 16.776 0.224 17 0.5 17H23.5C23.776 17 24 16.776 24 16.5M23.5 8H0.5C0.224 8 0 7.776 0 7.5C0 7.224 0.224 7 0.5 7H23.5C23.776 7 24 7.224 24 7.5C24 7.776 23.776 8 23.5 8"
+                                                                            d="M12.7072 12L20.8533 3.85401C21.0492 3.65801 21.0492 3.34201 20.8533 3.14601C20.6583 2.95101 20.3422 2.95101 20.1462 3.14601L12.0002 11.293L3.85325 3.14601C3.65825 2.95101 3.34225 2.95101 3.14625 3.14601C2.95125 3.34201 2.95125 3.65801 3.14625 3.85401L11.2933 12L3.14625 20.146C2.95125 20.342 2.95125 20.658 3.14625 20.854C3.24425 20.951 3.37225 21 3.50025 21C3.62825 21 3.75625 20.951 3.85325 20.854L12.0002 12.707L20.1462 20.854C20.2442 20.951 20.3722 21 20.5002 21C20.6283 21 20.7563 20.951 20.8533 20.854C21.0492 20.658 21.0492 20.342 20.8533 20.146L12.7072 12Z"
                                                                             fill="currentColor"
                                                                         />
                                                                     </svg>
@@ -134,12 +133,11 @@ const NavBar = () => {
 
 
                                                     </div>
-                                                    <div className="flex flex-col font-serif justify-center py-16 w-full">
+                                                    <div className="flex flex-col font-serif justify-center py-20 w-full">
                                                         <ul>
-                                                            <li className="mb-12"><Link className="font-medium hover:text-gray-700" onClick={closeModal} href="/oferta/">Oferta</Link></li>
-                                                            <li className="mb-12"><Link className="font-medium hover:text-gray-700" onClick={closeModal} href="/o-firmie/">O firmie</Link></li>
-                                                            <li className="mb-12"><Link className="font-medium hover:text-gray-700" onClick={closeModal} href="/referencje/">Referencje</Link></li>
-                                                            <li><Link className="font-medium hover:text-gray-700" onClick={closeModal} href="/aktualnosci/">Aktualności</Link></li>
+                                                            <li className="mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-grayText hover:text-white" onClick={closeModal} href="/oferta/">Strona główna</Link></li>
+                                                            <li className="mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-grayText hover:text-white" onClick={closeModal} href="/o-firmie/">Oferta</Link></li>
+                                                            <li className="mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-grayText hover:text-white" onClick={closeModal} href="/referencje/">Kontakt</Link></li>
                                                         </ul>
                                                     </div>
                                                     <div className="flex flex-col justify-end w-full pb-8">
