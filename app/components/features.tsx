@@ -4,7 +4,7 @@ import Link from "next/link";
 const Features = () => {
     return (
         <>
-            <div className="container px-4 mx-auto max-w-6xl">
+            <div className="container px-4 mx-auto max-w-6xl py-12">
                 {/* marketing */}
                 <div className="bg-secondary flex flex-col items-center text-center py-20 space-y-10 w-full md:w-1/2 text-white">
                     <h3 className="max-w-xs font-serif text-3xl md:text-4xl font-semibold">Marketing internetowy</h3>
