@@ -146,9 +146,9 @@ const NavBar = () => {
                                                     </div>
                                                     <div className="flex flex-col font-serif justify-center py-20 w-full">
                                                         <ul>
-                                                            <li className="mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/oferta/">Strona główna</Link></li>
-                                                            <li className="mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/o-firmie/">Oferta</Link></li>
-                                                            <li className="mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/referencje/">Kontakt</Link></li>
+                                                            <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/oferta/">Strona główna</Link></li>
+                                                            <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/o-firmie/">Oferta</Link></li>
+                                                            <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/referencje/">Kontakt</Link></li>
                                                         </ul>
                                                         <div className="bg-secondary h-0.5 w-80"></div>
                                                         <ul className="flex items-end space-x-8 mt-12">
