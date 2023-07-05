@@ -80,7 +80,7 @@ const NavBar = () => {
                             >
                                 <div className="fixed inset-0 bg-gradient-to-l from-secondary via-secondary to-transparent" />
                             </Transition.Child>
-                            <div className="fixed inset-0 w-full md:w-1/2 ml-auto overflow-y-auto">
+                            <div className="fixed inset-0 w-full md:w-1/2 ml-auto">
                                 <div className="flex h-full justify-end text-center">
                                     <Transition.Child
                                         as={Fragment}
@@ -92,7 +92,7 @@ const NavBar = () => {
                                         leaveTo='translate-x-full'
                                     >
                                         <Dialog.Panel className="w-full h-full transform overflow-hidden text-left align-middle shadow-xl transition-all">
-                                            <nav className="relative px-9 pt-8 bg-primary z-0 h-full overflow-y-auto">
+                                            <nav className="relative px-9 pt-8 bg-primary z-0 h-full">
                                                 <div className="flex flex-wrap justify-between h-full">
                                                     <div className="absolute right-0 w-full">
                                                         <div className="flex items-center justify-between md:mr-20 px-4">
