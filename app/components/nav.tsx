@@ -21,7 +21,6 @@ const NavBar = () => {
     }
     return (
         <>
-            {/* NAVBAR */}
             <div className="h-32 flex mt-4 items-center">
                 <div className="max-w-7xl container px-4 md:px-0 mx-auto flex items-center justify-between">
                     <Link href="/" className=""><Image alt="" src={Logo} /></Link>
