@@ -26,23 +26,25 @@ const NavBar = () => {
                     <Link href="/" className=""><Image alt="" src={Logo} /></Link>
                     <div className="flex items-center relative z-30">
                         <div className="h-0.5 hidden md:block bg-primary w-24"></div>
-                        <div className="w-24 h-24 bg-primary flex items-center justify-center">
-                            <svg
-                                className="text-secondary flex group-hover:transition-all duration-300 group-hover:text-secondary"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    fillRule="evenodd"
-                                    clipRule="evenodd"
-                                    d="M1 20V4.575L10.473 12.556C10.926 12.891 11.457 13.06 11.992 13.06C12.534 13.06 13.079 12.886 13.552 12.536L23 4.575V20H1ZM22.131 4L12.932 11.751C12.375 12.164 11.625 12.164 11.092 11.771L1.869 4H22.131ZM23.971 3.356C23.968 3.347 23.973 3.337 23.97 3.329C23.969 3.326 23.965 3.324 23.964 3.321C23.932 3.236 23.874 3.168 23.804 3.113C23.788 3.101 23.773 3.091 23.757 3.081C23.681 3.034 23.596 3 23.5 3H0.5C0.404 3 0.319 3.034 0.244 3.081C0.227 3.091 0.212 3.101 0.196 3.113C0.126 3.168 0.069 3.236 0.036 3.321C0.035 3.324 0.031 3.326 0.03 3.329C0.027 3.337 0.032 3.347 0.029 3.356C0.015 3.402 0 3.449 0 3.5V20.5C0 20.776 0.224 21 0.5 21H23.5C23.776 21 24 20.776 24 20.5V3.5C24 3.449 23.985 3.402 23.971 3.356V3.356Z"
-                                    fill="currentColor"
-                                />
-                            </svg>
-                        </div>
+                        <Link href="/kontakt">
+                            <div className="w-24 h-24 bg-primary flex items-center justify-center">
+                                <svg
+                                    className="text-secondary flex group-hover:transition-all duration-300 group-hover:text-secondary"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fillRule="evenodd"
+                                        clipRule="evenodd"
+                                        d="M1 20V4.575L10.473 12.556C10.926 12.891 11.457 13.06 11.992 13.06C12.534 13.06 13.079 12.886 13.552 12.536L23 4.575V20H1ZM22.131 4L12.932 11.751C12.375 12.164 11.625 12.164 11.092 11.771L1.869 4H22.131ZM23.971 3.356C23.968 3.347 23.973 3.337 23.97 3.329C23.969 3.326 23.965 3.324 23.964 3.321C23.932 3.236 23.874 3.168 23.804 3.113C23.788 3.101 23.773 3.091 23.757 3.081C23.681 3.034 23.596 3 23.5 3H0.5C0.404 3 0.319 3.034 0.244 3.081C0.227 3.091 0.212 3.101 0.196 3.113C0.126 3.168 0.069 3.236 0.036 3.321C0.035 3.324 0.031 3.326 0.03 3.329C0.027 3.337 0.032 3.347 0.029 3.356C0.015 3.402 0 3.449 0 3.5V20.5C0 20.776 0.224 21 0.5 21H23.5C23.776 21 24 20.776 24 20.5V3.5C24 3.449 23.985 3.402 23.971 3.356V3.356Z"
+                                        fill="currentColor"
+                                    />
+                                </svg>
+                            </div>
+                        </Link>
                         <button className="outline-none" type="button" onClick={openModal}>
                             <div className="w-24 h-24 border-primary border-r border-t border-b flex justify-center items-center">
                                 <svg
@@ -101,24 +103,25 @@ const NavBar = () => {
                                                             </div>
                                                             <div className="flex items-center">
                                                                 <div className="h-0.5 bg-secondary hidden md:block w-24"></div>
-                                                                <div className="w-24 h-24 bg-secondary flex items-center justify-center">
-                                                                    <svg
-                                                                        className="text-primary flex group-hover:transition-all duration-300 group-hover:text-secondary"
-                                                                        width="24"
-                                                                        height="24"
-                                                                        viewBox="0 0 24 24"
-                                                                        fill="none"
-                                                                        xmlns="http://www.w3.org/2000/svg"
-                                                                    >
-                                                                        <path
-                                                                            fillRule="evenodd"
-                                                                            clipRule="evenodd"
-                                                                            d="M1 20V4.575L10.473 12.556C10.926 12.891 11.457 13.06 11.992 13.06C12.534 13.06 13.079 12.886 13.552 12.536L23 4.575V20H1ZM22.131 4L12.932 11.751C12.375 12.164 11.625 12.164 11.092 11.771L1.869 4H22.131ZM23.971 3.356C23.968 3.347 23.973 3.337 23.97 3.329C23.969 3.326 23.965 3.324 23.964 3.321C23.932 3.236 23.874 3.168 23.804 3.113C23.788 3.101 23.773 3.091 23.757 3.081C23.681 3.034 23.596 3 23.5 3H0.5C0.404 3 0.319 3.034 0.244 3.081C0.227 3.091 0.212 3.101 0.196 3.113C0.126 3.168 0.069 3.236 0.036 3.321C0.035 3.324 0.031 3.326 0.03 3.329C0.027 3.337 0.032 3.347 0.029 3.356C0.015 3.402 0 3.449 0 3.5V20.5C0 20.776 0.224 21 0.5 21H23.5C23.776 21 24 20.776 24 20.5V3.5C24 3.449 23.985 3.402 23.971 3.356V3.356Z"
-                                                                            fill="currentColor"
-                                                                        />
-                                                                    </svg>
-                                                                </div>
-
+                                                                <Link href="/kontakt">
+                                                                    <div className="w-24 h-24 bg-secondary flex items-center justify-center">
+                                                                        <svg
+                                                                            className="text-primary flex group-hover:transition-all duration-300 group-hover:text-secondary"
+                                                                            width="24"
+                                                                            height="24"
+                                                                            viewBox="0 0 24 24"
+                                                                            fill="none"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                            <path
+                                                                                fillRule="evenodd"
+                                                                                clipRule="evenodd"
+                                                                                d="M1 20V4.575L10.473 12.556C10.926 12.891 11.457 13.06 11.992 13.06C12.534 13.06 13.079 12.886 13.552 12.536L23 4.575V20H1ZM22.131 4L12.932 11.751C12.375 12.164 11.625 12.164 11.092 11.771L1.869 4H22.131ZM23.971 3.356C23.968 3.347 23.973 3.337 23.97 3.329C23.969 3.326 23.965 3.324 23.964 3.321C23.932 3.236 23.874 3.168 23.804 3.113C23.788 3.101 23.773 3.091 23.757 3.081C23.681 3.034 23.596 3 23.5 3H0.5C0.404 3 0.319 3.034 0.244 3.081C0.227 3.091 0.212 3.101 0.196 3.113C0.126 3.168 0.069 3.236 0.036 3.321C0.035 3.324 0.031 3.326 0.03 3.329C0.027 3.337 0.032 3.347 0.029 3.356C0.015 3.402 0 3.449 0 3.5V20.5C0 20.776 0.224 21 0.5 21H23.5C23.776 21 24 20.776 24 20.5V3.5C24 3.449 23.985 3.402 23.971 3.356V3.356Z"
+                                                                                fill="currentColor"
+                                                                            />
+                                                                        </svg>
+                                                                    </div>
+                                                                </Link>
                                                                 <button className="outline-none" type="button" onClick={closeModal}>
                                                                     <div className="w-24 h-24 border-secondary border-r border-t border-b flex justify-center items-center">
                                                                         <svg
