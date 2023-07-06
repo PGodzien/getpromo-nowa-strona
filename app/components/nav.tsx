@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
-import Logo from "../../public/logo.svg";
-import Sygnet from "../../public/sygnet_getpromo.svg";
+import Logo from "../../public/getpromo-logo.svg";
+import Sygnet from "../../public/getpromo-sygnet.svg";
+import LogoBlack from "../../public/getpromo-logo-black.svg";
 import Facebook from "../../public/facebook.svg";
 import Twitter from "../../public/twitter.svg";
 import Linkedin from "../../public/linkedin.svg";
@@ -95,10 +96,11 @@ const NavBar = () => {
                                             <nav className="relative px-9 pt-8 bg-primary z-0 h-full">
                                                 <div className="flex flex-wrap justify-between h-full">
                                                     <div className="absolute right-0 w-full">
-                                                        <div className="flex items-center justify-between md:mr-20 px-4">
+                                                        <div className="flex items-center justify-between md:mx-20 px-4">
                                                             <div className="w-24 md:w-auto md:h-auto h-24 md:bg-transparent">
                                                                 <Link className="outline-none" href="/">
-                                                                    <Image alt="czarny sygnet getpromo" className="block md:hidden" src={Sygnet} />
+                                                                    <Image alt="getpromo logo białe" className="hidden xl:block" src={LogoBlack} />
+                                                                    <Image alt="czarny sygnet getpromo" className="block xl:hidden" src={Sygnet} />
                                                                 </Link>
                                                             </div>
                                                             <div className="flex items-center">
@@ -146,8 +148,8 @@ const NavBar = () => {
 
 
                                                     </div>
-                                                    <div className="flex flex-col font-serif justify-center py-20 w-full">
-                                                        <ul>
+                                                    <div className="flex flex-col font-serif justify-center py-20 w-full md:mx-20">
+                                                        <ul className="">
                                                             <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/oferta/">Strona główna</Link></li>
                                                             <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/o-firmie/">Oferta</Link></li>
                                                             <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/referencje/">Kontakt</Link></li>
