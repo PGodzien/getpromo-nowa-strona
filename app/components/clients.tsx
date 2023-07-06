@@ -1,15 +1,15 @@
 
-import pzl from "../public/pzl.png";
-import prr from "../public/prr-white.png";
-import hospicjum from "../public/hospicjum-white.png";
-import szwendamsie from "../public/szwendam-sie-white.svg";
-import gg from "../public/logotyp-ggauto.png";
-import rib from "../public/red_is_bad.png";
-import merlin from "../public/logo-merlin.svg";
-import ecocar from "../public/ecocar_logo.png";
+import pzl from "../../public/polski-zwiazek-lowiecki-logo.png";
+import prr from "../../public/polskie-radio-rzeszow-logo.png";
+import hospicjum from "../../public/hospicjum-logo.png";
+import szwendamsie from "../../public/szwendam-sie-logo.svg";
+import gg from "../../public/ggauto-logo.png";
+import rib from "../../public/red-is-bad-logo.png";
+import merlin from "../../public/merlin-logo.svg";
+import ecocar from "../../public/ecocar-logo.png";
 import Image from "next/image";
 
-function OurClients() {
+function Clients() {
   return (
     <div className="container xs:max-w-[475px] px-5 mx-auto md:max-w-[768px] lg:max-w-[1200px]">
       <div className="flex flex-col items-center pt-32 pb-16">
@@ -75,13 +75,37 @@ function OurClients() {
           </div>
         </div>
         <div className="flex">
-          {/* <div className=" flex w-7  md:w-[70px] h-[70px] items-center">
-            <span className="w-full h-[1px] bg-primary block  "></span>
-          </div> */}
-          <LongButton borderColor="primary" text="Zapytaj o ofertę" href="#kontakt" />
+          <button className="cursor-pointer" type="button">
+            <a href="#kontakt" className="flex items-center">
+              <div className="hidden md:block w-24 relative z-50 h-0.5 bg-primary"></div>
+              <div className="relative overflow-clip border border-primary z-10 group flex">
+                <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
+                <div className="relative group-hover:bg-transparent bg-primary h-16">
+                  <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-medium text-center group-hover:text-black">
+                    skontaktuj się</p>
+                </div>
+                <div className="flex items-center justify-center w-16 h-16">
+                  <svg
+                    className="fill-white relative z-20 group-hover:fill-black duration-500 group-hover:transition-all"
+                    width="24"
+                    height="19"
+                    viewBox="0 0 24 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M23.853 9.85425L14.854 18.8542C14.756 18.9512 14.628 19.0002 14.5 19.0002C14.373 19.0002 14.245 18.9512 14.147 18.8542C13.952 18.6582 13.952 18.3422 14.147 18.1462L22.293 10.0002H0.5C0.224 10.0002 0 9.77625 0 9.50025C0 9.22425 0.224 9.00025 0.5 9.00025H22.293L14.147 0.85425C13.952 0.65825 13.952 0.34225 14.147 0.14625C14.342 -0.04875 14.659 -0.04875 14.854 0.14625L23.853 9.14625C23.9 9.19225 23.937 9.24825 23.962 9.30925C24.012 9.43125 24.012 9.56925 23.962 9.69125C23.937 9.75225 23.9 9.80825 23.853 9.85425"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </button>
         </div>
       </div>
     </div>
   );
 }
-export default OurClients;
+export default Clients;
