@@ -15,7 +15,7 @@ function ContactForm() {
     <form className="flex-col space-y-10" onSubmit={handleSubmit}>
       <input
         placeholder="Imię"
-        className="relative z-30 w-full px-10 bg-secondary border-b border-transparent hover:border-primary text-white outline-none font-serif group-hover:border-b text-baseM border-primary py-7 placeholder-grayText"
+        className="relative z-30 w-full px-10 bg-secondary border-b border-transparent hover:border-primary text-white outline-none font-serif group-hover:border-b border-primary py-7 placeholder-grayText"
         id="name"
         required
         type="name"
@@ -24,7 +24,7 @@ function ContactForm() {
 
       <input
         placeholder="Email"
-        className="relative z-30 w-full px-10 bg-secondary border-b border-transparent hover:border-primary text-white outline-none font-serif group-hover:border-b text-baseM border-primary py-7 placeholder-grayText"
+        className="relative z-30 w-full px-10 bg-secondary border-b border-transparent hover:border-primary text-white outline-none font-serif group-hover:border-b border-primary py-7 placeholder-grayText"
         id="email"
         required
         type="email"
@@ -39,7 +39,7 @@ function ContactForm() {
       <textarea
         placeholder="Twoja wiadomość"
         required
-        className="relative z-30 w-full px-10 bg-secondary border-b border-transparent hover:border-primary text-white outline-none font-serif group-hover:border-b text-baseM border-primary py-7 placeholder-grayText"
+        className="relative z-30 w-full px-10 bg-secondary border-b border-transparent hover:border-primary text-white outline-none font-serif group-hover:border-b border-primary py-7 placeholder-grayText"
         id="message"
         name="message"
       />
