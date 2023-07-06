@@ -12,7 +12,7 @@ import Image from "next/image";
 function Clients() {
   return (
     <div className="container xs:max-w-[475px] px-5 mx-auto md:max-w-[768px] lg:max-w-[1200px]">
-      <div className="flex flex-col items-center pt-32 pb-16">
+      <div className="flex flex-col items-center pt-16 pb-16">
         <h3 className="mb-10 text-5xl text-white font-serif font-semibold lg:mb-24">
           Nasi klienci
         </h3>
