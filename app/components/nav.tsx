@@ -6,8 +6,9 @@ import LogoBlack from "../../public/getpromo-logo-black.svg";
 import Facebook from "../../public/facebook.svg";
 import Twitter from "../../public/twitter.svg";
 import Linkedin from "../../public/linkedin.svg";
+import Arrow from "../../public/arrow.svg";
 import Image from "next/image";
-import { Dialog, Transition } from '@headlessui/react'
+import { Dialog, Transition, Disclosure } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 
 const NavBar = () => {
@@ -151,8 +152,32 @@ const NavBar = () => {
                                                     <div className="flex flex-col font-serif justify-center py-20 w-full md:mx-20">
                                                         <ul className="">
                                                             <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/">Strona główna</Link></li>
-                                                            <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/ofert/">Oferta</Link></li>
-                                                            <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/kontakt">Kontakt</Link></li>
+                                                            <Disclosure>
+                                                                {({ open }) => (
+                                                                    <>
+                                                                        <Disclosure.Button className="flex items-center">
+                                                                            <div className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white">Oferta</div>
+                                                                            <div className=""><Image alt="strzałka" src={Arrow} className={open ? 'rotate-90 transform' : ''} /></div>
+                                                                        </Disclosure.Button>
+                                                                        <Transition
+                                                                            show={open}
+                                                                            enter='transform transition ease-in-out duration-200'
+                                                                            enterFrom='-translate-x-full'
+                                                                            enterTo='-translate-x-0'
+                                                                            leave='transform transition ease-in-out duration-200'
+                                                                            leaveFrom='-translate-x-0'
+                                                                            leaveTo='-translate-x-full'
+                                                                        >
+                                                                            <Disclosure.Panel>
+                                                                                <li className="mt-6"><Link className="ml-10 font-serif text-xl md:text-3xl hover:text-white" onClick={closeModal} href="/strony-internetowe">Strony internetowe</Link></li>
+                                                                                <li className="mt-6"><Link className="ml-10 font-serif text-xl md:text-3xl hover:text-white" onClick={closeModal} href="/marketing">Marketing</Link></li>
+                                                                                <li className="mt-6"><Link className="ml-10 font-serif text-xl md:text-3xl hover:text-white" onClick={closeModal} href="/projektowanie-graficzne">Projektowanie graficzne</Link></li>
+                                                                            </Disclosure.Panel>
+                                                                        </Transition>
+                                                                    </>
+                                                                )}
+                                                            </Disclosure>
+                                                            <li className="my-6 md:my-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/kontakt">Kontakt</Link></li>
                                                         </ul>
                                                         <div className="bg-secondary h-[1px] w-80"></div>
                                                         <ul className="flex items-end space-x-8 mt-12">

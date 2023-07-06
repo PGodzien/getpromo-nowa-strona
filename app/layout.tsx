@@ -1,6 +1,7 @@
 import './globals.css';
 import localFont from '@next/font/local';
 import NavBar from './components/nav';
+import Footer from './components/footer';
 
 const clashGrotesk = localFont({
   src: [
@@ -193,7 +194,7 @@ export default function RootLayout({
       <body className="bg-getDark">
         <NavBar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   )
