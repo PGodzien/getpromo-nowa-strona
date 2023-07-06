@@ -1,10 +1,10 @@
 "use client";
 import * as React from "react";
 import ContactForm from "./contact_form";
-import forCtaLogoSvg from "../public/svg_icons/Logo.svg";
-import forCtaPhoneSvg from "../public/svg_icons/phone.svg";
-import forCtaDogSvg from "../public/svg_icons/dog.svg";
-import forCtaMapSvg from "../public/svg_icons/map.svg";
+import Logo from "../../public/getpromo-logo.svg";
+import forCtaPhoneSvg from "../../public/phone.svg";
+import forCtaDogSvg from "../../public/mail.svg";
+import forCtaMapSvg from "../../public/map.svg";
 import Image from "next/image";
 const CtaFooter = () => {
   return (
@@ -12,7 +12,7 @@ const CtaFooter = () => {
       <div id="kontakt" className="bg-getDark py-8 md:py-16">
         <div className="max-w-6xl mx-auto container px-4">
           <a className="" href="/">
-            <Image className="w-28 h-auto" src={forCtaLogoSvg} alt="Logo icon getPromo" />
+            <Image className="w-28 h-auto" src={Logo} alt="Logo icon getPromo" />
           </a>
         </div>
         <div className="max-w-6xl px-4 py-16 flex flex-col md:flex-row justify-between items-start mx-auto container">
@@ -22,7 +22,6 @@ const CtaFooter = () => {
                 Zapytaj nas o ofertę!
               </h3>
             </div>
-            {/* ==================== Address ================= */}
             <div>
               <a
                 className="items-center flex  mb-10 md:flex-row justify-start"
@@ -35,11 +34,11 @@ const CtaFooter = () => {
               </a>
               <a
                 className="items-center flex  mb-10 md:flex-row justify-start"
-                href="mailto:kontakt@getpromo.com"
+                href="mailto:kontakt@getpromo.pl"
               >
                 <Image className="mr-5" src={forCtaDogSvg} alt="@ icon" />
                 <p className="flex text-xl font-bold text-white font-sans md:ml-5 lg:ml-10 md:mt-0">
-                  kontakt<span className="font-light">@</span>getpromo.com
+                  kontakt<span className="font-light">@</span>getpromo.pl
                 </p>
               </a>
               <a

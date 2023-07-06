@@ -54,7 +54,7 @@ function ContactForm() {
       </div>
       <button className="cursor-pointer" type="submit" disabled={state.submitting}>
         <div className="flex items-center">
-          <div className="hidden md:block w-24 relative z-50 h-0.5 bg-primary"></div>
+          <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>
           <div className="relative overflow-clip border border-primary z-10 group flex">
             <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
             <div className="relative group-hover:bg-transparent bg-primary h-16">
