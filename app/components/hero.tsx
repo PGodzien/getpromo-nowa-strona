@@ -21,8 +21,7 @@ export default function Hero() {
                                         <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
                                         <div className="relative group-hover:bg-transparent bg-primary h-16">
                                             <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-medium text-center group-hover:text-black">
-                                                skontaktuj
-                                                się</p>
+                                                skontaktuj się</p>
                                         </div>
                                         <div className="flex items-center justify-center w-16 h-16">
                                             <svg
@@ -45,7 +44,7 @@ export default function Hero() {
                             </button>
                         </div>
                         <div className="w-full absolute inset-0 lg:relative overflow-hidden">
-                            <Image className="relative h-full" alt="design-god" src={apollo} />
+                            <Image className="relative" alt="design-god" src={apollo} />
                             <div className="animate-flash -z-10 w-10 h-10 p-40 md:p-72 absolute top-1/2 m-3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                                 <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-4 border-primary blur-sm rounded-full"></div>
                                 <div className="absolute inset-0 z-20  bg-transparent border-2 border-white rounded-full"></div>
