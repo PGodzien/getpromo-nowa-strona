@@ -16,7 +16,7 @@ function Footer() {
   const pathname = usePathname();
   return (
     <>
-      <Image src={Pattern} alt="pattern getpromo" className="-mb-60 hidden xl:block" />
+      <Image src={Pattern} alt="pattern getpromo" className="-mb-40 hidden xl:block" />
       <div className="w-full relative bg-primary py-8">
         <Image src={Chart} alt="wykres logo getpromo" className="absolute -top-12 left-1/2 transform -translate-x-1/2" />
         <div className="max-w-7xl container mx-auto px-4 flex items-center justify-between">
@@ -30,11 +30,23 @@ function Footer() {
                   Getpromo
                 </li>
               </Link>
-              <li className="">Strony internetowe</li>
-              <li className="">Marketing</li>
-              <li className="">Projektowanie graficzne</li>
+              <Link href="/strony-internetowe">
+                <li className={pathname == "/strony-internetowe" ? "underline underline-offset-4" : ""}>
+                  Strony internetowe
+                </li>
+              </Link>
+              <Link href="/marketing">
+                <li className={pathname == "/marketing" ? "underline underline-offset-4" : ""}>
+                  Marketing
+                </li>
+              </Link>
+              <Link href="/projektowanie-graficzne">
+                <li className={pathname == "/projektowanie-graficzne" ? "underline underline-offset-4" : ""}>
+                  Projektowanie graficzne
+                </li>
+              </Link>
               <Link href="/kontakt">
-                <li className={pathname == "kontakt" ? "" : "underline underline-offset-4"}>
+                <li className={pathname == "/kontakt" ? "underline underline-offset-4" : ""}>
                   Kontakt
                 </li>
               </Link>
