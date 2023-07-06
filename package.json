@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.4",
     "@headlessui/react": "^1.7.15",
     "@next/font": "^13.4.8",
     "@tailwindcss/line-clamp": "^0.4.4",

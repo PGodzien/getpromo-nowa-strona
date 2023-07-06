@@ -26,7 +26,7 @@ const NavBar = () => {
                 <div className="max-w-7xl container px-4 mx-auto flex items-center justify-between">
                     <Link href="/" className=""><Image alt="" src={Logo} /></Link>
                     <div className="flex items-center relative z-30">
-                        <div className="h-0.5 hidden md:block bg-primary w-24"></div>
+                        <div className="h-[1px] hidden md:block bg-primary w-24"></div>
                         <Link href="/kontakt">
                             <div className="w-24 h-24 bg-primary flex items-center justify-center">
                                 <svg
@@ -104,7 +104,7 @@ const NavBar = () => {
                                                                 </Link>
                                                             </div>
                                                             <div className="flex items-center">
-                                                                <div className="h-0.5 bg-secondary hidden md:block w-24"></div>
+                                                                <div className="h-[1px] bg-secondary hidden md:block w-24"></div>
                                                                 <Link href="/kontakt">
                                                                     <div className="w-24 h-24 bg-secondary flex items-center justify-center">
                                                                         <svg
@@ -154,7 +154,7 @@ const NavBar = () => {
                                                             <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/o-firmie/">Oferta</Link></li>
                                                             <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/kontakt">Kontakt</Link></li>
                                                         </ul>
-                                                        <div className="bg-secondary h-0.5 w-80"></div>
+                                                        <div className="bg-secondary h-[1px] w-80"></div>
                                                         <ul className="flex items-end space-x-8 mt-12">
                                                             <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://www.facebook.com/GetpromoMarketing"><Image alt="Facebook" src={Facebook} /></Link></li>
                                                             <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://www.linkedin.com/company/getpromo/"><Image alt="Linkedin" src={Linkedin} /></Link></li>
