@@ -28,6 +28,7 @@ import adblue from "../../public/adblue.jpg";
 import transbet from "../../public/transbet.jpg";
 import agrofruct from "../../public/agrofruct.jpg";
 import CtaFooter from "../components/ctaFooter";
+import { Testimonials } from "../components/testimonials";
 
 export default function Strony() {
   return (
@@ -254,6 +255,7 @@ export default function Strony() {
           <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla producenta przetworów owocowych" src={agrofruct} />
         </div>
       </section>
+      <Testimonials />
       <CtaFooter />
     </>
   );
