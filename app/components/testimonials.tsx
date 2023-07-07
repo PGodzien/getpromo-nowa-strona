@@ -5,7 +5,7 @@ import { Opinions } from "./reviews";
 export const Testimonials = () => {
   return (
     <>
-      <section className="relative py-8 md:py-16 bg-black text-white">
+      <section className="relative py-8 md:py-16 bg-secondary text-white">
         <div className="container max-w-7xl mx-auto">
           <div className="font-serif mx-auto">
             <div className="space-y-3 px-4 lg:px-0 pb-8 md:pb-16">
