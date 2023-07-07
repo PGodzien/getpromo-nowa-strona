@@ -25,31 +25,41 @@ function Footer() {
           </Link>
           <div className="md:mx-10">
             <ul className="font-serif md:space-x-8 hidden xl:flex">
-              <Link href="/">
-                <li className={pathname == "/" ? "" : "undeline underline-offset-8"}>
+
+              <li className={pathname == "/" ? "" : "undeline underline-offset-8"}>
+                <Link href="/">
                   Getpromo
-                </li>
-              </Link>
-              <Link href="/strony-internetowe">
-                <li className={pathname == "/strony-internetowe" ? "underline underline-offset-4" : ""}>
+                </Link>
+              </li>
+
+
+              <li className={pathname == "/strony-internetowe" ? "underline underline-offset-4" : ""}>
+                <Link href="/strony-internetowe">
                   Strony internetowe
-                </li>
-              </Link>
-              <Link href="/marketing">
-                <li className={pathname == "/marketing" ? "underline underline-offset-4" : ""}>
+                </Link>
+              </li>
+
+
+              <li className={pathname == "/marketing" ? "underline underline-offset-4" : ""}>
+                <Link href="/marketing">
                   Marketing
-                </li>
-              </Link>
-              <Link href="/projektowanie-graficzne">
-                <li className={pathname == "/projektowanie-graficzne" ? "underline underline-offset-4" : ""}>
+                </Link>
+              </li>
+
+
+              <li className={pathname == "/projektowanie-graficzne" ? "underline underline-offset-4" : ""}>
+                <Link href="/projektowanie-graficzne">
                   Projektowanie graficzne
-                </li>
-              </Link>
-              <Link href="/kontakt">
-                <li className={pathname == "/kontakt" ? "underline underline-offset-4" : ""}>
+                </Link>
+              </li>
+
+
+              <li className={pathname == "/kontakt" ? "underline underline-offset-4" : ""}>
+                <Link href="/kontakt">
                   Kontakt
-                </li>
-              </Link>
+                </Link>
+              </li>
+
             </ul>
             <p className="text-xs">Copyright © {(new Date().getFullYear())} by Getpromo. All rights reserved.</p>
             <p className="text-xs">Jesteśmy częścią: <br className="xl:hidden" /> <span className="text-sm font-bold"><Link href="https://otherlandlabs.com" target="_blank" rel="nofollow">Otherland Labs Sp. z o.o.</Link></span></p>

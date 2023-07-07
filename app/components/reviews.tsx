@@ -53,8 +53,8 @@ export const Opinions = () => {
     <>
       <div className="relative">
 
-        <div className="md:max-w-5xl mx-auto h-56 px-4 lg:px-0">
-          <Image className="absolute md:-top-10 md:left-0 w-24 h-auto bottom-16 right-4 transform rotate-180" alt="" src={quote} />
+        <div className="md:max-w-5xl h-56 px-4 lg:px-0">
+          <Image className="absolute md:-top-10 md:right-0 w-24 h-auto bottom-16 right-4 transform rotate-180" alt="" src={quote} />
           <AnimatePresence initial={false} custom={direction}>
             <motion.div
               key={page}
@@ -84,7 +84,7 @@ export const Opinions = () => {
             </motion.div>
           </AnimatePresence>
         </div>
-        <div className="flex justify-start px-4 md:justify-center">
+        <div className="flex justify-start max-w-5xl px-4 md:px-0">
           <div className="" onClick={() => paginate(-1)}>
             <div className="flex items-center justify-center cursor-pointer bg-secondary border-gray-500 border hover:bg-getGray w-16 h-16">
               <svg
