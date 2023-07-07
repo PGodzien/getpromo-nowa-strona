@@ -53,8 +53,8 @@ export const Opinions = () => {
     <>
       <div className="relative">
 
-        <div className="md:max-w-5xl mx-auto h-52 px-4 lg:px-0">
-          <Image className="absolute -top-10 left-0 w-24 h-auto hidden md:block" alt="" src={quote} />
+        <div className="md:max-w-5xl mx-auto h-56 px-4 lg:px-0">
+          <Image className="absolute md:-top-10 md:left-0 w-24 h-auto bottom-16 right-4 transform rotate-180" alt="" src={quote} />
           <AnimatePresence initial={false} custom={direction}>
             <motion.div
               key={page}
@@ -78,14 +78,14 @@ export const Opinions = () => {
                   paginate(-1);
                 }
               }}>
-              <div className="text-3xl font-semibold mb-8">{reviews[reviewIndex]}</div>
+              <div className="text-lg md:text-3xl font-semibold mb-8">{reviews[reviewIndex]}</div>
               <div className="font-semibold tracking-tight">{names[nameIndex]}</div>
               <div className="text-sm text-primary tracking-tight">{company[nameIndex]}</div>
             </motion.div>
           </AnimatePresence>
 
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-start px-4 md:justify-center">
           <div className="" onClick={() => paginate(-1)}>
             <div className="flex items-center justify-center cursor-pointer bg-secondary border-gray-500 border hover:bg-getGray w-16 h-16">
               <svg
