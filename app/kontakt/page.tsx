@@ -112,6 +112,7 @@ export default function Contact() {
               <a
                 className="flex flex-col items-center justify-center text-center py-28 md:py-32 "
                 href="https://goo.gl/maps/NUh3izCryuv96VoQA"
+                target="_blank"
               >
                 <svg
                   width="60"
