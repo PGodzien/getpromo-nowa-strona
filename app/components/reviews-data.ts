@@ -5,8 +5,14 @@ export const reviews = [
 ];
 
 export const names = [
-  "Małgorzata Czyż - Intel Technology Poland",
-  "Dawid Czura - Cepixel",
-  "Łukasz Szczubidło - Szwendam Się"
+  "Małgorzata Czyż",
+  "Dawid Czura",
+  "Łukasz Szczubidło"
+];
+
+export const company = [
+  "Intel Technology Poland",
+  "Cepixel",
+  "Szwendam Się"
 ];
 
