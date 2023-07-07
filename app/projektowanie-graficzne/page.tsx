@@ -81,7 +81,7 @@ export default function Design() {
             </div>
             <div className="w-full absolute inset-0 lg:relative overflow-hidden">
               <Image className="relative" alt="design-god" src={designGod} />
-              <div className="animate-flash -z-10 w-2/3 h-2/3 absolute top-20 left-10">
+              <div className="animate-flash -z-10 w-10 h-10 p-40 md:p-72 absolute top-20 left-10">
                 <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-8 border-green-500 blur rounded-full"></div>
                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-green-500 blur rounded-full"></div>

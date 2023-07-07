@@ -95,7 +95,7 @@ export default function StronyRzeszow() {
             </div>
             <div className="w-full absolute inset-0 lg:relative overflow-hidden">
               <Image className="relative" alt="design-god" src={webRzeszow} />
-              <div className="animate-flash -z-10 w-2/3 h-2/3 absolute top-1/2 m-3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="animate-flash -z-10 w-10 h-10 p-40 md:p-72 absolute top-1/2 m-3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-8 border-blue-500 blur rounded-full"></div>
                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-blue-500 blur rounded-full"></div>
@@ -262,6 +262,7 @@ export default function StronyRzeszow() {
 
       <CtaFooter />
       <div className="relative flex justify-center mt-12">
+      {/* <div className="absolute w-5 h-5 rounded-full bg-primary top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20"></div> */}
         <div className="absolute w-40 h-40 border-4 border-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
           <div className="bg-black absolute border-4 border-black w-80 h-40 inset-0 -left-80 flex justify-center p-3 flex-col -top-1 font-serif">
             <h4 className="text-primary font-semibold text-lg">Agencja marketingowa Rzeszów</h4>
