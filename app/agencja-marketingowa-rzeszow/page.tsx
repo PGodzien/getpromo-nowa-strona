@@ -20,24 +20,24 @@ export default function Marketing() {
   return (
     <>
 
-      <title>Marketing internetowy – Getpromo agencja marketingowa</title>
-      <meta name="title" content="Marketing internetowy – Getpromo agencja marketingowa" />
+      <title>Agencja marketingowa Rzeszów – Getpromo agencja marketingowa</title>
+      <meta name="title" content="Agencja marketingowa Rzeszów – Getpromo agencja marketingowa" />
       <meta name="description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
       <link
         rel="canonical"
-        href="https://getpromo.pl/marketing"
+        href="https://getpromo.pl/agencja-marketingowa-rzeszow"
         key="canonical"
       />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://getpromo.pl/" />
-      <meta property="og:title" content="Marketing internetowy – Getpromo agencja marketingowa" />
+      <meta property="og:url" content="https://getpromo.pl/agencja-marketingowa-rzeszow" />
+      <meta property="og:title" content="Agencja marketingowa Rzeszów – Getpromo agencja marketingowa" />
       <meta property="og:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
       <meta property="og:image" content="/cover_marketing.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://getpromo.pl/" />
-      <meta property="twitter:title" content="Marketing internetowy – Getpromo agencja marketingowa" />
+      <meta property="twitter:url" content="https://getpromo.pl/agencja-marketingowa-rzeszow" />
+      <meta property="twitter:title" content="Agencja marketingowa Rzeszów – Getpromo agencja marketingowa" />
       <meta property="twitter:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
       <meta property="twitter:image" content="/cover_marketing.jpg" />
 
@@ -50,8 +50,8 @@ export default function Marketing() {
             <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
               <h1
                 className="font-serif leading-tight text-white text-4xl font-semibold lg:text-5xl 2xl:text-6xl">
-                Marketing internetowy</h1>
-              <p className="max-w-3xl relative z-10 md:text-xl text-white ">Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM. Projektowanie wizualne generujące klientów i zwiększające sprzedaż.</p>
+                Agencja marketingowa Rzeszów</h1>
+              <p className="max-w-3xl relative z-10 md:text-xl text-white ">Szukasz skutecznej agencji marketingowej w Rzeszowie? Sprawdź naszą ofertę!</p>
               <button className="cursor-pointer" type="button">
                 <a href="#kontakt" className="flex items-center">
                   <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>
@@ -139,7 +139,7 @@ export default function Marketing() {
         </section>
         <section className="py-16 md:py-20 bg-white">
           <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
-            <h1 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">Marketing internetowy</h1>
+            <h1 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">Agencja marketingowa Rzeszów</h1>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Nasze działania to skuteczne strategie marketingowe, potwierdzone realnymi wynikami sprzedaży naszych klientów. Zajmujemy się realizacją celów marketingowych, reklamą graficzną i wizualną. Jesteśmy zespołem ludzi o otwartych głowach z dużą dawką kreatywnego zaangażowania. </p>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Zadbamy o Twoją widoczność w sieci. Zaprojektujemy Twoją stronę internetową na osiąganie jak najlepszych wyników w rankingach Google.
               Promocja w Internecie to ważny element budowania swojej marki i pozycji wśród konkurencji. Wiemy, jakimi kanałami network marketingu dotrzeć do potencjalnych odbiorców usługi lub produktu, a tym samym zdobyć wierne i zadowolone grono klientów. Wykorzystujemy najbardziej skuteczne narzędzia promocji zwiększające sprzedaż, rozpoznawalność marki oraz pozwalające na zajęcie wysokich pozycji w wyszukiwarkach. </p>
@@ -222,6 +222,18 @@ export default function Marketing() {
       </section>
       <Testimonials />
       <CtaFooter />
+      <div className="relative flex justify-center mt-12">
+        <div className="hidden xl:block absolute bg-red-500 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+          <div className="bg-black w-16 -top-4 -left-14 h-1 absolute transform -translate-x-1/2 -translate-y-1/2"></div>
+          <div className="bg-black absolute border-4 border-black w-80 h-40 right-20 -top-24 flex justify-center p-3 flex-col font-serif">
+            <h4 className="text-primary font-semibold text-lg">Agencja marketingowa Rzeszów</h4>
+            <p className="text-white text-sm">Kolejowa 12/310, 35-073 Rzeszów</p>
+            <p className="text-white underline underline-offset-8 text-xs"><a href="https://goo.gl/maps/QgSbzWomFr6XQHNJ9" target="_blank" className="">sprawdź dojazd</a></p>
+          </div>
+        </div>
+        <iframe className="w-full relative" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.4086440516758!2d22.005846715716544!3d50.041175779420925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfbfdd5b9fe33%3A0x7614bec802e05c47!2sAgencja%20marketingowa%20Getpromo!5e0!3m2!1spl!2spl!4v1688138225938!5m2!1spl!2spl" width="800" height="600" loading="lazy"></iframe>
+        <div className="absolute inset-0 bg-black opacity-10"></div>
+      </div>
     </>
   );
 }
