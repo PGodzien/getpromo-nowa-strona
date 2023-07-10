@@ -6,7 +6,7 @@ import Cta from "../components/cta";
 import pattern from "../../public/pattern.svg";
 import pozycjonowanie from "../../public/seo-pozycjonowanie.svg";
 import analityka from "../../public/analityka.svg";
-import goddess from "../../public/goddess2.png";
+import goddess from "../../public/goddess-marketing.png";
 import landing from "../../public/landing.svg";
 import socialMedia from "../../public/social-media.svg";
 import GoogleAdsLogo from "../../public/google-ads-logo.svg";
@@ -80,7 +80,7 @@ export default function Marketing() {
                 </a>
               </button>
             </div>
-            <div className="w-full absolute inset-0 lg:relative overflow-hidden">
+            <div className="w-full absolute inset-0 lg:relative">
               <Image className="relative mb-4" alt="design-god" src={goddess} />
               <div className="animate-flash -z-10 w-10 h-10 p-40 md:p-72 absolute m-3 left-1/2 transform -translate-x-1/2 bottom-0">
                 <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-8 border-violet-500 blur rounded-full"></div>
