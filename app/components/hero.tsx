@@ -5,9 +5,9 @@ import apollo from "../../public/apollo.png";
 export default function Hero() {
     return (
         <>
-            <div className="absolute z-20 -mt-72 blur-3xl opacity-10 p-60 h-10 w-10 bg-primary top-0 rounded-full mx-auto left-0 right-0"></div>
+            <div className="absolute z-20 -mt-72 blur-3xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-primary top-0 rounded-full mx-auto left-0 right-0"></div>
             <div className="">
-                <section className="relative z-10 w-full py-6 overflow-visible bg-transparent">
+                <section className="relative z-10 w-full py-6 bg-transparent">
                     <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div>
                     <div className="relative flex lg:flex-row flex-col py-20 md:py-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
                         <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
@@ -51,7 +51,6 @@ export default function Hero() {
                                 <div className="absolute inset-0 z-20  bg-transparent border-2 border-white rounded-full"></div>
                                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-4 border-primary blur-sm rounded-full"></div>
                             </div>
-                            {/* <div className="absolute bg-gradient-to-tl from-getDark w-full h-full to-transparent inset-0"></div> */}
                         </div>
                     </div>
                     <Image className="hidden h-full -mt-96 -z-10 lg:block object-none absolute" src={pattern} alt="" />

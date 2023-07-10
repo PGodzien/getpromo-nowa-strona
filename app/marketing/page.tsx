@@ -42,7 +42,7 @@ export default function Marketing() {
       <meta property="twitter:image" content="/cover_marketing.jpg" />
 
 
-      <div className="absolute z-20 -mt-32 shadow-2xl shadow-violet-500 blur-2xl opacity-10 h-96 w-96 bg-violet-600 top-0 rounded-full mx-auto left-0 right-0"></div>
+      <div className="absolute z-20 -mt-32 shadow-2xl shadow-violet-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-violet-600 top-0 rounded-full mx-auto left-0 right-0"></div>
       <div className="relative">
         <section className="relative z-10 w-full py-6 overflow-hidden">
           <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div>
