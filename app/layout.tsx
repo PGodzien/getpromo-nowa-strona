@@ -4,7 +4,7 @@ import NavBar from './components/nav';
 import Footer from './components/footer';
 import { Suspense } from 'react';
 import Script from 'next/script';
-const GTM_ID = 'GTM-GTM-KGZT6KS';
+const GTM_ID = 'GTM-KGZT6KS';
 
 const clashGrotesk = localFont({
   src: [
