@@ -195,10 +195,6 @@ export default function RootLayout({
   return (
     <html lang="pl" className={`${archivo.variable} ${clash.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{ scrollBehavior: 'smooth' }}>
       <head>
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-          strategy="afterInteractive"
-        />
         <Script id="google-tag-manager" strategy="afterInteractive">
           {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
