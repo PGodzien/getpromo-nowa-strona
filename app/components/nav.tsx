@@ -25,7 +25,7 @@ const NavBar = () => {
         <>
             <div className="h-32 flex mt-4 items-center">
                 <div className="max-w-7xl container px-4 mx-auto flex items-center justify-between">
-                    <Link href="/" className=""><Image alt="" src={Logo} /></Link>
+                    <Link href="/" className="relative z-30"><Image alt="" src={Logo} /></Link>
                     <div className="flex items-center relative z-30">
                         <div className="h-[1px] hidden md:block bg-primary w-24"></div>
                         <Link href="/kontakt">
