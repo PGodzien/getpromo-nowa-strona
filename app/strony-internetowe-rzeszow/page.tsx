@@ -264,8 +264,9 @@ export default function StronyRzeszow() {
       <CtaFooter />
       <div className="relative flex justify-center mt-12">
         {/* <div className="absolute w-5 h-5 rounded-full bg-primary top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20"></div> */}
-        <div className="absolute w-40 h-40 border-4 border-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
-          <div className="bg-black absolute border-4 border-black w-80 h-40 inset-0 -left-80 flex justify-center p-3 flex-col -top-1 font-serif">
+        <div className="hidden xl:block absolute bg-red-500 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+          <div className="bg-black w-16 -top-4 -left-14 h-1 absolute transform -translate-x-1/2 -translate-y-1/2"></div>
+          <div className="bg-black absolute border-4 border-black w-80 h-40 right-20 -top-24 flex justify-center p-3 flex-col font-serif">
             <h4 className="text-primary font-semibold text-lg">Agencja marketingowa Rzeszów</h4>
             <p className="text-white text-sm">Kolejowa 12/310, 35-073 Rzeszów</p>
             <p className="text-white underline underline-offset-8 text-xs"><a href="https://goo.gl/maps/QgSbzWomFr6XQHNJ9" target="_blank" className="">sprawdź dojazd</a></p>
