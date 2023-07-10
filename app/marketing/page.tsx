@@ -44,7 +44,8 @@ export default function Marketing() {
 
       <div className="absolute z-20 -mt-32 shadow-2xl shadow-violet-500 blur-2xl opacity-10 h-96 w-96 bg-violet-600 top-0 rounded-full mx-auto left-0 right-0"></div>
       <div className="relative">
-        <section className="relative z-10 w-full py-6">
+        <section className="relative z-10 w-full py-6 overflow-hidden">
+          <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div>
           <div className="relative flex lg:flex-row flex-col py-20 md:py-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
               <h1
