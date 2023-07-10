@@ -2,6 +2,8 @@ import './globals.css';
 import localFont from '@next/font/local';
 import NavBar from './components/nav';
 import Footer from './components/footer';
+import Analytics from './analytics';
+import { Suspense } from 'react';
 
 const clashGrotesk = localFont({
   src: [
@@ -190,8 +192,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pl" className={`${archivo.variable} ${clash.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{scrollBehavior:'smooth'}}>
+    <html lang="pl" className={`${archivo.variable} ${clash.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{ scrollBehavior: 'smooth' }}>
       <body className="bg-getDark">
+        <Suspense>
+          <Analytics />
+        </Suspense>
         <NavBar />
         {children}
         <Footer />
