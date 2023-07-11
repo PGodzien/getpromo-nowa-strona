@@ -180,7 +180,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl" className={`${archivo.variable} ${clash.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{ scrollBehavior: 'smooth' }}>
-      <Head>
+
       <title>Marketing internetowy</title>
         <meta name="title" content="Marketing internetowy" />
         <meta name="description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
@@ -201,7 +201,7 @@ export default function RootLayout({
         <meta property="twitter:title" content="Marketing internetowy" />
         <meta property="twitter:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
         <meta property="twitter:image" content="/cover_marketing.jpg" />
-      </Head>
+
       <Script id="google-tag-manager" strategy="afterInteractive">
         {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
