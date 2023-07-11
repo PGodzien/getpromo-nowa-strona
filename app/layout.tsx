@@ -20,10 +20,6 @@ const clashGrotesk = localFont({
       weight: '400'
     },
     {
-      path: '../public/font/ClashGrotesk-Regular.eot',
-      weight: '400'
-    },
-    {
       path: '../public/font/ClashGrotesk-Bold.ttf',
       weight: '700'
     },
@@ -33,10 +29,6 @@ const clashGrotesk = localFont({
     },
     {
       path: '../public/font/ClashGrotesk-Bold.woff2',
-      weight: '700'
-    },
-    {
-      path: '../public/font/ClashGrotesk-Bold.eot',
       weight: '700'
     },
     {
@@ -52,10 +44,6 @@ const clashGrotesk = localFont({
       weight: '600'
     },
     {
-      path: '../public/font/ClashGrotesk-Semibold.eot',
-      weight: '600'
-    },
-    {
       path: '../public/font/ClashGrotesk-Medium.ttf',
       weight: '500'
     },
@@ -68,10 +56,6 @@ const clashGrotesk = localFont({
       weight: '500'
     },
     {
-      path: '../public/font/ClashGrotesk-Medium.eot',
-      weight: '500'
-    },
-    {
       path: '../public/font/ClashGrotesk-Light.ttf',
       weight: '300'
     },
@@ -81,10 +65,6 @@ const clashGrotesk = localFont({
     },
     {
       path: '../public/font/ClashGrotesk-Light.woff2',
-      weight: '300'
-    },
-    {
-      path: '../public/font/ClashGrotesk-Light.eot',
       weight: '300'
     },
   ],
