@@ -21,7 +21,7 @@ export default function Marketing() {
   return (
     <>
 
-        <title>Marketing internetowy</title>
+        <title>Marketing internetowy - Getpromo agencja marketingowa</title>
         <meta name="title" content="Marketing internetowy" />
         <meta name="description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
         <link
