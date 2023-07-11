@@ -11,7 +11,7 @@ const Features = () => {
                     <p className="max-w-sm leading-loose mx-4">Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM. Tworzymy kampanie, które generują wyniki i zwiększają sprzedaż.</p>
                     <button className="flex items-center">
                         <div className="w-24 bg-primary h-[1px]"></div>
-                        <Link href="/marketing-internetowy">
+                        <Link href="/marketing">
                             <div className="w-16 h-16 flex justify-center bg-transparent items-center border border-primary group hover:bg-primary">
                                 <svg
                                     className="text-primary group-hover:text-secondary"
