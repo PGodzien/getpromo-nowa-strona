@@ -164,7 +164,7 @@ const inter = localFont({
 export const metadata = {
   title: {
     template: '%s | Getpromo Agencja Marketingowa',
-    default: 'Getpromo - Agencja MArketingowa | Strony Internetowe',
+    default: 'Getpromo - Agencja Marketingowa | Strony Internetowe',
   },
   description: {
     template: '%s',
