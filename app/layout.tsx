@@ -180,8 +180,8 @@ export default function RootLayout({
   return (
     <html lang="pl" className={`${archivo.variable} ${clash.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{ scrollBehavior: 'smooth' }}>
 
-      <title>Agencja Marketingowa Getpromo || Strony Intternetowe</title>
-        <meta name="title" content="Agencja Marketingowa Getpromo || Strony Intternetowe" />
+      <title>Agencja Marketingowa Getpromo || Strony Internetowe</title>
+        <meta name="title" content="Agencja Marketingowa Getpromo || Strony Internetowe" />
         <meta name="description" content="Wykorzystaj design, marketing i nowe technologie, by wyprzedzić konkurencję." />
         <link
           rel="canonical"
@@ -191,13 +191,13 @@ export default function RootLayout({
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://getpromo.pl/" />
-        <meta property="og:title" content="Agencja Marketingowa Getpromo || Strony Intternetowe" />
+        <meta property="og:title" content="Agencja Marketingowa Getpromo || Strony Internetowe" />
         <meta property="og:description" content="Wykorzystaj design, marketing i nowe technologie, by wyprzedzić konkurencję." />
         <meta property="og:image" content="/cover_marketing.jpg" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://getpromo.pl/" />
-        <meta property="twitter:title" content="Agencja Marketingowa Getpromo || Strony Intternetowe" />
+        <meta property="twitter:title" content="Agencja Marketingowa Getpromo || Strony Internetowe" />
         <meta property="twitter:description" content="Wykorzystaj design, marketing i nowe technologie, by wyprzedzić konkurencję." />
         <meta property="twitter:image" content="/cover_marketing.jpg" />
 
