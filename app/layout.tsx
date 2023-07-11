@@ -3,7 +3,6 @@ import localFont from '@next/font/local';
 import NavBar from './components/nav';
 import Footer from './components/footer';
 import Script from 'next/script';
-import Head from 'next/head';
 const GTM_ID = 'GTM-KGZT6KS';
 
 const clashGrotesk = localFont({
@@ -181,9 +180,9 @@ export default function RootLayout({
   return (
     <html lang="pl" className={`${archivo.variable} ${clash.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{ scrollBehavior: 'smooth' }}>
 
-      <title>Marketing internetowy</title>
-        <meta name="title" content="Marketing internetowy" />
-        <meta name="description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+      <title>Agencja Marketingowa Getpromo || Strony Intternetowe</title>
+        <meta name="title" content="Agencja Marketingowa Getpromo || Strony Intternetowe" />
+        <meta name="description" content="Wykorzystaj design, marketing i nowe technologie, by wyprzedzić konkurencję." />
         <link
           rel="canonical"
           href="https://getpromo.pl/marketing"
@@ -192,14 +191,14 @@ export default function RootLayout({
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://getpromo.pl/" />
-        <meta property="og:title" content="Marketing internetowy" />
-        <meta property="og:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+        <meta property="og:title" content="Agencja Marketingowa Getpromo || Strony Intternetowe" />
+        <meta property="og:description" content="Wykorzystaj design, marketing i nowe technologie, by wyprzedzić konkurencję." />
         <meta property="og:image" content="/cover_marketing.jpg" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://getpromo.pl/" />
-        <meta property="twitter:title" content="Marketing internetowy" />
-        <meta property="twitter:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+        <meta property="twitter:title" content="Agencja Marketingowa Getpromo || Strony Intternetowe" />
+        <meta property="twitter:description" content="Wykorzystaj design, marketing i nowe technologie, by wyprzedzić konkurencję." />
         <meta property="twitter:image" content="/cover_marketing.jpg" />
 
       <Script id="google-tag-manager" strategy="afterInteractive">
