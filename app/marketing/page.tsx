@@ -14,33 +14,34 @@ import AnalyticsLogo from "../../public/analytics-logo.svg";
 import YoutubeLogo from "../../public/youtube_logo.svg";
 import GoogleLogo from "../../public/google-logo.svg";
 import FacebookLogo from "../../public/facebook-logo.svg";
+import Head from "next/head";
 
 
 export default function Marketing() {
   return (
     <>
+      <Head>
+        <title>Marketing internetowy – Getpromo agencja marketingowa</title>
+        <meta name="title" content="Marketing internetowy – Getpromo agencja marketingowa" />
+        <meta name="description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+        <link
+          rel="canonical"
+          href="https://getpromo.pl/marketing"
+          key="canonical"
+        />
 
-      <title>Marketing internetowy – Getpromo agencja marketingowa</title>
-      <meta name="title" content="Marketing internetowy – Getpromo agencja marketingowa" />
-      <meta name="description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
-      <link
-        rel="canonical"
-        href="https://getpromo.pl/marketing"
-        key="canonical"
-      />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://getpromo.pl/" />
+        <meta property="og:title" content="Marketing internetowy – Getpromo agencja marketingowa" />
+        <meta property="og:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+        <meta property="og:image" content="/cover_marketing.jpg" />
 
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://getpromo.pl/" />
-      <meta property="og:title" content="Marketing internetowy – Getpromo agencja marketingowa" />
-      <meta property="og:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
-      <meta property="og:image" content="/cover_marketing.jpg" />
-
-      <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://getpromo.pl/" />
-      <meta property="twitter:title" content="Marketing internetowy – Getpromo agencja marketingowa" />
-      <meta property="twitter:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
-      <meta property="twitter:image" content="/cover_marketing.jpg" />
-
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://getpromo.pl/" />
+        <meta property="twitter:title" content="Marketing internetowy – Getpromo agencja marketingowa" />
+        <meta property="twitter:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+        <meta property="twitter:image" content="/cover_marketing.jpg" />
+      </Head>
 
       <div className="absolute z-20 -mt-32 shadow-2xl shadow-violet-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-violet-600 top-0 rounded-full mx-auto left-0 right-0"></div>
       <div className="relative">
