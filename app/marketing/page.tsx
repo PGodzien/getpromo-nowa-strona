@@ -21,8 +21,8 @@ export default function Marketing() {
   return (
     <>
       <Head>
-        <title>Marketing internetowy – Getpromo agencja marketingowa</title>
-        <meta name="title" content="Marketing internetowy – Getpromo agencja marketingowa" />
+        <title>Marketing internetowy</title>
+        <meta name="title" content="Marketing internetowy" />
         <meta name="description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
         <link
           rel="canonical"
@@ -32,13 +32,13 @@ export default function Marketing() {
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://getpromo.pl/" />
-        <meta property="og:title" content="Marketing internetowy – Getpromo agencja marketingowa" />
+        <meta property="og:title" content="Marketing internetowy" />
         <meta property="og:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
         <meta property="og:image" content="/cover_marketing.jpg" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://getpromo.pl/" />
-        <meta property="twitter:title" content="Marketing internetowy – Getpromo agencja marketingowa" />
+        <meta property="twitter:title" content="Marketing internetowy" />
         <meta property="twitter:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
         <meta property="twitter:image" content="/cover_marketing.jpg" />
       </Head>

@@ -162,8 +162,14 @@ const inter = localFont({
 });
 
 export const metadata = {
-  title: 'Getpromo Agencja Marketingowa - Strony Internetowe',
-  description: 'Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM. Tworzymy kampanie, które generują wyniki i zwiększają sprzedaż.',
+  title: {
+    template: '%s | Getpromo Agencja Marketingowa',
+    default: 'Getpromo - Agencja MArketingowa | Strony Internetowe',
+  },
+  description: {
+    template: '%s',
+    default: 'Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM. Tworzymy kampanie, które generują wyniki i zwiększają sprzedaż.',
+  },
 }
 
 export default function RootLayout({
