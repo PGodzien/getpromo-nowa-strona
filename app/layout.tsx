@@ -3,6 +3,7 @@ import localFont from '@next/font/local';
 import NavBar from './components/nav';
 import Footer from './components/footer';
 import Script from 'next/script';
+import Head from 'next/head';
 const GTM_ID = 'GTM-KGZT6KS';
 
 const clashGrotesk = localFont({
@@ -161,16 +162,16 @@ const inter = localFont({
   variable: '--font-inter'
 });
 
-export const metadata = {
-  title: {
-    template: '%s | Getpromo Agencja Marketingowa',
-    default: 'Getpromo - Agencja Marketingowa | Strony Internetowe',
-  },
-  description: {
-    template: '%s',
-    default: 'Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM. Tworzymy kampanie, które generują wyniki i zwiększają sprzedaż.',
-  },
-}
+// export const metadata = {
+//   title: {
+//     template: '%s | Getpromo Agencja Marketingowa',
+//     default: 'Getpromo - Agencja Marketingowa | Strony Internetowe',
+//   },
+//   description: {
+//     template: '%s',
+//     default: 'Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM. Tworzymy kampanie, które generują wyniki i zwiększają sprzedaż.',
+//   },
+// }
 
 export default function RootLayout({
   children,
@@ -179,6 +180,28 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl" className={`${archivo.variable} ${clash.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{ scrollBehavior: 'smooth' }}>
+      <Head>
+      <title>Marketing internetowy</title>
+        <meta name="title" content="Marketing internetowy" />
+        <meta name="description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+        <link
+          rel="canonical"
+          href="https://getpromo.pl/marketing"
+          key="canonical"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://getpromo.pl/" />
+        <meta property="og:title" content="Marketing internetowy" />
+        <meta property="og:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+        <meta property="og:image" content="/cover_marketing.jpg" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://getpromo.pl/" />
+        <meta property="twitter:title" content="Marketing internetowy" />
+        <meta property="twitter:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+        <meta property="twitter:image" content="/cover_marketing.jpg" />
+      </Head>
       <Script id="google-tag-manager" strategy="afterInteractive">
         {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
