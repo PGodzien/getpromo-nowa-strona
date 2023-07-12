@@ -42,7 +42,7 @@ export default function Marketing() {
       <meta property="twitter:image" content="/cover_marketing.jpg" />
 
 
-      <div className="absolute z-20 -mt-32 shadow-2xl shadow-violet-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-violet-600 top-0 rounded-full mx-auto left-0 right-0"></div>
+      <div className="absolute z-20 -mt-32 shadow-2xl shadow-blue-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-blue-600 top-0 rounded-full mx-auto left-0 right-0"></div>
       <div className="relative">
         <section className="relative z-10 w-full py-6 overflow-hidden">
           <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div>
@@ -83,10 +83,10 @@ export default function Marketing() {
             </div>
             <div className="w-full absolute inset-0 lg:relative">
               <Image className="relative mb-4" alt="design-god" src={agencyRzeszow} />
-              <div className="animate-flash -z-10 w-10 h-10 p-40 md:p-72 absolute m-3 left-1/2 transform -translate-x-1/2 bottom-0">
-                <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-8 border-violet-500 blur rounded-full"></div>
+              <div className="animate-flash -z-10 w-10 h-10 p-40 md:p-72 absolute m-3  top-0">
+                <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-8 border-blue-500 blur rounded-full"></div>
                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
-                <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-violet-500 blur rounded-full"></div>
+                <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-blue-500 blur rounded-full"></div>
               </div>
             </div>
           </div>
