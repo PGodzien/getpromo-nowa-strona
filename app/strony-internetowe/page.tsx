@@ -11,7 +11,7 @@ import WordPressLogo from "../../public/wordpress_logo.svg";
 import NextjsLogo from "../../public/next_logo.svg";
 import GolangLogo from "../../public/golang_logo.svg";
 import TailwindLogo from "../../public/tailwind_logo.svg";
-import goddess from "../../public/goddess-www.png";
+import goddess from "../../public/goddess-www2.png";
 import anilama from "../../public/anilama.jpg";
 import barber from "../../public/barber.jpg";
 import radio from "../../public/radio.jpg";

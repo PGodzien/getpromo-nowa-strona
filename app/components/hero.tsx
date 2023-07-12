@@ -51,6 +51,7 @@ export default function Hero() {
                                 <div className="absolute inset-0 z-20  bg-transparent border-2 border-white rounded-full"></div>
                                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-4 border-primary blur-sm rounded-full"></div>
                             </div>
+                            <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">App</span>ollo</p>
                         </div>
                     </div>
                     <Image className="hidden h-full -mt-96 -z-10 lg:block object-none absolute" src={pattern} alt="" />
