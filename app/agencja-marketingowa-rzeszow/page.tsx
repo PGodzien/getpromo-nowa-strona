@@ -139,7 +139,7 @@ export default function Marketing() {
         </section>
         <section className="py-16 md:py-20 bg-white">
           <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
-            <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">Agencja marketingowa Rzeszów</h2>
+            <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-xl font-semibold lg:text-5xl">Agencja marketingowa Rzeszów</h2>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Nasze działania to skuteczne strategie marketingowe, potwierdzone realnymi wynikami sprzedaży naszych klientów. Zajmujemy się realizacją celów marketingowych, reklamą graficzną i wizualną. Jesteśmy zespołem ludzi o otwartych głowach z dużą dawką kreatywnego zaangażowania. </p>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Zadbamy o Twoją widoczność w sieci. Zaprojektujemy Twoją stronę internetową na osiąganie jak najlepszych wyników w rankingach Google.
               Promocja w Internecie to ważny element budowania swojej marki i pozycji wśród konkurencji. Wiemy, jakimi kanałami network marketingu dotrzeć do potencjalnych odbiorców usługi lub produktu, a tym samym zdobyć wierne i zadowolone grono klientów. Wykorzystujemy najbardziej skuteczne narzędzia promocji zwiększające sprzedaż, rozpoznawalność marki oraz pozwalające na zajęcie wysokich pozycji w wyszukiwarkach. </p>
@@ -191,7 +191,7 @@ export default function Marketing() {
             </ul>
           </div>
           <div className="grid md:grid-cols-2 pt-16">
-            <h2 className="mb-8 text-left font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">
+            <h2 className="mb-8 text-left font-serif leading-tight text-3xl md:text-4xl max-w-xl font-semibold lg:text-5xl">
               Agencja interaktywna Rzeszów
             </h2>
             <div className="flex flex-col items-center md:-mt-8 md:items-start">
@@ -223,7 +223,7 @@ export default function Marketing() {
       <Testimonials />
       <section className="pt-16 bg-white">
         <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
-          <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">Agencja reklamowa Rzeszów</h2>
+          <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-xl font-semibold lg:text-5xl">Agencja reklamowa Rzeszów</h2>
           <p className="md:text-xl mt-4">Getpromo to interaktywna agencja marketingowa z Rzeszowa, której działania marketingowe cechują się wysoką skutecznością. Do naszych wysokiej jakości usług marketingowych należą: marketing internetowy, prowadzenie kampanii reklamowych, automatyzacja procesów, dbanie o wizerunek firmy, social media, e-sprzedaż, responsywne strony internetowe, analiza strony internetowej, content marketing, media marketing, social media marketing, google ads, pozycjonowanie stron, optymalizacja strony internetowej, usługi pozyskiwania klientów, strategie marketingowe, reklama w Google.</p>
           <h3 className="font-serif md:pt-12 md:mt-12 pt-8 mt-8 leading-tight text-xl md:text-2xl font-semibold border-t">Czy warto wybrać usługi agencji reklamowej biorąc pod uwagę wysokie cenniki agencji marketingowych? Czy obsługa marketingowa firmy musi być droga? </h3>
           <p className="md:text-xl mt-4">Usługi agencji marketingowych nie muszą być drogie. Wszystko zależy kilku czynników. Gdzie znajduje się agencja kreatywna – firma marketingowa z Warszawy będzie prawdopodobnie generowała wyższy koszt prowadzenia działań marketingowych. Internetowa agencja reklamowa z Rzeszowa również może prowadzić skuteczne działania marketingowe, jednak ze względu na niższe koszty utrzymania może pozwolić sobie na nieco niższe koszty za usługi agencji interaktywnej przy jednoczesnym utrzymaniu wysokiej jakości usług. Najlepsze agencje marketingowe w Rzeszowie posiadają odpowiednio wykwalifikowanych fachowców od pozyskiwania klientów i profesjonalistów z obszaru usług marketingowych. </p>
