@@ -192,7 +192,7 @@ export default function Marketing() {
           </div>
           <div className="grid md:grid-cols-2 pt-16">
             <h2 className="mb-8 text-left font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">
-              Skuteczna reklama w internecie
+              Agencja interaktywna Rzeszów
             </h2>
             <div className="flex flex-col items-center md:-mt-8 md:items-start">
               <p className="md:text-lg pt-8 border-t">
@@ -221,19 +221,43 @@ export default function Marketing() {
         </div>
       </section>
       <Testimonials />
-      <CtaFooter />
-      <div className="relative flex justify-center mt-12">
-        <div className="hidden xl:block absolute bg-red-500 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
-          <div className="bg-black w-16 -top-4 -left-14 h-1 absolute transform -translate-x-1/2 -translate-y-1/2"></div>
-          <div className="bg-black absolute border-4 border-black w-80 h-40 right-20 -top-24 flex justify-center p-3 flex-col font-serif">
-            <h4 className="text-primary font-semibold text-lg">Agencja marketingowa Rzeszów</h4>
-            <p className="text-white text-sm">Kolejowa 12/310, 35-073 Rzeszów</p>
-            <p className="text-white underline underline-offset-8 text-xs"><a href="https://goo.gl/maps/QgSbzWomFr6XQHNJ9" target="_blank" className="">sprawdź dojazd</a></p>
-          </div>
+      <section className="py-16 md:py-20 bg-white">
+        <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
+          <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">Agencja reklamowa Rzeszów</h2>
+          <p className="md:text-xl mt-4">Getpromo to interaktywna agencja marketingowa z Rzeszowa, której działania marketingowe cechują się wysoką skutecznością. Do naszych wysokiej jakości usług marketingowych należą: marketing internetowy, prowadzenie kampanii reklamowych, automatyzacja procesów, dbanie o wizerunek firmy, social media, e-sprzedaż, responsywne strony internetowe, analiza strony internetowej, content marketing, media marketing, social media marketing, google ads, pozycjonowanie stron, optymalizacja strony internetowej, usługi pozyskiwania klientów, strategie marketingowe, reklama w Google.</p>
+          <h3 className="font-serif md:pt-12 md:mt-12 pt-8 mt-8 leading-tight text-xl md:text-2xl font-semibold border-t">Czy warto wybrać usługi agencji reklamowej biorąc pod uwagę wysokie cenniki agencji marketingowych? Czy obsługa marketingowa firmy musi być droga? </h3>
+          <p className="md:text-xl mt-4">Usługi agencji marketingowych nie muszą być drogie. Wszystko zależy kilku czynników. Gdzie znajduje się agencja kreatywna – firma marketingowa z Warszawy będzie prawdopodobnie generowała wyższy koszt prowadzenia działań marketingowych. Internetowa agencja reklamowa z Rzeszowa również może prowadzić skuteczne działania marketingowe, jednak ze względu na niższe koszty utrzymania może pozwolić sobie na nieco niższe koszty za usługi agencji interaktywnej przy jednoczesnym utrzymaniu wysokiej jakości usług. Najlepsze agencje marketingowe w Rzeszowie posiadają odpowiednio wykwalifikowanych fachowców od pozyskiwania klientów i profesjonalistów z obszaru usług marketingowych. </p>
+          <h3 className="font-serif md:pt-12 md:mt-12 pt-8 mt-8 leading-tight text-xl md:text-2xl font-semibold border-t">Co lepsze: profesjonalista usług marketingowych czy kompleksowa agencja marketingowa?</h3>
+          <p className="md:text-xl mt-4">W zależności od wielkości projektu oraz zakresu działań marketingowych lepiej sprawdzą się freelancerzy i fachowcy w zakresie pozyskiwania klientów, a w innym przypadku dużo lepszym wyborem będzie współpraca z agencją marketingową. Agencja marketingowa to zdecydowanie lepszy wybór w przypadku dużych projektów. W innym wypadku rozwój firmy można powierzyć specjaliście, który działa na własną rękę. Specjalista kampanii marketingowych to również dobry wybór dla firm, które dopiero startują i koszt strategii marketingowej nie może być zbyt wysoki.</p>
         </div>
-        <iframe className="w-full relative" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.4086440516758!2d22.005846715716544!3d50.041175779420925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfbfdd5b9fe33%3A0x7614bec802e05c47!2sAgencja%20marketingowa%20Getpromo!5e0!3m2!1spl!2spl!4v1688138225938!5m2!1spl!2spl" width="800" height="600" loading="lazy"></iframe>
-        <div className="absolute inset-0 bg-black opacity-10"></div>
-      </div>
+      </section>
+
+      <section className="">
+        <div className="relative flex justify-center">
+          <div className="hidden xl:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+            <div className="bg-black w-16 -top-4 -left-14 h-1 absolute transform -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="bg-black absolute border-4 border-black w-80 h-40 right-20 -top-24 flex justify-center p-3 flex-col font-serif">
+              <h4 className="text-primary font-semibold text-lg">Agencja marketingowa Rzeszów</h4>
+              <p className="text-white text-sm">Kolejowa 12/310, 35-073 Rzeszów</p>
+            </div>
+          </div>
+          <iframe className="w-full relative" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.4086440516758!2d22.005846715716544!3d50.041175779420925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfbfdd5b9fe33%3A0x7614bec802e05c47!2sAgencja%20marketingowa%20Getpromo!5e0!3m2!1spl!2spl!4v1688138225938!5m2!1spl!2spl" width="800" height="600" loading="lazy"></iframe>
+          <div className="absolute inset-0 bg-black opacity-10"></div>
+        </div>
+      </section>
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
+          <h3 className="font-serif md:pt-12 md:mt-12 pt-8 mt-8 leading-tight text-xl md:text-2xl font-semibold border-t">Agencja reklamowa - warto skorzystać?</h3>
+          <p className="md:text-xl mt-4">Transformacja cyfrowa spowodowała, że marketing firmy w dużej mierze musi opierać się na działaniach marketingowych w internecie. Zatrudniając agencję marketingową mamy pewność, że powierzamy marketing oraz jej wizerunek firmy fachowcom. W sieci można znaleźć opinie o firmach i upewnić się, czy prowadzi skuteczne działania marketingowe. Agencja komunikacji marketingowej to również nowe spojrzenie na firmę z zewnątrz – daje to świeże i obiektywne spojrzenie na działania marketingowe w firmie.</p>
+          <h3 className="font-serif md:pt-12 md:mt-12 pt-8 mt-8 leading-tight text-xl md:text-2xl font-semibold border-t">Agencja marketingowa z Rzeszowa czy agencja marketingowa w innych miejscowościach?</h3>
+          <p className="md:text-xl mt-4">Tak jak wspomnieliśmy wcześniej – cennik agencji marketingowych może różnić się między innymi ze względu na położenie agencji marketingowych. Agencja interaktywna Rzeszów to zapewnienie wysokiej jakości usługi agencji przy jednoczesnym obniżeniu kosztów w przeciwieństwie do podobnych firm prowadzących kampanie reklamowe z większych miast. Rzeszów jest miastem, które prężnie się rozwija. Miasto przyciąga coraz więcej specjalistów i fachowców z obszaru marketingu przez co powstaje coraz więcej agencji marketingowych z Rzeszowa. Jak jednak wybrać najlepsze agencje marketingowe w Rzeszowie? Dobrym pomysłem jest sprawdzenie opinii o agencji marketingowej oraz ich realziacji. Dla jednych firm lepsza będzie kompleksowa agencja marketingowa, dla innych organizacji bardziej przydatna będzie agencja marketingowa, której obszar działania jest sprecyzowany np.: pozycjonowanie stron, prowadzenie kampanii reklamowych, reklama w google ads czy projekty graficzne.</p>
+          <h4 className="font-serif md:pt-12 md:mt-12 pt-8 mt-8 leading-tight text-xl md:text-2xl font-semibold border-t">Agencja marketingowa Rzeszów – jaki jest koszt prowadzenia działań marketingowych?</h4>
+          <p className="md:text-xl mt-4">Współpraca agencja marketingowa nie musi być kosztowna. Wszystko zależy od zakresu obsługi marketingowej firmy. Koszty prowadzenia działań marketingowych zaczynają się już od kilkuset złotych w skali miesiąca. Dużo również zależy od branży, dla której agencja komunikacji marketingowej ma przygotować strategie marketingowe i kampanie reklamowe. Usługi agencji reklamowej zawsze są dopasowywane do potrzeb oraz zdolności klientów.</p>
+          <h4 className="font-serif md:pt-12 md:mt-12 pt-8 mt-8 leading-tight text-xl md:text-2xl font-semibold border-t">Agencja interaktywna Rzeszów – usługi pozyskiwania klientów</h4>
+          <p className="md:text-xl mt-4">Fachowcy pozyskiwanie klientów rzeszów, czy specjalista pozyskiwanie klientów – takie frazy coraz częściej pojawiają się wsród zapytań w wyszukiwarce Google. Świadczy to o tym, że klienci poszukują skutecznych usług agencji reklamowej a sama agencja marketingowa powinna zwiększać sprzedaż i prowadzić do rozwoju firmy. Nie każda agencja marketingowa w Rzeszowie posiada odpowiednie doświadczenie w skutecznym zwiększaniu sprzedaży i pozyskiwaniu klientów jednak coraz więcej agencji marketingowych z Rzeszowa realizuje duże projekty dla klientów w Rzeszowie, w Polsce i poza granicami kraju. </p>
+        </div>
+      </section>
+      <CtaFooter />
     </>
   );
 }
