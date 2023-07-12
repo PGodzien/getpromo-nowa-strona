@@ -21,12 +21,12 @@ export default function Contact() {
       <meta property="og:url" content="https://getpromo.pl/" />
       <meta property="og:title" content="Skontaktuj się z nami – Getpromo agencja marketingowa" />
       <meta property="og:description" content="Interaktywna agencja marketingowa - zapraszamy do kontaktu i bezpłatnej konsultacji." />
-      <meta property="og:image" content="/cover_contact.jpg" />
+      <meta property="og:image" content="https://getpromo.pl/cover_contact.jpg" />
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://getpromo.pl/" />
       <meta property="twitter:title" content="Skontaktuj się z nami – Getpromo agencja marketingowa" />
       <meta property="twitter:description" content="Interaktywna agencja marketingowa - zapraszamy do kontaktu i bezpłatnej konsultacji." />
-      <meta property="twitter:image" content="/cover_contact.jpg" />
+      <meta property="twitter:image" content="https://getpromo.pl/cover_contact.jpg" />
       <div className="absolute z-20 -mt-72 blur-3xl opacity-10 p-60 h-10 w-10 bg-primary top-0 rounded-full mx-auto left-0 right-0"></div>
       <div className="relative w-full h-full mx-auto pt-[164px] -mt-[164px] bg-getDark">
         <div className="absolute inset-0 w-full h-full bg-center bg-no-repeat bg-[url('/bg_rounded.png')]"></div>

@@ -33,13 +33,13 @@ export default function Design() {
       <meta property="og:url" content="https://getpromo.pl/" />
       <meta property="og:title" content="Projektowanie graficzne – Getpromo agencja marketingowa" />
       <meta property="og:description" content="Projektowanie graficzne, projekktowanie logo, materiały reklamowe, branding firmowy." />
-      <meta property="og:image" content="/cover_design.jpg" />
+      <meta property="og:image" content="https://getpromo.pl/cover_design.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://getpromo.pl/" />
       <meta property="twitter:title" content="Projektowanie graficzne – Getpromo agencja marketingowa" />
       <meta property="twitter:description" content="Projektowanie graficzne, projekktowanie logo, materiały reklamowe, branding firmowy." />
-      <meta property="twitter:image" content="/cover_design.jpg" />
+      <meta property="twitter:image" content="https://getpromo.pl/cover_design.jpg" />
 
       <div className="absolute z-20 -mt-32 shadow-2xl shadow-green-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-green-600 top-0 rounded-full mx-auto left-0 right-0"></div>
       <div className="relative">
