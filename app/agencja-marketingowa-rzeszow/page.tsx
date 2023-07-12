@@ -139,7 +139,7 @@ export default function Marketing() {
         </section>
         <section className="py-16 md:py-20 bg-white">
           <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
-            <h1 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">Agencja marketingowa Rzeszów</h1>
+            <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">Agencja marketingowa Rzeszów</h2>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Nasze działania to skuteczne strategie marketingowe, potwierdzone realnymi wynikami sprzedaży naszych klientów. Zajmujemy się realizacją celów marketingowych, reklamą graficzną i wizualną. Jesteśmy zespołem ludzi o otwartych głowach z dużą dawką kreatywnego zaangażowania. </p>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Zadbamy o Twoją widoczność w sieci. Zaprojektujemy Twoją stronę internetową na osiąganie jak najlepszych wyników w rankingach Google.
               Promocja w Internecie to ważny element budowania swojej marki i pozycji wśród konkurencji. Wiemy, jakimi kanałami network marketingu dotrzeć do potencjalnych odbiorców usługi lub produktu, a tym samym zdobyć wierne i zadowolone grono klientów. Wykorzystujemy najbardziej skuteczne narzędzia promocji zwiększające sprzedaż, rozpoznawalność marki oraz pozwalające na zajęcie wysokich pozycji w wyszukiwarkach. </p>
