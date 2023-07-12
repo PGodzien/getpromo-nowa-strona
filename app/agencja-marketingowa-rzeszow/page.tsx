@@ -221,7 +221,7 @@ export default function Marketing() {
         </div>
       </section>
       <Testimonials />
-      <section className="py-16 md:py-20 bg-white">
+      <section className="pt-16 bg-white">
         <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
           <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">Agencja reklamowa Rzeszów</h2>
           <p className="md:text-xl mt-4">Getpromo to interaktywna agencja marketingowa z Rzeszowa, której działania marketingowe cechują się wysoką skutecznością. Do naszych wysokiej jakości usług marketingowych należą: marketing internetowy, prowadzenie kampanii reklamowych, automatyzacja procesów, dbanie o wizerunek firmy, social media, e-sprzedaż, responsywne strony internetowe, analiza strony internetowej, content marketing, media marketing, social media marketing, google ads, pozycjonowanie stron, optymalizacja strony internetowej, usługi pozyskiwania klientów, strategie marketingowe, reklama w Google.</p>
@@ -247,7 +247,7 @@ export default function Marketing() {
       </section>
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
-          <h3 className="font-serif md:pt-12 md:mt-12 pt-8 mt-8 leading-tight text-xl md:text-2xl font-semibold border-t">Agencja reklamowa - warto skorzystać?</h3>
+          <h3 className="font-serif leading-tight text-xl md:text-2xl font-semibold">Agencja reklamowa - warto skorzystać?</h3>
           <p className="md:text-xl mt-4">Transformacja cyfrowa spowodowała, że marketing firmy w dużej mierze musi opierać się na działaniach marketingowych w internecie. Zatrudniając agencję marketingową mamy pewność, że powierzamy marketing oraz jej wizerunek firmy fachowcom. W sieci można znaleźć opinie o firmach i upewnić się, czy prowadzi skuteczne działania marketingowe. Agencja komunikacji marketingowej to również nowe spojrzenie na firmę z zewnątrz – daje to świeże i obiektywne spojrzenie na działania marketingowe w firmie.</p>
           <h3 className="font-serif md:pt-12 md:mt-12 pt-8 mt-8 leading-tight text-xl md:text-2xl font-semibold border-t">Agencja marketingowa z Rzeszowa czy agencja marketingowa w innych miejscowościach?</h3>
           <p className="md:text-xl mt-4">Tak jak wspomnieliśmy wcześniej – cennik agencji marketingowych może różnić się między innymi ze względu na położenie agencji marketingowych. Agencja interaktywna Rzeszów to zapewnienie wysokiej jakości usługi agencji przy jednoczesnym obniżeniu kosztów w przeciwieństwie do podobnych firm prowadzących kampanie reklamowe z większych miast. Rzeszów jest miastem, które prężnie się rozwija. Miasto przyciąga coraz więcej specjalistów i fachowców z obszaru marketingu przez co powstaje coraz więcej agencji marketingowych z Rzeszowa. Jak jednak wybrać najlepsze agencje marketingowe w Rzeszowie? Dobrym pomysłem jest sprawdzenie opinii o agencji marketingowej oraz ich realziacji. Dla jednych firm lepsza będzie kompleksowa agencja marketingowa, dla innych organizacji bardziej przydatna będzie agencja marketingowa, której obszar działania jest sprecyzowany np.: pozycjonowanie stron, prowadzenie kampanii reklamowych, reklama w google ads czy projekty graficzne.</p>
