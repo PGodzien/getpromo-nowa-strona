@@ -245,7 +245,7 @@ export default function Marketing() {
           <div className="absolute inset-0 bg-black opacity-10"></div>
         </div>
       </section>
-      <section className="py-16 bg-white">
+      <section className="pt-16 pb-8 bg-white">
         <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
           <h3 className="font-serif leading-tight text-xl md:text-2xl font-semibold">Agencja reklamowa - warto skorzystać?</h3>
           <p className="md:text-xl mt-4">Transformacja cyfrowa spowodowała, że marketing firmy w dużej mierze musi opierać się na działaniach marketingowych w internecie. Zatrudniając agencję marketingową mamy pewność, że powierzamy marketing oraz jej wizerunek firmy fachowcom. W sieci można znaleźć opinie o firmach i upewnić się, czy prowadzi skuteczne działania marketingowe. Agencja komunikacji marketingowej to również nowe spojrzenie na firmę z zewnątrz – daje to świeże i obiektywne spojrzenie na działania marketingowe w firmie.</p>
