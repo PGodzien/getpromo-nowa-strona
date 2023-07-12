@@ -33,13 +33,13 @@ export default function Marketing() {
       <meta property="og:url" content="https://getpromo.pl/agencja-marketingowa-rzeszow" />
       <meta property="og:title" content="Agencja marketingowa Rzeszów – Getpromo agencja marketingowa" />
       <meta property="og:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
-      <meta property="og:image" content="/cover_marketing.jpg" />
+      <meta property="og:image" content="/cover_agencja_marketingowa_rzeszow.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://getpromo.pl/agencja-marketingowa-rzeszow" />
       <meta property="twitter:title" content="Agencja marketingowa Rzeszów – Getpromo agencja marketingowa" />
       <meta property="twitter:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
-      <meta property="twitter:image" content="/cover_marketing.jpg" />
+      <meta property="twitter:image" content="/cover_agencja_marketingowa_rzeszow.jpg" />
 
 
       <div className="absolute z-20 -mt-32 shadow-2xl shadow-blue-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-blue-600 top-0 rounded-full mx-auto left-0 right-0"></div>
