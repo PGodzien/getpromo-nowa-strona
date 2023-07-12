@@ -100,6 +100,7 @@ export default function Strony() {
                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-pink-500 blur rounded-full"></div>
               </div>
             </div>
+            <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">DEV</span>meter</p>
           </div>
           <Image className="hidden -z-30 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />
         </section>
