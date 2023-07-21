@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import Cta from "../components/cta";
 import pattern from "../../public/pattern.svg";
@@ -29,13 +28,16 @@ import transbet from "../../public/transbet.jpg";
 import agrofruct from "../../public/agrofruct.jpg";
 import CtaFooter from "../components/ctaFooter";
 import { Testimonials } from "../components/testimonials";
+import { describe } from "node:test";
+
+export const metadata = {
+  title: "About",
+  description: "Reklama w internecie"
+}
 
 export default function Strony() {
   return (
     <>
-      <title>Strony internetowe – Getpromo agencja marketingowa</title>
-      <meta name="title" content="Strony internetowe – Getpromo agencja marketingowa" />
-      <meta name="description" content="Tworzenie stron internetowych, projektowanie stron www, sklepy internetowe, landing page." />
       <link
         rel="canonical"
         href="https://getpromo.pl/strony-internetowe"
