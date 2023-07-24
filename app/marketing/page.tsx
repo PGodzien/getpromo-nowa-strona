@@ -29,6 +29,8 @@ export default function Marketing() {
     return {
       __html: `{
       "@context": "https://schema.org/",
+      "@type": "Offer",
+      "name": "Marketing internetowy",
       "review": {
         "@type": "Review",
         "reviewRating": {
