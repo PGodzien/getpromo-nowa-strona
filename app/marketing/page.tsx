@@ -24,7 +24,7 @@ export const metadata = {
 }
 
 export default function Marketing() {
-
+  
   function addReviewJsonLd() {
     return {
       __html: `{
@@ -38,12 +38,11 @@ export default function Marketing() {
           "bestRating": "5",
           "ratingCount": "1"
       },
-    }
   `,
     };
   };
 
-  }
+
   return (
     <>
 
@@ -253,4 +252,4 @@ export default function Marketing() {
       <CtaFooter />
     </>
   );
-}
+  }
