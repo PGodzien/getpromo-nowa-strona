@@ -28,22 +28,20 @@ export default function Marketing() {
   function addReviewJsonLd() {
     return {
       __html: `{
-      "@context": "https://schema.org/",
-      "@type": "Product",
-      "name": "Marketing internetowy",
-      "review": {
-        "@type": "Review",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "4",
-          "bestRating": "5"
-        },
-      },
+        "@context": "https://schema.org/",
+        "@type": "CreativeWorkSeries",
+        "name": "Agencja Marketingowa Rzeszów",
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "ratingCount": "1"
     }
   `,
     };
   };
 
+  }
   return (
     <>
 
