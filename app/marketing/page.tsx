@@ -39,11 +39,6 @@ export default function Marketing() {
           "bestRating": "5"
         },
       },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.4",
-        "reviewCount": "89"
-      },
     }
   `,
     };
