@@ -5,23 +5,6 @@ import Footer from './components/footer';
 import Script from 'next/script';
 const GTM_ID = 'GTM-KGZT6KS';
 
-function addReviewJsonLd() {
-  return {
-    __html: `{
-      
-        "@context": "https://schema.org/",
-        "@type": "CreativeWorkSeries",
-        "name": "Agencja Marketingowa Rzeszów",
-        "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "ratingCount": "20"
-        }
-      
-  }`,
-  };
-};
 
 const clashGrotesk = localFont({
   src: [
@@ -198,11 +181,7 @@ export default function RootLayout({
   return (
     <html lang="pl" className={`${archivo.variable} ${clash.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{ scrollBehavior: 'smooth' }}>
 
-<script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={addReviewJsonLd()}
-        key="Review-jsonld"
-      />
+
 
       <Script id="google-tag-manager" strategy="afterInteractive">
         {`
