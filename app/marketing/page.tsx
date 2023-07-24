@@ -25,7 +25,7 @@ export const metadata = {
 
 export default function Marketing() {
 
-  function addProductJsonLd() {
+  function addReviewJsonLd() {
     return {
       __html: `{
       "@context": "https://schema.org/",
@@ -45,8 +45,8 @@ export default function Marketing() {
     }
   `,
     };
-  }
-  
+  };
+
   return (
     <>
 
@@ -57,8 +57,8 @@ export default function Marketing() {
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={addProductJsonLd()}
-          key="product-jsonld"
+          dangerouslySetInnerHTML={addReviewJsonLd()}
+          key="Review-jsonld"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://getpromo.pl/" />
