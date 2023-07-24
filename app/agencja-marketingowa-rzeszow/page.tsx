@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import { Testimonials } from "../components/testimonials";
 import CtaFooter from "../components/ctaFooter";
