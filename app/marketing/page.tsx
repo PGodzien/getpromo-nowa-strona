@@ -28,17 +28,18 @@ export default function Marketing() {
   function addReviewJsonLd() {
     return {
       __html: `{
-        {
+        
           "@context": "https://schema.org/",
           "@type": "CreativeWorkSeries",
           "name": "Agencja Marketingowa Rzeszów",
-            "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "20"
-            },
-      },
-  `,
+          "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "ratingCount": "20"
+          }
+        
+    }`,
     };
   };
 
