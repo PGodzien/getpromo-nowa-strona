@@ -31,7 +31,7 @@ export default function Marketing() {
         
           "@context": "https://schema.org/",
           "@type": "CreativeWorkSeries",
-          "name": "Agencja Marketingowa Rzeszów",
+          "name": "Marketing Internetowy",
           "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "5",
