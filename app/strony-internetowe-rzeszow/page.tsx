@@ -29,6 +29,24 @@ import adblue from "../../public/adblue.jpg";
 import transbet from "../../public/transbet.jpg";
 import agrofruct from "../../public/agrofruct.jpg";
 
+function addReviewJsonLd() {
+  return {
+    __html: `{
+      
+        "@context": "https://schema.org/",
+        "@type": "CreativeWorkSeries",
+        "name": "Strony Internetowe Rzeszów",
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "ratingCount": "20"
+        }
+      
+  }`,
+  };
+};
+
 export const metadata = {
   title: "Strony internetowe Rzeszów",
   description: "Strony internetowe Rzeszów. Profesjonalne tworzenie stron internetowych w Rzeszowie. Responsywne i wydaje strony www."
@@ -42,7 +60,11 @@ export default function StronyRzeszow() {
         href="https://getpromo.pl/strony-internetowe-rzeszow"
         key="canonical"
       />
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={addReviewJsonLd()}
+        key="Review-jsonld"
+      />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://getpromo.pl/" />
       <meta property="og:title" content="Strony internetowe Rzeszów" />

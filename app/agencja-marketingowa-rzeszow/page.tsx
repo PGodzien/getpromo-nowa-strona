@@ -14,6 +14,24 @@ import YoutubeLogo from "../../public/youtube_logo.svg";
 import GoogleLogo from "../../public/google-logo.svg";
 import FacebookLogo from "../../public/facebook-logo.svg";
 
+function addReviewJsonLd() {
+  return {
+    __html: `{
+      
+        "@context": "https://schema.org/",
+        "@type": "CreativeWorkSeries",
+        "name": "Agencja Marketingowa Rzeszów",
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "ratingCount": "20"
+        }
+      
+  }`,
+  };
+};
+
 export const metadata = {
   title: "Agencja marketingowa Rzeszów",
   description: "Szukasz agencji marketingowej w Rzeszowie? Pozycjonowanie stron, kampanie marketingowe Google i Facebook Ads, SEO/SEM."
@@ -27,7 +45,11 @@ export default function Marketing() {
         href="https://getpromo.pl/agencja-marketingowa-rzeszow"
         key="canonical"
       />
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={addReviewJsonLd()}
+        key="Review-jsonld"
+      />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://getpromo.pl/agencja-marketingowa-rzeszow" />
       <meta property="og:title" content="Agencja marketingowa Rzeszów" />

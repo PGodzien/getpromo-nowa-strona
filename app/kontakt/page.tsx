@@ -5,6 +5,24 @@ import facebook from "../../public/facebook-green.svg";
 import twitter from "../../public/twitter-green.svg";
 import linkedin from "../../public/linkedin-white.svg";
 
+function addReviewJsonLd() {
+  return {
+    __html: `{
+      
+        "@context": "https://schema.org/",
+        "@type": "CreativeWorkSeries",
+        "name": "Kontakt Agencja Marketingowa",
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "ratingCount": "20"
+        }
+      
+  }`,
+  };
+};
+
 export const metadata = {
   title: "Kontakt",
   description: "Zapraszamy do kontaktu z naszą agencją marketingową – zachęcamy do skorzystania z darmowej konsultacji marketingowej."
@@ -17,6 +35,11 @@ export default function Contact() {
         rel="canonical"
         href="https://getpromo.pl/kontakt"
         key="canonical"
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={addReviewJsonLd()}
+        key="Review-jsonld"
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://getpromo.pl/" />

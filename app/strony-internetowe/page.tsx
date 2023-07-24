@@ -29,6 +29,24 @@ import agrofruct from "../../public/agrofruct.jpg";
 import CtaFooter from "../components/ctaFooter";
 import { Testimonials } from "../components/testimonials";
 
+function addReviewJsonLd() {
+  return {
+    __html: `{
+      
+        "@context": "https://schema.org/",
+        "@type": "CreativeWorkSeries",
+        "name": "Strony Internetowe",
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "ratingCount": "20"
+        }
+      
+  }`,
+  };
+};
+
 export const metadata = {
   title: "Projektowanie stron internetowych",
   description: "Projektowanie stron internetowych. Tworzenie stron www. Responsywne, szybkie i wydajne strony internetowe. Skuteczne strony internetowe dla firm. "
@@ -42,7 +60,11 @@ export default function Strony() {
         href="https://getpromo.pl/strony-internetowe"
         key="canonical"
       />
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={addReviewJsonLd()}
+        key="Review-jsonld"
+      />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://getpromo.pl/" />
       <meta property="og:title" content="Projektowanie stron internetowych" />

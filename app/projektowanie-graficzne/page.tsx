@@ -15,6 +15,24 @@ import prosto from "../../public/prosto.jpg";
 import skycar_logo from "../../public/skycar_logo.jpg";
 import tlusto from "../../public/tlusto.jpg";
 
+function addReviewJsonLd() {
+  return {
+    __html: `{
+      
+        "@context": "https://schema.org/",
+        "@type": "CreativeWorkSeries",
+        "name": "Agencja Brandingowa",
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "ratingCount": "20"
+        }
+      
+  }`,
+  };
+};
+
 export const metadata = {
   title: "Branding",
   description: "Agencja brandingowa. Specjalizujemy się w kreowaniu wizerunku marki i identyfikacji wizualnej. Projektowanie logo, branding, materiały firmowe."
@@ -27,7 +45,11 @@ export default function Design() {
         href="https://getpromo.pl/projektowanie-graficzne"
         key="canonical"
       />
-
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={addReviewJsonLd()}
+        key="Review-jsonld"
+      />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://getpromo.pl/" />
       <meta property="og:title" content="Branding" />
