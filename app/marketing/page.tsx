@@ -14,12 +14,39 @@ import YoutubeLogo from "../../public/youtube_logo.svg";
 import GoogleLogo from "../../public/google-logo.svg";
 import FacebookLogo from "../../public/facebook-logo.svg";
 
+
+
+
+
 export const metadata = {
   title: "Marketing internetowy",
   description: "Kompleksowa obsługa marketingowa. Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM."
 }
 
 export default function Marketing() {
+
+  function addProductJsonLd() {
+    return {
+      __html: `{
+      "@context": "https://schema.org/",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4",
+          "bestRating": "5"
+        },
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "reviewCount": "89"
+      },
+    }
+  `,
+    };
+  }
+  
   return (
     <>
 
@@ -28,7 +55,11 @@ export default function Marketing() {
           href="https://getpromo.pl/marketing"
           key="canonical"
         />
-
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addProductJsonLd()}
+          key="product-jsonld"
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://getpromo.pl/" />
         <meta property="og:title" content="Marketing internetowy" />
