@@ -5,7 +5,6 @@ import Footer from './components/footer';
 import Script from 'next/script';
 const GTM_ID = 'GTM-KGZT6KS';
 
-
 const clashGrotesk = localFont({
   src: [
     {
