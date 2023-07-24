@@ -15,14 +15,14 @@ import YoutubeLogo from "../../public/youtube_logo.svg";
 import GoogleLogo from "../../public/google-logo.svg";
 import FacebookLogo from "../../public/facebook-logo.svg";
 
+export const metadata = {
+  title: "Agencja marketingowa Rzeszów",
+  description: "Szukasz agencji marketingowej w Rzeszowie? Pozycjonowanie stron, kampanie marketingowe Google i Facebook Ads, SEO/SEM."
+}
 
 export default function Marketing() {
   return (
     <>
-
-      <title>Agencja marketingowa Rzeszów – Getpromo agencja marketingowa</title>
-      <meta name="title" content="Agencja marketingowa Rzeszów – Getpromo agencja marketingowa" />
-      <meta name="description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
       <link
         rel="canonical"
         href="https://getpromo.pl/agencja-marketingowa-rzeszow"
@@ -31,14 +31,14 @@ export default function Marketing() {
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://getpromo.pl/agencja-marketingowa-rzeszow" />
-      <meta property="og:title" content="Agencja marketingowa Rzeszów – Getpromo agencja marketingowa" />
-      <meta property="og:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+      <meta property="og:title" content="Agencja marketingowa Rzeszów" />
+      <meta property="og:description" content="Szukasz agencji marketingowej w Rzeszowie? Pozycjonowanie stron, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
       <meta property="og:image" content="https://getpromo.pl/cover_agencja_marketingowa_rzeszow.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://getpromo.pl/agencja-marketingowa-rzeszow" />
-      <meta property="twitter:title" content="Agencja marketingowa Rzeszów – Getpromo agencja marketingowa" />
-      <meta property="twitter:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+      <meta property="twitter:title" content="Agencja marketingowa Rzeszów" />
+      <meta property="twitter:description" content="Szukasz agencji marketingowej w Rzeszowie? Pozycjonowanie stron, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
       <meta property="twitter:image" content="https://getpromo.pl/cover_agencja_marketingowa_rzeszow.jpg" />
 
 

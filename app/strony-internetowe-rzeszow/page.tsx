@@ -1,4 +1,3 @@
-"use client";
 import Cta from "../components/cta";
 import CtaFooter from "../components/ctaFooter";
 import { Testimonials } from "../components/testimonials";
@@ -29,14 +28,15 @@ import skycar from "../../public/skycar.jpeg";
 import adblue from "../../public/adblue.jpg";
 import transbet from "../../public/transbet.jpg";
 import agrofruct from "../../public/agrofruct.jpg";
-import mapPin from "../../public/icon_map.svg";
+
+export const metadata = {
+  title: "Strony internetowe Rzeszów",
+  description: "Strony internetowe Rzeszów. Profesjonalne tworzenie stron internetowych w Rzeszowie. Responsywne i wydaje strony www."
+}
 
 export default function StronyRzeszow() {
   return (
     <>
-      <title>Strony internetowe Rzeszów – Getpromo agencja marketingowa w Rzeszowie</title>
-      <meta name="title" content="Strony internetowe Rzeszów – Getpromo agencja marketingowa w Rzeszowie" />
-      <meta name="description" content="Tworzenie stron internetowych w Rzeszowie, projektowanie stron www Rzeszów, sklepy internetowe Rzeszów, landing page Rzeszów" />
       <link
         rel="canonical"
         href="https://getpromo.pl/strony-internetowe-rzeszow"
@@ -45,14 +45,14 @@ export default function StronyRzeszow() {
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://getpromo.pl/" />
-      <meta property="og:title" content="Strony internetowe Rzeszów – Getpromo agencja marketingowa w Rzeszowie" />
-      <meta property="og:description" content="Tworzenie stron internetowych w Rzeszowie, projektowanie stron www Rzeszów, sklepy internetowe Rzeszów, landing page Rzeszów." />
+      <meta property="og:title" content="Strony internetowe Rzeszów" />
+      <meta property="og:description" content="Strony internetowe Rzeszów. Profesjonalne tworzenie stron internetowych w Rzeszowie. Responsywne i wydaje strony www." />
       <meta property="og:image" content="https://getpromo.pl/cover_webRzeszow.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://getpromo.pl/" />
-      <meta property="twitter:title" content="Strony internetowe Rzeszów – Getpromo agencja marketingowa w Rzeszowie" />
-      <meta property="twitter:description" content="Tworzenie stron internetowych w Rzeszowie, projektowanie stron www Rzeszów, sklepy internetowe Rzeszów, landing page Rzeszów" />
+      <meta property="twitter:title" content="Strony internetowe Rzeszów" />
+      <meta property="twitter:description" content="Strony internetowe Rzeszów. Profesjonalne tworzenie stron internetowych w Rzeszowie. Responsywne i wydaje strony www." />
       <meta property="twitter:image" content="https://getpromo.pl/cover_webRzeszow.jpg" />
       {/* <Image className="absolute inset-0 z-20" alt="Circle BG" src={bgCircle} /> */}
       <div className="absolute z-20 -mt-32 shadow-2xl shadow-blue-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-blue-600 top-0 rounded-full mx-auto left-0 right-0"></div>

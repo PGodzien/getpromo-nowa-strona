@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import { Testimonials } from "../components/testimonials";
 import CtaFooter from "../components/ctaFooter";
@@ -14,16 +13,16 @@ import AnalyticsLogo from "../../public/analytics-logo.svg";
 import YoutubeLogo from "../../public/youtube_logo.svg";
 import GoogleLogo from "../../public/google-logo.svg";
 import FacebookLogo from "../../public/facebook-logo.svg";
-import Head from "next/head";
 
+export const metadata = {
+  title: "Marketing internetowy",
+  description: "Kompleksowa obsługa marketingowa. Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM."
+}
 
 export default function Marketing() {
   return (
     <>
 
-        <title>Marketing internetowy - Getpromo agencja marketingowa</title>
-        <meta name="title" content="Marketing internetowy" />
-        <meta name="description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
         <link
           rel="canonical"
           href="https://getpromo.pl/marketing"
@@ -33,13 +32,13 @@ export default function Marketing() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://getpromo.pl/" />
         <meta property="og:title" content="Marketing internetowy" />
-        <meta property="og:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+        <meta property="og:description" content="Kompleksowa obsługa marketingowa. Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
         <meta property="og:image" content="https://getpromo.pl/cover_marketing.jpg" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://getpromo.pl/" />
         <meta property="twitter:title" content="Marketing internetowy" />
-        <meta property="twitter:description" content="Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
+        <meta property="twitter:description" content="Kompleksowa obsługa marketingowa. Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
         <meta property="twitter:image" content="https://getpromo.pl/cover_marketing.jpg" />
 
 

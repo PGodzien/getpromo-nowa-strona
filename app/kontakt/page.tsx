@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "../components/contact_form";
@@ -6,26 +5,28 @@ import facebook from "../../public/facebook-green.svg";
 import twitter from "../../public/twitter-green.svg";
 import linkedin from "../../public/linkedin-white.svg";
 
+export const metadata = {
+  title: "Kontakt",
+  description: "Zapraszamy do kontaktu z naszą agencją marketingową – zachęcamy do skorzystania z darmowej konsultacji marketingowej."
+}
+
 export default function Contact() {
   return (
     <>
-      <title>Skontaktuj się z nami – Getpromo agencja marketingowa</title>
       <link
         rel="canonical"
         href="https://getpromo.pl/kontakt"
         key="canonical"
       />
-      <meta name="title" content="Skontaktuj się z nami – Getpromo agencja marketingowa" />
-      <meta name="description" content="Interaktywna agencja marketingowa - zapraszamy do kontaktu i bezpłatnej konsultacji." />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://getpromo.pl/" />
-      <meta property="og:title" content="Skontaktuj się z nami – Getpromo agencja marketingowa" />
-      <meta property="og:description" content="Interaktywna agencja marketingowa - zapraszamy do kontaktu i bezpłatnej konsultacji." />
+      <meta property="og:title" content="Kontakt" />
+      <meta property="og:description" content="Zapraszamy do kontaktu z naszą agencją marketingową – zachęcamy do skorzystania z darmowej konsultacji marketingowej." />
       <meta property="og:image" content="https://getpromo.pl/cover_contact.jpg" />
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://getpromo.pl/" />
-      <meta property="twitter:title" content="Skontaktuj się z nami – Getpromo agencja marketingowa" />
-      <meta property="twitter:description" content="Interaktywna agencja marketingowa - zapraszamy do kontaktu i bezpłatnej konsultacji." />
+      <meta property="twitter:title" content="Kontakt" />
+      <meta property="twitter:description" content="Zapraszamy do kontaktu z naszą agencją marketingową – zachęcamy do skorzystania z darmowej konsultacji marketingowej." />
       <meta property="twitter:image" content="https://getpromo.pl/cover_contact.jpg" />
       <div className="absolute z-20 -mt-72 blur-3xl opacity-10 p-60 h-10 w-10 bg-primary top-0 rounded-full mx-auto left-0 right-0"></div>
       <div className="relative w-full h-full mx-auto pt-[164px] -mt-[164px] bg-getDark">
