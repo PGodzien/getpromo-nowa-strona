@@ -66,13 +66,13 @@ export default function Strony() {
         key="Review-jsonld"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://getpromo.pl/" />
+      <meta property="og:url" content="https://getpromo.pl/strony-internetowe" />
       <meta property="og:title" content="Projektowanie stron internetowych" />
       <meta property="og:description" content="Projektowanie stron internetowych. Tworzenie stron www. Responsywne, szybkie i wydajne strony internetowe. Skuteczne strony internetowe dla firm. " />
       <meta property="og:image" content="https://getpromo.pl/cover_web.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://getpromo.pl/" />
+      <meta property="twitter:url" content="https://getpromo.pl/strony-internetowe" />
       <meta property="twitter:title" content="Projektowanie stron internetowych" />
       <meta property="twitter:description" content="Projektowanie stron internetowych. Tworzenie stron www. Responsywne, szybkie i wydajne strony internetowe. Skuteczne strony internetowe dla firm. " />
       <meta property="twitter:image" content="https://getpromo.pl/cover_web.jpg" />

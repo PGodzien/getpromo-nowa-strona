@@ -51,13 +51,13 @@ export default function Design() {
         key="Review-jsonld"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://getpromo.pl/" />
+      <meta property="og:url" content="https://getpromo.pl/projektowanie-graficzne" />
       <meta property="og:title" content="Branding" />
       <meta property="og:description" content="Agencja brandingowa. Specjalizujemy się w kreowaniu wizerunku marki i identyfikacji wizualnej. Projektowanie logo, branding, materiały firmowe." />
       <meta property="og:image" content="https://getpromo.pl/cover_design.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://getpromo.pl/" />
+      <meta property="twitter:url" content="https://getpromo.pl/projektowanie-graficzne" />
       <meta property="twitter:title" content="Branding" />
       <meta property="twitter:description" content="Agencja brandingowa. Specjalizujemy się w kreowaniu wizerunku marki i identyfikacji wizualnej. Projektowanie logo, branding, materiały firmowe." />
       <meta property="twitter:image" content="https://getpromo.pl/cover_design.jpg" />

@@ -66,13 +66,13 @@ export default function StronyRzeszow() {
         key="Review-jsonld"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://getpromo.pl/" />
+      <meta property="og:url" content="https://getpromo.pl/strony-internetowe-rzeszow" />
       <meta property="og:title" content="Strony internetowe Rzeszów" />
       <meta property="og:description" content="Strony internetowe Rzeszów. Profesjonalne tworzenie stron internetowych w Rzeszowie. Responsywne i wydaje strony www." />
       <meta property="og:image" content="https://getpromo.pl/cover_webRzeszow.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://getpromo.pl/" />
+      <meta property="twitter:url" content="https://getpromo.pl/strony-internetowe-rzeszow" />
       <meta property="twitter:title" content="Strony internetowe Rzeszów" />
       <meta property="twitter:description" content="Strony internetowe Rzeszów. Profesjonalne tworzenie stron internetowych w Rzeszowie. Responsywne i wydaje strony www." />
       <meta property="twitter:image" content="https://getpromo.pl/cover_webRzeszow.jpg" />

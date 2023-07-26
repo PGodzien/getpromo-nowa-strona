@@ -42,12 +42,12 @@ export default function Contact() {
         key="Review-jsonld"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://getpromo.pl/kontakt/" />
+      <meta property="og:url" content="https://getpromo.pl/" />
       <meta property="og:title" content="Kontakt" />
       <meta property="og:description" content="Zapraszamy do kontaktu z naszą agencją marketingową – zachęcamy do skorzystania z darmowej konsultacji marketingowej." />
       <meta property="og:image" content="https://getpromo.pl/cover_contact.jpg" />
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://getpromo.pl/kontakt/" />
+      <meta property="twitter:url" content="https://getpromo.pl/" />
       <meta property="twitter:title" content="Kontakt" />
       <meta property="twitter:description" content="Zapraszamy do kontaktu z naszą agencją marketingową – zachęcamy do skorzystania z darmowej konsultacji marketingowej." />
       <meta property="twitter:image" content="https://getpromo.pl/cover_contact.jpg" />

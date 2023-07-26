@@ -5,7 +5,7 @@ import Cta from "../components/cta";
 import pattern from "../../public/pattern.svg";
 import pozycjonowanie from "../../public/seo-pozycjonowanie.svg";
 import analityka from "../../public/analityka.svg";
-import goddess from "../../public/goddess-marketing2.png";
+import goddess from "../../public/goddess-blog.png";
 import landing from "../../public/landing.svg";
 import socialMedia from "../../public/social-media.svg";
 import GoogleAdsLogo from "../../public/google-ads-logo.svg";
@@ -19,8 +19,8 @@ import FacebookLogo from "../../public/facebook-logo.svg";
 
 
 export const metadata = {
-  title: "Marketing internetowy",
-  description: "Kompleksowa obsługa marketingowa. Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM."
+  title: "Blog marketingowy",
+  description: "Zagadnienia z zakresu stron internetowych, SEO/SEM, pozycjonowania stron i marketingu internetowego dla firm. Blog o marketingu."
 }
 
 export default function Marketing() {
@@ -31,7 +31,7 @@ export default function Marketing() {
         
           "@context": "https://schema.org/",
           "@type": "CreativeWorkSeries",
-          "name": "Marketing Internetowy",
+          "name": "Marketing Marketingowy",
           "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "5",
@@ -49,7 +49,7 @@ export default function Marketing() {
 
       <link
         rel="canonical"
-        href="https://getpromo.pl/marketing"
+        href="https://getpromo.pl/blog"
         key="canonical"
       />
       <script
@@ -58,19 +58,19 @@ export default function Marketing() {
         key="Review-jsonld"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://getpromo.pl/marketing" />
-      <meta property="og:title" content="Marketing internetowy" />
-      <meta property="og:description" content="Kompleksowa obsługa marketingowa. Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
-      <meta property="og:image" content="https://getpromo.pl/cover_marketing.jpg" />
+      <meta property="og:url" content="https://getpromo.pl/blog/" />
+      <meta property="og:title" content="Blog marketingowy" />
+      <meta property="og:description" content="Zagadnienia z zakresu stron internetowych, SEO/SEM, pozycjonowania stron i marketingu internetowego dla firm. Blog o marketingu." />
+      <meta property="og:image" content="https://getpromo.pl/cover_blog.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://getpromo.pl/marketing" />
-      <meta property="twitter:title" content="Marketing internetowy" />
-      <meta property="twitter:description" content="Kompleksowa obsługa marketingowa. Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM." />
-      <meta property="twitter:image" content="https://getpromo.pl/cover_marketing.jpg" />
+      <meta property="twitter:url" content="https://getpromo.pl/" />
+      <meta property="twitter:title" content="Blog marketingowy" />
+      <meta property="twitter:description" content="Zagadnienia z zakresu stron internetowych, SEO/SEM, pozycjonowania stron i marketingu internetowego dla firm. Blog o marketingu." />
+      <meta property="twitter:image" content="https://getpromo.pl/cover_blog.jpg" />
 
 
-      <div className="absolute z-20 -mt-32 shadow-2xl shadow-violet-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-violet-600 top-0 rounded-full mx-auto left-0 right-0"></div>
+      <div className="absolute z-20 -mt-32 shadow-2xl shadow-red-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-red-600 top-0 rounded-full mx-auto left-0 right-0"></div>
       <div className="relative">
         <section className="relative z-10 w-full py-6 overflow-hidden">
           <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div>
@@ -112,11 +112,11 @@ export default function Marketing() {
             <div className="w-full absolute inset-0 lg:relative">
               <Image className="relative mb-4" alt="design-god" src={goddess} />
               <div className="animate-flash -z-10 w-10 h-10 p-40 md:p-72 absolute m-3 left-1/2 -translate-y-1/2 transform -translate-x-1/2 top-1/2">
-                <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-8 border-violet-500 blur rounded-full"></div>
+                <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-8 border-red-500 blur rounded-full"></div>
                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
-                <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-violet-500 blur rounded-full"></div>
+                <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-red-500 blur rounded-full"></div>
               </div>
-              <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">Ads</span>tena</p>
+              <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">Dioniz</span>blog</p>
             </div>
           </div>
           <Image className="hidden -z-10 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />
