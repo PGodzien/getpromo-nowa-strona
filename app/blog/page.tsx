@@ -22,7 +22,7 @@ export default function Marketing() {
         
           "@context": "https://schema.org/",
           "@type": "CreativeWorkSeries",
-          "name": "Marketing Marketingowy",
+          "name": "Blog Marketingowy",
           "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "5",
