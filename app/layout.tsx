@@ -144,15 +144,7 @@ const roboto = localFont({
       weight: '100'
     },
     {
-      path: '../public/font/Roboto-ThinItalic.ttf',
-      weight: '100'
-    },
-    {
       path: '../public/font/Roboto-Light.ttf',
-      weight: '300'
-    },
-    {
-      path: '../public/font/Roboto-LightItalic.ttf',
       weight: '300'
     },
     {
@@ -164,23 +156,11 @@ const roboto = localFont({
       weight: '500'
     },
     {
-      path: '../public/font/Roboto-MediumItalic.ttf',
-      weight: '500'
-    },
-    {
       path: '../public/font/Roboto-Bold.ttf',
       weight: '700'
     },
     {
-      path: '../public/font/Roboto-BoldItalic.ttf',
-      weight: '700'
-    },
-    {
       path: '../public/font/Roboto-Black.ttf',
-      weight: '900'
-    },
-    {
-      path: '../public/font/Roboto-BlackItalic.ttf',
       weight: '900'
     },
   ],
