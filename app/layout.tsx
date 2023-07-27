@@ -137,18 +137,54 @@ const clash = localFont({
   variable: '--font-clash'
 })
 
-const archivo = localFont({
+const roboto = localFont({
   src: [
     {
-      path: '../public/font/Archivo-Italic-VariableFont_wdth,wght.ttf',
+      path: '../public/font/Roboto-Thin.ttf',
+      weight: '100'
+    },
+    {
+      path: '../public/font/Roboto-ThinItalic.ttf',
+      weight: '100'
+    },
+    {
+      path: '../public/font/Roboto-Light.ttf',
+      weight: '300'
+    },
+    {
+      path: '../public/font/Roboto-LightItalic.ttf',
+      weight: '300'
+    },
+    {
+      path: '../public/font/Roboto-Regular.ttf',
       weight: '400'
     },
     {
-      path: '../public/font/Archivo-VariableFont_wdth,wght.ttf',
-      weight: '400'
+      path: '../public/font/Roboto-Medium.ttf',
+      weight: '500'
+    },
+    {
+      path: '../public/font/Roboto-MediumItalic.ttf',
+      weight: '500'
+    },
+    {
+      path: '../public/font/Roboto-Bold.ttf',
+      weight: '700'
+    },
+    {
+      path: '../public/font/Roboto-BoldItalic.ttf',
+      weight: '700'
+    },
+    {
+      path: '../public/font/Roboto-Black.ttf',
+      weight: '900'
+    },
+    {
+      path: '../public/font/Roboto-BlackItalic.ttf',
+      weight: '900'
     },
   ],
-  variable: '--font-archivo'
+  variable: '--font-roboto'
 })
 
 const inter = localFont({
@@ -178,7 +214,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pl" className={`${archivo.variable} ${clash.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{ scrollBehavior: 'smooth' }}>
+    <html lang="pl" className={`${roboto.variable} ${clash.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{ scrollBehavior: 'smooth' }}>
 
 
 
