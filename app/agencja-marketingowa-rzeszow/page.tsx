@@ -174,12 +174,12 @@ export default function Marketing() {
           <div className="pt-16 mb-12">
             <ul className="grid grid-cols-2 gap-x-4 gap-y-9 md:grid-cols-3 md:gap-x-7 lg:grid-cols-5 lg:gap-32">
               <li className="flex flex-col items-center space-y-5 md:items-start">
-                <Image className="w-14 grayscale hover:grayscale-0 h-auto" src={GoogleAdsLogo} alt="Google Ads logo" />
+                <Image className="w-14 h-auto" src={GoogleAdsLogo} alt="Google Ads logo" />
                 <span className="w-full h-[1px] bg-getGray block"></span>
                 <p className="text-base font-serif">Google Ads</p>
               </li>
               <li className="flex flex-col items-center space-y-5 md:items-start ">
-                <Image className="w-14 grayscale hover:grayscale-0 h-auto" src={AnalyticsLogo} alt="Google Analytics logo" />
+                <Image className="w-14 h-auto" src={AnalyticsLogo} alt="Google Analytics logo" />
                 <span className="w-full h-[1px] bg-getGray block  "></span>
                 <p className="text-base break-words font-serif ">
                   Google Analytics
@@ -187,7 +187,7 @@ export default function Marketing() {
               </li>
               <li className="flex flex-col items-center space-y-5 md:items-start ">
                 <Image
-                  className="w-14 grayscale hover:grayscale-0 h-auto"
+                  className="w-14 h-auto"
                   src={YoutubeLogo}
                   alt="YouTube logo"
                 />
@@ -197,14 +197,14 @@ export default function Marketing() {
                 </p>
               </li>
               <li className="flex flex-col items-center space-y-5 md:items-start ">
-                <Image className="w-14 grayscale hover:grayscale-0 h-auto" src={GoogleLogo} alt="Google logo" />
+                <Image className="w-14 h-auto" src={GoogleLogo} alt="Google logo" />
                 <span className="w-full h-[1px] bg-getGray block  "></span>
                 <p className="text-base break-words font-serif ">
                   Pozycjonowanie
                 </p>
               </li>
               <li className="flex flex-col items-center space-y-5 md:items-start ">
-                <Image className="w-14 grayscale hover:grayscale-0 h-auto" src={FacebookLogo} alt="Facebook logo" />
+                <Image className="w-14 h-auto" src={FacebookLogo} alt="Facebook logo" />
                 <span className="w-full h-[1px] bg-getGray block "></span>
                 <p className="text-base break-words font-serif">
                   Social media
