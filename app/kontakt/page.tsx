@@ -91,7 +91,7 @@ export default function Contact() {
             <div className="w-full bg-primary">
               <a
                 className="flex flex-col font-serif items-center justify-center py-28 md:py-32"
-                href="tel:+48 571 210 571"
+                href="mailto:kontakt@getpromo.pl"
               >
                 <svg
                   width="60"
