@@ -116,7 +116,7 @@ export default function Contact() {
             <div className="hidden w-full md:grid lg:col-start-2">
               <div className="grid grid-cols-3 bg-getDark">
                 <Link href="https://www.facebook.com/GetpromoMarketing" target="_blank">
-                  <div className="bg-black border-gray-800 border-[1px] w-32 h-32 flex items-center justify-center">
+                  <div className="bg-getGray border-gray-800 border-[1px] w-32 h-32 flex items-center justify-center">
                     <Image src={facebook} alt="Facebook" className="" />
                   </div>
                 </Link>
