@@ -61,8 +61,8 @@ function Footer() {
               </li>
 
             </ul>
-            <p className="text-xs mt-3">Copyright © {(new Date().getFullYear())} by Getpromo. All rights reserved.</p>
-            <p className="text-xs">Jesteśmy częścią: <br className="xl:hidden" /> <span className="text-sm font-semibold"><Link href="https://otherlandlabs.com" target="_blank" rel="nofollow">Otherland Labs Sp. z o.o.</Link></span></p>
+            <p className="text-sm mt-3">Copyright © {(new Date().getFullYear())} by Getpromo. All rights reserved.</p>
+            <p className="text-sm">Jesteśmy częścią: <br className="xl:hidden" /> <span className="text-sm"><Link href="https://otherlandlabs.com" target="_blank" rel="nofollow"><strong>Otherland Labs Sp. z o.o.</strong></Link></span></p>
           </div>
           <div className="hidden md:block">
             <ul className="flex space-x-8">
