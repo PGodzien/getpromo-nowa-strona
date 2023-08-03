@@ -8,129 +8,184 @@ const GTM_ID = 'GTM-KGZT6KS';
 const clashGrotesk = localFont({
   src: [
     {
-      path: '../public/font/ClashGrotesk-Regular.ttf',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Regular.ttf',
       weight: '400'
     },
     {
-      path: '../public/font/ClashGrotesk-Regular.woff',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Regular.woff',
       weight: '400'
     },
     {
-      path: '../public/font/ClashGrotesk-Regular.woff2',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Regular.woff2',
       weight: '400'
     },
     {
-      path: '../public/font/ClashGrotesk-Bold.ttf',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Bold.ttf',
       weight: '700'
     },
     {
-      path: '../public/font/ClashGrotesk-Bold.woff',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Bold.woff',
       weight: '700'
     },
     {
-      path: '../public/font/ClashGrotesk-Bold.woff2',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Bold.woff2',
       weight: '700'
     },
     {
-      path: '../public/font/ClashGrotesk-Semibold.ttf',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Semibold.ttf',
       weight: '600'
     },
     {
-      path: '../public/font/ClashGrotesk-Semibold.woff',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Semibold.woff',
       weight: '600'
     },
     {
-      path: '../public/font/ClashGrotesk-Semibold.woff2',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Semibold.woff2',
       weight: '600'
     },
     {
-      path: '../public/font/ClashGrotesk-Medium.ttf',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Medium.ttf',
       weight: '500'
     },
     {
-      path: '../public/font/ClashGrotesk-Medium.woff',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Medium.woff',
       weight: '500'
     },
     {
-      path: '../public/font/ClashGrotesk-Medium.woff2',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Medium.woff2',
       weight: '500'
     },
     {
-      path: '../public/font/ClashGrotesk-Light.ttf',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Light.ttf',
       weight: '300'
     },
     {
-      path: '../public/font/ClashGrotesk-Light.woff',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Light.woff',
       weight: '300'
     },
     {
-      path: '../public/font/ClashGrotesk-Light.woff2',
+      path: '../public/font/clash-grotesk/ClashGrotesk-Light.woff2',
       weight: '300'
     },
   ],
   variable: '--font-clashGrotesk'
 })
 
+const satoshi = localFont({
+  src: [
+    {
+      path: '../public/font/satoshi/Satoshi-Regular.ttf',
+      weight: '400'
+    },
+    {
+      path: '../public/font/satoshi/Satoshi-Regular.woff',
+      weight: '400'
+    },
+    {
+      path: '../public/font/satoshi/Satoshi-Regular.woff2',
+      weight: '400'
+    },
+    {
+      path: '../public/font/satoshi/Satoshi-Bold.ttf',
+      weight: '700'
+    },
+    {
+      path: '../public/font/satoshi/Satoshi-Bold.woff',
+      weight: '700'
+    },
+    {
+      path: '../public/font/satoshi/Satoshi-Bold.woff2',
+      weight: '700'
+    },
+
+    {
+      path: '../public/font/satoshi/Satoshi-Medium.ttf',
+      weight: '500'
+    },
+    {
+      path: '../public/font/satoshi/Satoshi-Medium.woff',
+      weight: '500'
+    },
+    {
+      path: '../public/font/satoshi/Satoshi-Medium.woff2',
+      weight: '500'
+    },
+    {
+      path: '../public/font/satoshi/Satoshi-Light.ttf',
+      weight: '300'
+    },
+    {
+      path: '../public/font/satoshi/Satoshi-Light.woff',
+      weight: '300'
+    },
+    {
+      path: '../public/font/satoshi/Satoshi-Light.woff2',
+      weight: '300'
+    },
+  ],
+  variable: '--font-satoshi'
+})
+
 const clash = localFont({
   src: [
     {
-      path: '../public/font/ClashDisplay-Regular.ttf',
+      path: '../public/font/clash-display/ClashDisplay-Regular.ttf',
       weight: '400'
     },
     {
-      path: '../public/font/ClashDisplay-Regular.woff',
+      path: '../public/font/clash-display/ClashDisplay-Regular.woff',
       weight: '400'
     },
     {
-      path: '../public/font/ClashDisplay-Regular.woff2',
+      path: '../public/font/clash-display/ClashDisplay-Regular.woff2',
       weight: '400'
     },
     {
-      path: '../public/font/ClashDisplay-Bold.ttf',
+      path: '../public/font/clash-display/ClashDisplay-Bold.ttf',
       weight: '700'
     },
     {
-      path: '../public/font/ClashDisplay-Bold.woff',
+      path: '../public/font/clash-display/ClashDisplay-Bold.woff',
       weight: '700'
     },
     {
-      path: '../public/font/ClashDisplay-Bold.woff2',
+      path: '../public/font/clash-display/ClashDisplay-Bold.woff2',
       weight: '700'
     },
     {
-      path: '../public/font/ClashDisplay-Semibold.ttf',
+      path: '../public/font/clash-display/ClashDisplay-Semibold.ttf',
       weight: '600'
     },
     {
-      path: '../public/font/ClashDisplay-Semibold.woff',
+      path: '../public/font/clash-display/ClashDisplay-Semibold.woff',
       weight: '600'
     },
     {
-      path: '../public/font/ClashDisplay-Semibold.woff2',
+      path: '../public/font/clash-display/ClashDisplay-Semibold.woff2',
       weight: '600'
     },
     {
-      path: '../public/font/ClashDisplay-Medium.ttf',
+      path: '../public/font/clash-display/ClashDisplay-Medium.ttf',
       weight: '500'
     },
     {
-      path: '../public/font/ClashDisplay-Medium.woff',
+      path: '../public/font/clash-display/ClashDisplay-Medium.woff',
       weight: '500'
     },
     {
-      path: '../public/font/ClashDisplay-Medium.woff2',
+      path: '../public/font/clash-display/ClashDisplay-Medium.woff2',
       weight: '500'
     },
     {
-      path: '../public/font/ClashDisplay-Light.ttf',
+      path: '../public/font/clash-display/ClashDisplay-Light.ttf',
       weight: '300'
     },
     {
-      path: '../public/font/ClashDisplay-Light.woff',
+      path: '../public/font/clash-display/ClashDisplay-Light.woff',
       weight: '300'
     },
     {
-      path: '../public/font/ClashDisplay-Light.woff2',
+      path: '../public/font/clash-display/ClashDisplay-Light.woff2',
       weight: '300'
     },
   ],
@@ -140,27 +195,27 @@ const clash = localFont({
 const roboto = localFont({
   src: [
     {
-      path: '../public/font/Roboto-Thin.ttf',
+      path: '../public/font/roboto/Roboto-Thin.ttf',
       weight: '100'
     },
     {
-      path: '../public/font/Roboto-Light.ttf',
+      path: '../public/font/roboto/Roboto-Light.ttf',
       weight: '300'
     },
     {
-      path: '../public/font/Roboto-Regular.ttf',
+      path: '../public/font/roboto/Roboto-Regular.ttf',
       weight: '400'
     },
     {
-      path: '../public/font/Roboto-Medium.ttf',
+      path: '../public/font/roboto/Roboto-Medium.ttf',
       weight: '500'
     },
     {
-      path: '../public/font/Roboto-Bold.ttf',
+      path: '../public/font/roboto/Roboto-Bold.ttf',
       weight: '700'
     },
     {
-      path: '../public/font/Roboto-Black.ttf',
+      path: '../public/font/roboto/Roboto-Black.ttf',
       weight: '900'
     },
   ],
@@ -194,7 +249,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pl" className={`${roboto.variable} ${clash.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{ scrollBehavior: 'smooth' }}>
+    <html lang="pl" className={`${roboto.variable} ${clash.variable} ${satoshi.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{ scrollBehavior: 'smooth' }}>
 
 
 
