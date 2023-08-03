@@ -28,7 +28,7 @@ const CtaFooter = () => {
                 href="tel:+48 571 210 571"
               >
                 <Image className="mr-5" src={forCtaPhoneSvg} alt="Phone icon" />
-                <p className="flex text-xl font-bold text-white font-sans md:ml-5 lg:ml-10 md:mt-0">
+                <p className="flex text-xl font-semibold text-white font-sans md:ml-5 lg:ml-10 md:mt-0">
                   <span className="mr-1 font-light">+48</span>571 210 571
                 </p>
               </a>
@@ -37,7 +37,7 @@ const CtaFooter = () => {
                 href="mailto:kontakt@getpromo.pl"
               >
                 <Image className="mr-5" src={forCtaDogSvg} alt="@ icon" />
-                <p className="flex text-xl font-bold text-white font-sans md:ml-5 lg:ml-10 md:mt-0">
+                <p className="flex text-xl font-semibold text-white font-sans md:ml-5 lg:ml-10 md:mt-0">
                   kontakt<span className="font-light">@</span>getpromo.pl
                 </p>
               </a>
@@ -47,7 +47,7 @@ const CtaFooter = () => {
               >
                 <Image className="mr-5" src={forCtaMapSvg} alt="Geolocation icon" />
                 <div className="flex flex-col md:mt-0 md:ml-5 lg:ml-10">
-                  <p className="text-xl font-bold text-white break-all font-sans ">
+                  <p className="text-xl font-semibold text-white break-all font-sans ">
                     ul. Kolejowa 12 / 310
                   </p>
                   <p className="font-normal text-white font-sans text-baseSM">

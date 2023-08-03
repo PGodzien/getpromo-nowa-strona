@@ -61,14 +61,14 @@ function Footer() {
               </li>
 
             </ul>
-            <p className="text-xs">Copyright © {(new Date().getFullYear())} by Getpromo. All rights reserved.</p>
-            <p className="text-xs">Jesteśmy częścią: <br className="xl:hidden" /> <span className="text-sm font-bold"><Link href="https://otherlandlabs.com" target="_blank" rel="nofollow">Otherland Labs Sp. z o.o.</Link></span></p>
+            <p className="text-xs mt-3">Copyright © {(new Date().getFullYear())} by Getpromo. All rights reserved.</p>
+            <p className="text-xs">Jesteśmy częścią: <br className="xl:hidden" /> <span className="text-sm font-semibold"><Link href="https://otherlandlabs.com" target="_blank" rel="nofollow">Otherland Labs Sp. z o.o.</Link></span></p>
           </div>
           <div className="hidden md:block">
-            <ul className="flex items-end space-x-8 mt-12">
-              <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" target="_blank" href="https://www.facebook.com/GetpromoMarketing"><Image alt="Facebook" src={Facebook} /></Link></li>
-              <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" target="_blank" href="https://www.linkedin.com/company/getpromo/"><Image alt="Linkedin" src={Linkedin} /></Link></li>
-              <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" target="_blank" href="https://twitter.com/GetpromoReklama"><Image alt="Twitter" src={Twitter} /></Link></li>
+            <ul className="flex space-x-8">
+              <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" target="_blank" href="https://www.facebook.com/GetpromoMarketing"><Image alt="Facebook" src={Facebook} /></Link></li>
+              <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" target="_blank" href="https://www.linkedin.com/company/getpromo/"><Image alt="Linkedin" src={Linkedin} /></Link></li>
+              <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" target="_blank" href="https://twitter.com/GetpromoReklama"><Image alt="Twitter" src={Twitter} /></Link></li>
             </ul>
           </div>
           <div onClick={goToTop} className="w-24 h-24 cursor-pointer border border-black flex items-center justify-center">
