@@ -71,8 +71,8 @@ export default function Design() {
             <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
               <h1
                 className="font-serif leading-tight text-white text-4xl font-semibold lg:text-5xl 2xl:text-6xl">
-                Strony <br /> internetowe</h1>
-              <p className="max-w-3xl relative md:text-xl z-10 text-white ">Tworzymy skuteczne strony internetowe, które pracuja i zarabiają dla nszych klientów 24 godziny na dobę przez 7 dni w tygodniu.</p>
+                Projektowanie <br /> graficzne</h1>
+              <p className="max-w-3xl relative md:text-xl z-10 text-white ">Wyróżnij się jakością i postaw na projekty graficzne wyróżniające się nowoczesną estetyką, jasnym przekazem i niebanalnym designem.</p>
               <button className="cursor-pointer" type="button">
                 <a href="#kontakt" className="flex items-center">
                   <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>
