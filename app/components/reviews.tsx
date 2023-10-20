@@ -78,7 +78,7 @@ export const Opinions = () => {
                   paginate(-1);
                 }
               }}>
-              <div className="text-lg md:text-3xl font-medium italic mb-8">{reviews[reviewIndex]}</div>
+              <div className="text-lg md:text-3xl font-medium mb-8 max-w-4xl italic">{reviews[reviewIndex]}</div>
               <div className="font-medium tracking-tight">{names[nameIndex]}</div>
               <div className="text-sm text-primary tracking-tight">{company[nameIndex]}</div>
             </motion.div>
