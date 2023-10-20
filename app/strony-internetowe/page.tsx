@@ -78,9 +78,10 @@ export default function Strony() {
       <meta property="twitter:image" content="https://getpromo.pl/cover_web.jpg" />
       <div className="absolute z-20 -mt-32 shadow-2xl shadow-pink-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-pink-600 top-0 rounded-full mx-auto left-0 right-0"></div>
       <div className="relative">
+
         <section className="relative z-10 w-full py-6">
-          <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div>
-          <div className="relative flex lg:flex-row flex-col py-20 md:py-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
+          {/* <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div> */}
+          <div className="relative flex lg:flex-row flex-col py-10 lg:py-20 space-y-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
               <h1
                 className="font-serif leading-tight text-white text-4xl font-semibold lg:text-5xl 2xl:text-6xl">
@@ -115,17 +116,17 @@ export default function Strony() {
                 </a>
               </button>
             </div>
-            <div className="w-full absolute inset-0 lg:relative overflow-hidden">
+            <div className="relative lg:w-1/2">
               <Image className="relative" alt="design-god" src={goddess} />
-              <div className="animate-flash -z-10 w-10 h-10 p-40 md:p-72 absolute top-1/2 m-3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="animate-flash -z-10 w-10 h-10 p-44 sd:p-64 xl:p-80 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 m-3">
                 <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-8 border-pink-500 blur rounded-full"></div>
                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-pink-500 blur rounded-full"></div>
               </div>
+              <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">DEV</span>meter</p>
             </div>
-            <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">DEV</span>meter</p>
           </div>
-          <Image className="hidden -z-30 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />
+          <Image className="hidden -z-10 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />
         </section>
         <section className="text-center relative z-10 my-12">
           <div className="flex flex-wrap md:flex-row flex-col max-w-7xl px-8 md:space-y-0 space-y-12 mx-auto justify-center">
