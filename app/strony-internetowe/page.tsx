@@ -128,25 +128,6 @@ export default function Strony() {
           </div>
           <Image className="hidden -z-10 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />
         </section>
-        <section className="text-center relative z-10 my-12">
-          <div className="flex flex-wrap md:flex-row flex-col max-w-7xl px-8 md:space-y-0 space-y-12 mx-auto justify-center">
-            <div className="md:w-1/3 text-left space-y-5">
-              <p className=" text-primary font-serif text-8xl">0,5</p>
-              <div className="h-0.5 bg-primary w-3/4"></div>
-              <p className="text-white w-3/4">sekundy, potrzebuje konsument aby wyrobić sobie opinię o stronie internetowej</p>
-            </div>
-            <div className="md:w-1/3 space-y-5 text-left">
-              <p className=" text-primary font-serif text-8xl">60%</p>
-              <div className="h-0.5 bg-primary w-3/4"></div>
-              <p className="text-white w-3/4">konsumentów nie poleci firmy ze źle zaprojektowaną stroną mobilną</p>
-            </div>
-            <div className="md:w-1/3 space-y-5 text-left">
-              <p className="text-primary font-serif text-8xl">75%</p>
-              <div className="h-0.5 bg-primary w-3/4"></div>
-              <p className="text-white w-3/4">konsumentów wyrabia sobie opinie o firmie i jej wiarygodności na podstawie strony wwww</p>
-            </div>
-          </div>
-        </section>
         <section className="md:pb-24 py-12 md:py-0">
           <div className="flex justify-center items-center md:flex-row flex-col flex-wrap mx-auto max-w-7xl">
             <div className="">
