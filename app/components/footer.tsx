@@ -16,7 +16,17 @@ function Footer() {
   const pathname = usePathname();
   return (
     <>
-      <Image src={Pattern} alt="pattern getpromo" className="-mb-40 hidden xl:block" />
+      {/* <Image src={Pattern} alt="pattern getpromo" className="-mb-40 hidden xl:block" /> */}
+      <div className="relative mt-10 lg:mt-20">
+        <div className="hidden xl:block absolute bg-red-500 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+          <div className="bg-black w-16 -top-4 -left-14 h-1 absolute transform -translate-x-1/2 -translate-y-1/2"></div>
+          <div className="bg-black absolute border-4 border-black w-80 h-40 right-20 -top-24 flex justify-center p-3 flex-col font-serif">
+            <h4 className="text-primary font-semibold text-lg">Strony internetowe Rzeszów</h4>
+            <p className="text-white text-sm">Kolejowa 12/310, 35-073 Rzeszów</p>
+          </div>
+        </div>
+        <iframe className="w-full h-96 grayscale" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.4086440516758!2d22.005846715716544!3d50.041175779420925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfbfdd5b9fe33%3A0x7614bec802e05c47!2sAgencja%20marketingowa%20Getpromo!5e0!3m2!1spl!2spl!4v1688138225938!5m2!1spl!2spl" width="600" height="450"></iframe>
+      </div>
       <div className="w-full relative bg-primary py-8">
         <Image src={Chart} alt="wykres logo getpromo" className="absolute -top-12 left-1/2 transform -translate-x-1/2" />
         <div className="max-w-7xl container mx-auto px-4 flex items-center justify-between">
