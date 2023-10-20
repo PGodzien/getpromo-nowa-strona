@@ -87,9 +87,9 @@ export default function StronyRzeszow() {
           <div className="relative flex lg:flex-row flex-col py-10 lg:py-20 space-y-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
               <h1
-                className="font-serif leading-tight text-white text-4xl font-semibold lg:text-5xl 2xl:text-6xl">
+                className="font-serif leading-tight text-white text-4xl font-semibold lg:text-6xl">
                 Strony <br /> internetowe <br /> Rzeszów</h1>
-              <p className="max-w-3xl relative md:text-xl z-10 text-white ">Tworzymy skuteczne strony internetowe, które pracuja i zarabiają dla nszych klientów z Rzeszowa 24 godziny na dobę przez 7 dni w tygodniu.</p>
+              <h2 className="max-w-3xl relative md:text-lg z-10 text-white ">Tworzymy skuteczne strony internetowe, które pracuja i zarabiają dla nszych klientów z Rzeszowa 24 godziny na dobę przez 7 dni w tygodniu.</h2>
               <button className="cursor-pointer" type="button">
                 <a href="#kontakt" className="flex items-center">
                   <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>
@@ -131,7 +131,7 @@ export default function StronyRzeszow() {
           </div>
           <Image className="hidden -z-10 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />
         </section>
-        <section className="text-center relative z-10 my-12">
+        {/* <section className="text-center relative z-10 my-12">
           <div className="flex flex-wrap md:flex-row flex-col max-w-7xl px-8 md:space-y-0 space-y-12 mx-auto justify-center">
             <div className="md:w-1/3 text-left space-y-5">
               <p className=" text-primary font-serif text-8xl">0,5</p>
@@ -149,8 +149,8 @@ export default function StronyRzeszow() {
               <p className="text-white w-3/4">konsumentów wyrabia sobie opinie o firmie i jej wiarygodności na podstawie strony wwww</p>
             </div>
           </div>
-        </section>
-        <section className="md:pb-24 py-12 md:py-0">
+        </section> */}
+        {/* <section className="md:pb-24 py-12 md:py-0">
           <div className="flex justify-center items-center md:flex-row flex-col flex-wrap mx-auto max-w-7xl">
             <div className="">
               <div className="bg-secondary md:h-96 md:w-96 h-72 w-72 flex flex-col items-center justify-center">
@@ -172,6 +172,18 @@ export default function StronyRzeszow() {
                 className="border border-0.5 border-gray-800 md:h-96 md:w-96 h-72 w-72 sm:ml-72 md:ml-0 flex flex-col items-center justify-center lg:mt-96">
                 <Image src={portal} alt="Spcial media marketing" />
                 <p className="font-serif text-3xl text-center mt-12 text-white">Blogi <br /> internetowe</p>
+              </div>
+            </div>
+          </div>
+        </section> */}
+        <section>
+          <div className="bg-white py-24 sm:py-32">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <div className="mx-auto max-w-2xl lg:mx-0">
+                <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Projektowanie stron internetowych Rzeszów</h2>
+                <p className="mt-6 text-lg font-serif leading-8 text-gray-600">
+                  Nasza agencja w Rzeszowie specjalizuje się w projektowaniu i tworzeniu nowoczesnych stron internetowych, dostosowanych do indywidualnych potrzeb Twojego biznesu. Oferujemy kompleksowe rozwiązania, które pomogą Ci osiągnąć sukces online.
+                </p>
               </div>
             </div>
           </div>
