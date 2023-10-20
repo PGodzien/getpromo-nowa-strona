@@ -84,7 +84,7 @@ export default function StronyRzeszow() {
 
         <section className="relative z-10 w-full py-6">
           {/* <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div> */}
-          <div className="relative flex lg:flex-row flex-col py-20 md:py-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
+          <div className="relative flex lg:flex-row flex-col py-20 space-y-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
               <h1
                 className="font-serif leading-tight text-white text-4xl font-semibold lg:text-5xl 2xl:text-6xl">
@@ -121,7 +121,7 @@ export default function StronyRzeszow() {
             </div>
             <div className="relative lg:w-1/2">
               <Image className="relative" alt="design-god" src={webRzeszow} />
-              <div className="animate-flash -z-10 w-10 h-10 p-40 md:p-72 absolute top-0 m-3">
+              <div className="animate-flash -z-10 w-10 h-10 p-64 xl:p-80 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 m-3">
                 <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-8 border-blue-500 blur rounded-full"></div>
                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-blue-500 blur rounded-full"></div>
