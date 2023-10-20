@@ -79,8 +79,11 @@ export default function StronyRzeszow() {
       {/* <Image className="absolute inset-0 z-20" alt="Circle BG" src={bgCircle} /> */}
       <div className="absolute z-20 -mt-32 shadow-2xl shadow-blue-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-blue-600 top-0 rounded-full mx-auto left-0 right-0"></div>
       <div className="relative">
+
+
+
         <section className="relative z-10 w-full py-6">
-          <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div>
+          {/* <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div> */}
           <div className="relative flex lg:flex-row flex-col py-20 md:py-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
               <h1
@@ -116,7 +119,7 @@ export default function StronyRzeszow() {
                 </a>
               </button>
             </div>
-            <div className="w-full absolute inset-0 lg:relative overflow-hidden">
+            <div className="relative lg:w-1/2">
               <Image className="relative" alt="design-god" src={webRzeszow} />
               <div className="animate-flash -z-10 w-10 h-10 p-40 md:p-72 absolute top-0 m-3">
                 <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-8 border-blue-500 blur rounded-full"></div>
