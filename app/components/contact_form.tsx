@@ -7,7 +7,7 @@ function ContactForm() {
   const [state, handleSubmit] = useForm("mknenkgk");
   if (state.succeeded) {
     return <div className="flex items-center justify-center">
-      <p className="text-white font-serif font-semibold text-3xl">Dziękujemy za przesłanie formularza! Wkrótce się z Tobą skontaktujemy.</p>
+      <p className="text-white font-serif font-medium text-3xl">Dziękujemy za przesłanie formularza! Wkrótce się z Tobą skontaktujemy.</p>
     </div>;
   }
   return (

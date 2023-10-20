@@ -21,7 +21,7 @@ function Footer() {
         <div className="hidden xl:block absolute bg-red-500 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
           <div className="bg-black w-16 -top-4 -left-14 h-1 absolute transform -translate-x-1/2 -translate-y-1/2"></div>
           <div className="bg-black absolute border-4 border-black w-80 h-40 right-20 -top-24 flex justify-center p-3 flex-col font-serif">
-            <h4 className="text-primary font-semibold text-lg">Strony internetowe Rzeszów</h4>
+            <h4 className="text-primary font-medium text-lg">Strony internetowe Rzeszów</h4>
             <p className="text-white text-sm">Kolejowa 12/310, 35-073 Rzeszów</p>
           </div>
         </div>
@@ -76,9 +76,9 @@ function Footer() {
           </div>
           <div className="hidden md:block">
             <ul className="flex space-x-8">
-              <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" target="_blank" href="https://www.facebook.com/GetpromoMarketing"><Image alt="Facebook" src={Facebook} /></Link></li>
-              <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" target="_blank" href="https://www.linkedin.com/company/getpromo/"><Image alt="Linkedin" src={Linkedin} /></Link></li>
-              <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" target="_blank" href="https://twitter.com/GetpromoReklama"><Image alt="Twitter" src={Twitter} /></Link></li>
+              <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" target="_blank" href="https://www.facebook.com/GetpromoMarketing"><Image alt="Facebook" src={Facebook} /></Link></li>
+              <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" target="_blank" href="https://www.linkedin.com/company/getpromo/"><Image alt="Linkedin" src={Linkedin} /></Link></li>
+              <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" target="_blank" href="https://twitter.com/GetpromoReklama"><Image alt="Twitter" src={Twitter} /></Link></li>
             </ul>
           </div>
           <div onClick={goToTop} className="w-24 h-24 cursor-pointer border border-black flex items-center justify-center">

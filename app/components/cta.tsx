@@ -12,8 +12,8 @@ const Cta = () => {
           </div>
           <div className="container relative mx-auto max-w-7xl w-full lg:w-1/2 px-8 flex items-center justify-center">
             <div className="space-y-8">
-              <p className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl text-white">Skontaktuj się z nami</p>
-              <p className="text-white md:text-xl leading-loose">Robimy wszystko, aby nasi klienci odnieśli sukces, bo wiemy, że sukces oznacza więcej klientów.</p>
+              <p className="font-serif text-3xl font-medium tracking-tight sm:text-4xl text-white">Skontaktuj się z nami</p>
+              <p className="text-white md:text-lg leading-loose">Robimy wszystko, aby nasi klienci odnieśli sukces, bo wiemy, że sukces oznacza więcej klientów.</p>
               <button className="cursor-pointer" type="button">
                 <a href="#kontakt" className="flex items-center">
                   <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>

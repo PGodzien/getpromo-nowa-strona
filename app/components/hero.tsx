@@ -12,7 +12,7 @@ export default function Hero() {
                     <div className="relative flex lg:flex-row flex-col py-10 lg:py-20 space-y-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
                         <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
                             <h1
-                                className="font-serif leading-tight text-white text-4xl font-semibold lg:text-5xl 2xl:text-6xl">
+                                className="font-serif leading-tight text-white text-4xl font-medium lg:text-5xl 2xl:text-6xl">
                                 Interaktywna agencja marketingowa</h1>
                             <p className="max-w-3xl relative md:text-xl z-10 text-white ">Wykorzystaj design, marketing i nowe technologie, by wyprzedzić konkurencję.</p>
                             <button className="cursor-pointer" type="button">
@@ -51,7 +51,7 @@ export default function Hero() {
                                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
                                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-primary blur rounded-full"></div>
                             </div>
-                            <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">App</span>ollo</p>
+                            <p className="absolute bottom-20 right-20 text-white font-serif font-medium text-4xl"><span className="text-primary">App</span>ollo</p>
                         </div>
                     </div>
                     <Image className="hidden -z-10 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />

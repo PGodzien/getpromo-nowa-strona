@@ -54,7 +54,7 @@ export const Opinions = () => {
       <div className="relative">
 
         <div className="md:max-w-5xl h-56 px-4 lg:px-0">
-          <Image className="absolute md:-top-10 md:right-0 w-24 h-auto bottom-16 right-4 transform rotate-180" alt="" src={quote} />
+          <Image className="absolute md:-top-10 md:-right-10 w-24 h-auto bottom-16 right-4 transform rotate-180" alt="" src={quote} />
           <AnimatePresence initial={false} custom={direction}>
             <motion.div
               key={page}
@@ -78,8 +78,8 @@ export const Opinions = () => {
                   paginate(-1);
                 }
               }}>
-              <div className="text-lg md:text-3xl font-semibold mb-8">{reviews[reviewIndex]}</div>
-              <div className="font-semibold tracking-tight">{names[nameIndex]}</div>
+              <div className="text-lg md:text-3xl font-medium italic mb-8">{reviews[reviewIndex]}</div>
+              <div className="font-medium tracking-tight">{names[nameIndex]}</div>
               <div className="text-sm text-primary tracking-tight">{company[nameIndex]}</div>
             </motion.div>
           </AnimatePresence>

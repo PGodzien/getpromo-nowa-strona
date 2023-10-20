@@ -3,15 +3,12 @@ import CtaFooter from "../components/ctaFooter";
 import { Testimonials } from "../components/testimonials";
 import Image from "next/image";
 import pattern from "../../public/pattern.svg";
-import marketing from "../../public/marketing.svg";
-import landing from "../../public/landing.svg";
-import pozycjonowanie from "../../public/pozycjonowanie.svg";
-import portal from "../../public/portal.svg";
 import ReactLogo from "../../public/react_logo.png";
 import WordPressLogo from "../../public/wordpress_logo.svg";
 import NextjsLogo from "../../public/next_logo.svg";
 import GolangLogo from "../../public/golang_logo.svg";
 import TailwindLogo from "../../public/tailwind_logo.svg";
+import Typescript from "../../public/typescript.svg";
 import webRzeszow from "../../public/strony_internetowe_rzeszow.png";
 import anilama from "../../public/anilama.jpg";
 import barber from "../../public/barber.jpg";
@@ -28,6 +25,41 @@ import skycar from "../../public/skycar.jpeg";
 import adblue from "../../public/adblue.jpg";
 import transbet from "../../public/transbet.jpg";
 import agrofruct from "../../public/agrofruct.jpg";
+import { Cog6ToothIcon, DevicePhoneMobileIcon, MagnifyingGlassIcon, ShieldCheckIcon, UserCircleIcon, MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
+import Faq from "../components/faq";
+
+const features = [
+  {
+    name: 'Doświadczenie',
+    description:
+      'Jesteśmy doświadczoną agencją internetową w Rzeszowie z wieloletnią historią projektów.',
+    icon: ShieldCheckIcon,
+  },
+  {
+    name: 'Indywidualne podejście',
+    description:
+      'Każda strona, którą projektujemy, jest dostosowana do unikalnych potrzeb klienta.',
+    icon: UserCircleIcon,
+  },
+  {
+    name: 'Responsywność',
+    description:
+      'Nasze strony są w pełni responsywne, co oznacza, że doskonale działają na wszystkich urządzeniach, w tym smartfonach i tabletach.',
+    icon: DevicePhoneMobileIcon,
+  },
+  {
+    name: 'Optymalizacja SEO',
+    description:
+      'Nasze strony są zoptymalizowane pod kątem SEO, co zwiększa ich widoczność w wynikach wyszukiwania.',
+    icon: MagnifyingGlassIcon,
+  },
+  {
+    name: 'Wsparcie techniczne',
+    description:
+      'Po wdrożeniu strony oferujemy ciągłe wsparcie techniczne i utrzymanie.',
+    icon: Cog6ToothIcon,
+  },
+]
 
 function addReviewJsonLd() {
   return {
@@ -85,10 +117,10 @@ export default function StronyRzeszow() {
         <section className="relative z-10 w-full py-6">
           {/* <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div> */}
           <div className="relative flex lg:flex-row flex-col py-10 lg:py-20 space-y-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
-            <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
+            <div className="space-y-8 lg:-mt-28 max-w-xl 2xl:max-w-2xl relative z-20 w-full">
               <h1
-                className="font-serif leading-tight text-white text-4xl font-semibold lg:text-6xl">
-                Strony <br /> internetowe <br /> Rzeszów</h1>
+                className="font-serif leading-tight text-white text-4xl font-medium lg:text-6xl">
+                Strony internetowe Rzeszów</h1>
               <h2 className="max-w-3xl relative md:text-lg z-10 text-white ">Tworzymy skuteczne strony internetowe, które pracuja i zarabiają dla nszych klientów z Rzeszowa 24 godziny na dobę przez 7 dni w tygodniu.</h2>
               <button className="cursor-pointer" type="button">
                 <a href="#kontakt" className="flex items-center">
@@ -126,7 +158,7 @@ export default function StronyRzeszow() {
                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-blue-500 blur rounded-full"></div>
               </div>
-              <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">rZe</span>us</p>
+              <p className="absolute bottom-20 right-20 text-white font-serif font-medium text-4xl"><span className="text-primary">rZe</span>us</p>
             </div>
           </div>
           <Image className="hidden -z-10 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />
@@ -179,8 +211,8 @@ export default function StronyRzeszow() {
         <section>
           <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <div className="mx-auto max-w-2xl lg:mx-0">
-                <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">Projektowanie stron internetowych Rzeszów</h2>
+              <div className="mx-auto lg:mx-0">
+                <h2 className="text-3xl font-medium tracking-tight sm:text-4xl max-w-2xl">Projektowanie stron internetowych Rzeszów</h2>
                 <p className="mt-6 text-lg font-serif leading-8 text-gray-600">
                   Nasza agencja w Rzeszowie specjalizuje się w projektowaniu i tworzeniu nowoczesnych stron internetowych, dostosowanych do indywidualnych potrzeb Twojego biznesu. Oferujemy kompleksowe rozwiązania, które pomogą Ci osiągnąć sukces online.
                 </p>
@@ -188,91 +220,76 @@ export default function StronyRzeszow() {
             </div>
           </div>
         </section>
-        <section className="py-16 md:py-20 bg-white">
+        <section>
+          <div className="bg-gray-100 py-24 sm:py-32">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">
+                  Dlaczego wybrać naszą firmę?
+                </h2>
+                <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2">
+                  {features.map((feature) => (
+                    <div key={feature.name}>
+                      <dt className="text-base leading-7">
+                        <div className="mb-6 flex h-10 w-10 text-medium items-center justify-center rounded-lg bg-black">
+                          <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                        </div>
+                        {feature.name}
+                      </dt>
+                      <dd className="mt-1 text-base leading-7 text-gray-600">{feature.description}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* <section className="py-16 md:py-20 bg-white">
           <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
-            <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl"> Projektowanie stron internetowych Rzeszów</h2>
+            <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-medium lg:text-5xl"> Projektowanie stron internetowych Rzeszów</h2>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Wiemy, jak tworzyć profesjonalne strony internetowe zarówno dla dużych firm, jak i start-upów z Rzeszowa, stawiających swoje pierwsze kroki w biznesie.</p>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Jeśli poszukujesz specjalistów od marketingu sieciowego w Rzeszowie, jesteś w dobrym miejscu. Od lat zajmujemy się tworzeniem profesjonalnych stron internetowych, które wyróżniają się wysoką estetyką, responsywnością i szybkim czasem ładowania. Jako webmasterzy nie pozwalamy sobie na przeciętność. Wierzymy w kluczowe znaczenie wizerunku w sieci dla powodzenia każdej marki.
             </p>
           </div>
-        </section>
+        </section> */}
         <Cta />
       </div>
-      <section className="text-getDark bg-white">
-        <div className="max-w-7xl container px-4 mx-auto">
-          <div className="pt-16 mb-12">
-            <ul className="grid grid-cols-2 gap-x-4 gap-y-9 md:grid-cols-3 md:gap-x-7 lg:grid-cols-5 lg:gap-32">
-              <li className="flex flex-col items-center space-y-5 md:items-start">
-                <Image className="w-14 h-auto" src={ReactLogo} alt="React logo" />
-                <span className="w-full h-[1px] bg-getGray block"></span>
-                <p className="text-base font-serif">React</p>
-              </li>
-              <li className="flex grayscale flex-col items-center space-y-5 md:items-start ">
-                <Image className="w-14 h-auto" src={WordPressLogo} alt="WordPRess logo" />
-                <span className="w-full h-[1px] bg-getGray block  "></span>
-                <p className="text-base break-words font-serif ">
-                  WordPress
+      <section>
+        <div className="bg-white py-24 sm:py-32">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
+              <div className="mx-auto w-full max-w-xl lg:mx-0">
+                <h2 className="text-3xl font-medium tracking-tight text-gray-900">Tworzenie stron internetowych Rzeszów</h2>
+                <p className="mt-6 text-lg leading-8 text-gray-600">
+                  Tworzenie stron internetowych opiera się na nowoczesnych technologiach, które są nie tylko wydajne, ale także doskonale dostosowane do potrzeb użytkowników i optymalizacji pod kątem SEO.
                 </p>
-              </li>
-              <li className="flex flex-col items-center space-y-5 md:items-start ">
-                <Image
-                  className="w-14 h-auto"
-                  src={NextjsLogo}
-                  alt="Nextjs logo"
-                />
-                <span className="w-full h-[1px] bg-getGray block  "></span>
-                <p className="text-base break-words font-serif">
-                  Next.js
-                </p>
-              </li>
-              <li className="flex flex-col items-center space-y-5 md:items-start ">
-                <Image className="w-14 h-auto" src={GolangLogo} alt="Golang logo" />
-                <span className="w-full h-[1px] bg-getGray block  "></span>
-                <p className="text-base break-words font-serif ">
-                  Golang
-                </p>
-              </li>
-              <li className="flex flex-col items-center space-y-5 md:items-start ">
-                <Image className="w-14 h-auto" src={TailwindLogo} alt="Tailwind CSS logo" />
-                <span className="w-full h-[1px] bg-getGray block  "></span>
-                <p className="text-base break-words font-serif">
-                  Tailwind CSS
-                </p>
-              </li>
-            </ul>
-          </div>
-          <div className="grid md:grid-cols-2 py-12">
-            <h2 className="mb-8 md:text-left font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">
-              Strony internetowe dla firm Rzeszów
-            </h2>
-            <div className="flex flex-col items-center md:-mt-8 md:items-start">
-              <p className="md:text-xl pt-8 border-t">
-                Tworząc <strong>strony internetowe</strong> dla firm, skupiamy się na nowoczesnych rozwiązaniach deweloperskich i promocyjnych. Współpracując z nami, możesz spodziewać się kreatywnych i skutecznych treści na podstawie optymalizacji SEO.
-              </p>
-              <p className="md:text-xl mt-4">
-                Nasze <strong>strony www</strong> charakteryzują się doskonałą szybkością ładowania oraz bezpieczeństwem. Zdając sobie sprawę z roli urządzeń mobilnych w procesie sprzedażowym, każdą <strong>stronę internetową</strong>, która wychodzi z naszej agencji, projektujemy z uwzględnieniem urządzeń mobilnych.
-              </p>
-              <p className="md:text-xl mt-4">
-                Korzystając z naszej oferty stron internetowych moesz liczyć na:
-              </p>
-              <ul className="flex flex-col items-start self-start my-8">
-                <li className="flex items-center mt-4 justify-center space-x-1">
-                  <span className="w-1 h-1 mr-2 rounded-full lg:w-2 lg:h-2 bg-primary"></span>
-                  <p className="md:text-xl">techniczne SEO,</p>
-                </li>
-                <li className="flex items-center mt-4 justify-center space-x-1">
-                  <span className="w-1 h-1 mr-2 rounded-full lg:w-2 lg:h-2 bg-primary"></span>
-                  <p className="md:text-xl">narzędzia analityczne,</p>
-                </li>
-                <li className="flex items-center mt-4 justify-center space-x-1">
-                  <span className="w-1 h-1 mr-2 rounded-full lg:w-2 lg:h-2 bg-primary"></span>
-                  <p className="md:text-xl">szybkie wczytywanie,</p>
-                </li>
-                <li className="flex items-center mt-4 justify-center space-x-1">
-                  <span className="w-1 h-1 mr-2 rounded-full lg:w-2 lg:h-2 bg-primary"></span>
-                  <p className="md:text-xl">przemyślane i skuteczne UI/UX.</p>
-                </li>
-              </ul>
+              </div>
+              <div className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
+                <div className="flex items-center">
+                  <Image className="w-14 h-auto" src={ReactLogo} alt="React logo" />
+                  <p className="ml-4 text-base font-serif">React</p>
+                </div>
+                <div className="flex items-center">
+                  <Image className="w-14 h-auto" src={WordPressLogo} alt="React logo" />
+                  <p className="ml-4 text-base font-serif">WordPress</p>
+                </div>
+                <div className="flex items-center">
+                  <Image className="w-14 h-auto" src={NextjsLogo} alt="React logo" />
+                  <p className="ml-4 text-base font-serif">Next.js</p>
+                </div>
+                <div className="flex items-center">
+                  <Image className="w-14 h-auto" src={GolangLogo} alt="React logo" />
+                  <p className="ml-4 text-base font-serif">Golang</p>
+                </div>
+                <div className="flex items-center">
+                  <Image className="w-14 h-auto" src={TailwindLogo} alt="React logo" />
+                  <p className="ml-4 text-base font-serif">Twilwind CSS</p>
+                </div>
+                <div className="flex items-center">
+                  <Image className="w-14 h-auto" src={Typescript} alt="React logo" />
+                  <p className="ml-4 text-base font-serif">Typescript</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -296,6 +313,7 @@ export default function StronyRzeszow() {
           <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla producenta przetworów owocowych" src={agrofruct} />
         </div>
       </section>
+      <Faq />
       <Testimonials />
 
       <CtaFooter />

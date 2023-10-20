@@ -151,12 +151,12 @@ const NavBar = () => {
                                                     </div>
                                                     <div className="flex flex-col font-serif justify-center py-20 w-full md:mx-20">
                                                         <ul className="">
-                                                            <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/">Strona główna</Link></li>
+                                                            <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" onClick={closeModal} href="/">Strona główna</Link></li>
                                                             <Disclosure>
                                                                 {({ open }) => (
                                                                     <>
                                                                         <Disclosure.Button className="flex items-center">
-                                                                            <div className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white">Oferta</div>
+                                                                            <div className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white">Oferta</div>
                                                                             <div className=""><Image alt="strzałka" src={Arrow} className={open ? 'rotate-90 transform' : ''} /></div>
                                                                         </Disclosure.Button>
                                                                         <Transition
@@ -177,13 +177,13 @@ const NavBar = () => {
                                                                     </>
                                                                 )}
                                                             </Disclosure>
-                                                            <li className="my-6 md:my-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/kontakt">Kontakt</Link></li>
+                                                            <li className="my-6 md:my-12"><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" onClick={closeModal} href="/kontakt">Kontakt</Link></li>
                                                         </ul>
                                                         <div className="bg-secondary h-[1px] w-80"></div>
                                                         <ul className="flex items-end space-x-8 mt-12">
-                                                            <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://www.facebook.com/GetpromoMarketing"><Image alt="Facebook" src={Facebook} /></Link></li>
-                                                            <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://www.linkedin.com/company/getpromo/"><Image alt="Linkedin" src={Linkedin} /></Link></li>
-                                                            <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://twitter.com/GetpromoReklama"><Image alt="Twitter" src={Twitter} /></Link></li>
+                                                            <li className=""><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://www.facebook.com/GetpromoMarketing"><Image alt="Facebook" src={Facebook} /></Link></li>
+                                                            <li className=""><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://www.linkedin.com/company/getpromo/"><Image alt="Linkedin" src={Linkedin} /></Link></li>
+                                                            <li className=""><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://twitter.com/GetpromoReklama"><Image alt="Twitter" src={Twitter} /></Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
