@@ -1,12 +1,12 @@
 "use client";
 import Link from "next/link";
-import Logo from "../../public/getpromo-logo.svg";
-import Sygnet from "../../public/getpromo-sygnet.svg";
-import LogoBlack from "../../public/getpromo-logo-black.svg";
-import Facebook from "../../public/facebook.svg";
-import Twitter from "../../public/twitter.svg";
-import Linkedin from "../../public/linkedin.svg";
-import Arrow from "../../public/arrow.svg";
+import Logo from "@/public/getpromo-logo.svg";
+import Sygnet from "@/public/getpromo-sygnet.svg";
+import LogoBlack from "@/public/getpromo-logo-black.svg";
+import Facebook from "@/public/facebook.svg";
+import Twitter from "@/public/twitter.svg";
+import Linkedin from "@/public/linkedin.svg";
+import Arrow from "@/public/arrow.svg";
 import Image from "next/image";
 import { Dialog, Transition, Disclosure } from '@headlessui/react'
 import { Fragment, useState } from 'react'

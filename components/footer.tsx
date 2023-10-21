@@ -1,15 +1,15 @@
 'use client'
 import Image from "next/image";
-import Sygnet from "../../public/getpromo-sygnet.svg";
-import Arrow from "../../public/arrow.svg";
+import Sygnet from "@/public/getpromo-sygnet.svg";
+import Arrow from "@/public/arrow.svg";
 import { goToTop } from "@/utils";
 import Link from "next/link";
-import Chart from "../../public/chart-logo-getpromo.svg";
-import Pattern from "../../public/pattern.svg";
+import Chart from "@/public/chart-logo-getpromo.svg";
+import Pattern from "@/public/pattern.svg";
 import { usePathname } from "next/navigation";
-import Facebook from "../../public/facebook.svg";
-import Twitter from "../../public/twitter.svg";
-import Linkedin from "../../public/linkedin.svg";
+import Facebook from "@/public/facebook.svg";
+import Twitter from "@/public/twitter.svg";
+import Linkedin from "@/public/linkedin.svg";
 
 
 function Footer() {

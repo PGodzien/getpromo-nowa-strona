@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import ContactForm from "../components/contact_form";
+import ContactForm from "../../components/contact_form";
 import facebook from "../../public/facebook-green.svg";
 import twitter from "../../public/twitter-dark.svg";
 import linkedin from "../../public/linkedin-white.svg";

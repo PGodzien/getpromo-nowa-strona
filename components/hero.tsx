@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import pattern from "../../public/pattern.svg";
-import apollo from "../../public/apollo.png";
+import pattern from "@/public/pattern.svg";
+import apollo from "@/public/apollo.png";
 
 export default function Hero() {
     return (

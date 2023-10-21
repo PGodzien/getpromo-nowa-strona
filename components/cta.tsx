@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import goddessPhone from "../../public/goddess-phone.png";
+import goddessPhone from "@/public/goddess-phone.png";
 import Image from "next/image";
 const Cta = () => {
   return (

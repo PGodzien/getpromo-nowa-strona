@@ -1,6 +1,6 @@
-import Cta from "../components/cta";
-import CtaFooter from "../components/ctaFooter";
-import { Testimonials } from "../components/testimonials";
+import Cta from "../../components/cta";
+import CtaFooter from "../../components/ctaFooter";
+import { Testimonials } from "../../components/testimonials";
 import Image from "next/image";
 import pattern from "../../public/pattern.svg";
 import ReactLogo from "../../public/react_logo.png";
@@ -26,7 +26,7 @@ import adblue from "../../public/adblue.jpg";
 import transbet from "../../public/transbet.jpg";
 import agrofruct from "../../public/agrofruct.jpg";
 import { Cog6ToothIcon, DevicePhoneMobileIcon, MagnifyingGlassIcon, ShieldCheckIcon, UserCircleIcon, MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
-import Faq from "../components/faq";
+import Faq from "../../components/faq";
 
 const features = [
   {

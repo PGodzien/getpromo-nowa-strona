@@ -1,10 +1,10 @@
 "use client";
 import * as React from "react";
 import ContactForm from "./contact_form";
-import Logo from "../../public/getpromo-logo.svg";
-import forCtaPhoneSvg from "../../public/phone.svg";
-import forCtaDogSvg from "../../public/mail.svg";
-import forCtaMapSvg from "../../public/map.svg";
+import Logo from "@/public/getpromo-logo.svg";
+import forCtaPhoneSvg from "@/public/phone.svg";
+import forCtaDogSvg from "@/public/mail.svg";
+import forCtaMapSvg from "@/public/map.svg";
 import Image from "next/image";
 const CtaFooter = () => {
   return (

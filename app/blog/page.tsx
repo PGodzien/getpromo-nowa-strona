@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Testimonials } from "../components/testimonials";
-import CtaFooter from "../components/ctaFooter";
+import { Testimonials } from "../../components/testimonials";
+import CtaFooter from "../../components/ctaFooter";
 import pattern from "../../public/pattern.svg";
 import goddess from "../../public/goddess-blog.png";
 import Link from "next/link";

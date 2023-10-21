@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Testimonials } from "../components/testimonials";
-import CtaFooter from "../components/ctaFooter";
-import Cta from "../components/cta";
+import { Testimonials } from "../../components/testimonials";
+import CtaFooter from "../../components/ctaFooter";
+import Cta from "../../components/cta";
 import pattern from "../../public/pattern.svg";
 import pozycjonowanie from "../../public/seo-pozycjonowanie.svg";
 import analityka from "../../public/analityka.svg";

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Testimonials } from "../components/testimonials";
-import Cta from "../components/cta";
-import CtaFooter from "../components/ctaFooter";
+import { Testimonials } from "../../components/testimonials";
+import Cta from "../../components/cta";
+import CtaFooter from "../../components/ctaFooter";
 import pattern from "../../public/pattern.svg";
 import marketing from "../../public/marketing.svg";
 import landing from "../../public/landing.svg";

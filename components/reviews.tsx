@@ -4,9 +4,9 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
 import { reviews, names, company } from "./reviews-data";
-import quote from "../../public/quote-fill.svg";
+import quote from "@/public/quote-fill.svg";
 import Image from "next/image";
-import pattern from "../../public/pattern.svg";
+import pattern from "@/public/pattern.svg";
 
 const variants = {
   enter: (direction: number) => {

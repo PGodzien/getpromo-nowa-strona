@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Cta from "../components/cta";
+import Cta from "../../components/cta";
 import pattern from "../../public/pattern.svg";
 import marketing from "../../public/marketing.svg";
 import landing from "../../public/landing.svg";
@@ -26,8 +26,8 @@ import skycar from "../../public/skycar.jpeg";
 import adblue from "../../public/adblue.jpg";
 import transbet from "../../public/transbet.jpg";
 import agrofruct from "../../public/agrofruct.jpg";
-import CtaFooter from "../components/ctaFooter";
-import { Testimonials } from "../components/testimonials";
+import CtaFooter from "../../components/ctaFooter";
+import { Testimonials } from "../../components/testimonials";
 
 function addReviewJsonLd() {
   return {

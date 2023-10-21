@@ -1,9 +1,9 @@
 import './globals.css';
 import localFont from "next/font/local";
-import NavBar from './components/nav';
-import Footer from './components/footer';
+import NavBar from '../components/nav';
+import Footer from '../components/footer';
 import Script from 'next/script';
-import ScrollUp from './components/scrollup';
+import ScrollUp from '../components/scrollup';
 const GTM_ID = 'GTM-KGZT6KS';
 
 const clashGrotesk = localFont({
