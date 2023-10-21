@@ -249,7 +249,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pl" className={`${roboto.variable} ${clash.variable} ${satoshi.variable} ${clashGrotesk.variable} ${inter.variable} ${"scroll-smooth"} `} style={{ scrollBehavior: 'smooth' }}>
+    <html lang="pl" className={`${roboto.variable} ${clash.variable} ${satoshi.variable} ${clashGrotesk.variable} ${inter.variable}`}>
 
 
 
