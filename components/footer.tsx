@@ -21,7 +21,7 @@ function Footer() {
         <div className="hidden xl:block absolute bg-red-500 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
           <div className="bg-black w-16 -top-4 -left-14 h-1 absolute transform -translate-x-1/2 -translate-y-1/2"></div>
           <div className="bg-black absolute border-4 border-black w-80 h-40 right-20 -top-24 flex justify-center p-3 flex-col font-serif">
-            <h4 className="text-primary font-medium text-lg">Strony internetowe Rzeszów</h4>
+            <h4 className="text-primary font-medium text-lg">Getpromo Agencja Marketingowa | Strony Internetowe</h4>
             <p className="text-white text-sm">Kolejowa 12/310, 35-073 Rzeszów</p>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ScrollUp from "./scrollup";
 
 
 const Features = () => {
