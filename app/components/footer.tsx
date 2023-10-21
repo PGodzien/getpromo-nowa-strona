@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Sygnet from "../../public/getpromo-sygnet.svg";
 import Arrow from "../../public/arrow.svg";
-// import { goToTop } from "@/utils";
+import { goToTop } from "@/utils";
 import Link from "next/link";
 import Chart from "../../public/chart-logo-getpromo.svg";
 import Pattern from "../../public/pattern.svg";
@@ -81,13 +81,13 @@ function Footer() {
               <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" target="_blank" href="https://twitter.com/GetpromoReklama"><Image alt="Twitter" src={Twitter} /></Link></li>
             </ul>
           </div>
-          {/* <div onClick={goToTop} className="w-24 h-24 cursor-pointer border border-black flex items-center justify-center">
+          <div onClick={goToTop} className="w-24 h-24 cursor-pointer border border-black flex items-center justify-center">
             <Image
               className="transition rotate-180"
               src={Arrow}
               alt="strzałka powrót do góry"
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </>
