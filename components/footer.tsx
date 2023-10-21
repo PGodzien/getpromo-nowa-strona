@@ -44,41 +44,41 @@ function Footer() {
 
 
               <li className={pathname == "/strony-internetowe" ? "underline underline-offset-4" : ""}>
-                <Link href="/strony-internetowe">
+                <a href="/strony-internetowe">
                   Strony internetowe
-                </Link>
+                </a>
               </li>
 
 
               <li className={pathname == "/marketing" ? "underline underline-offset-4" : ""}>
-                <Link href="/marketing">
+                <a href="/marketing">
                   Marketing
-                </Link>
+                </a>
               </li>
 
 
               <li className={pathname == "/projektowanie-graficzne" ? "underline underline-offset-4" : ""}>
-                <Link href="/projektowanie-graficzne">
+                <a href="/projektowanie-graficzne">
                   Projektowanie graficzne
-                </Link>
+                </a>
               </li>
 
 
               <li className={pathname == "/kontakt" ? "underline underline-offset-4" : ""}>
-                <Link href="/kontakt">
+                <a href="/kontakt">
                   Kontakt
-                </Link>
+                </a>
               </li>
 
             </ul>
             <p className="text-sm mt-3">Copyright © {(new Date().getFullYear())} by Getpromo. All rights reserved.</p>
-            <p className="text-sm">Jesteśmy częścią: <br className="xl:hidden" /> <span className="text-sm"><Link href="https://otherlandlabs.com" target="_blank" rel="nofollow"><strong>Otherland Labs Sp. z o.o.</strong></Link></span></p>
+            <p className="text-sm">Jesteśmy częścią: <br className="xl:hidden" /> <span className="text-sm"><a href="https://otherlandlabs.com" target="_blank" rel="nofollow"><strong>Otherland Labs Sp. z o.o.</strong></a></span></p>
           </div>
           <div className="hidden md:block">
             <ul className="flex space-x-8">
-              <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" target="_blank" href="https://www.facebook.com/GetpromoMarketing"><Image alt="Facebook" src={Facebook} /></Link></li>
-              <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" target="_blank" href="https://www.linkedin.com/company/getpromo/"><Image alt="Linkedin" src={Linkedin} /></Link></li>
-              <li className="flex items-center"><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" target="_blank" href="https://twitter.com/GetpromoReklama"><Image alt="Twitter" src={Twitter} /></Link></li>
+              <li className="flex items-center"><a className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" target="_blank" href="https://www.facebook.com/GetpromoMarketing"><Image alt="Facebook" src={Facebook} /></a></li>
+              <li className="flex items-center"><a className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" target="_blank" href="https://www.linkedin.com/company/getpromo/"><Image alt="Linkedin" src={Linkedin} /></a></li>
+              <li className="flex items-center"><a className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" target="_blank" href="https://twitter.com/GetpromoReklama"><Image alt="Twitter" src={Twitter} /></a></li>
             </ul>
           </div>
           <div onClick={goToTop} className="w-24 h-24 cursor-pointer border border-black flex items-center justify-center">

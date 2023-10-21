@@ -12,7 +12,7 @@ const Features = () => {
                     <p className="max-w-sm leading-loose mx-4">Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM. Tworzymy kampanie, które generują wyniki i zwiększają sprzedaż.</p>
                     <button className="flex items-center">
                         <div className="w-24 bg-primary h-[1px]"></div>
-                        <Link href="/marketing">
+                        <a href="marketing">
                             <div className="w-16 h-16 flex justify-center bg-transparent items-center border border-primary group hover:bg-primary">
                                 <svg
                                     className="text-primary group-hover:text-secondary"
@@ -30,7 +30,7 @@ const Features = () => {
                                     />
                                 </svg>
                             </div>
-                        </Link>
+                        </a>
                     </button>
                 </div>
                 {/* strony internetowe */}
@@ -39,7 +39,7 @@ const Features = () => {
                     <p className="max-w-sm leading-loose mx-4">Strony www, sklepy internetowe, landing page i wizytówki internetowe. Nasz cel to dostarczenie Ci strony internetowej, która wzbudza zaufanie i zwiększa sprzedaż.</p>
                     <button className="flex items-center">
                         <div className="w-24 bg-secondary h-[1px]"></div>
-                        <Link href="/strony-internetowe">
+                        <a href="/strony-internetowe">
                             <div className="w-16 h-16 flex justify-center items-center border border-secondary group hover:bg-secondary">
                                 <svg
                                     className="text-secondary group-hover:text-primary"
@@ -57,7 +57,7 @@ const Features = () => {
                                     />
                                 </svg>
                             </div>
-                        </Link>
+                        </a>
                     </button>
                 </div>
                 {/* projektowanie graficzne */}
@@ -66,7 +66,7 @@ const Features = () => {
                     <p className="max-w-sm leading-loose mx-4">Logo, projekty graficzne i druk. Profesjonalnie i szybko dostarczamy wysokiej jakości materiały, które przez długi czas pracują dla naszych klientów.</p>
                     <button className="flex items-center">
                         <div className="w-24 bg-secondary h-[1px]"></div>
-                        <Link href="/projektowanie-graficzne">
+                        <a href="/projektowanie-graficzne">
                             <div className="w-16 h-16 flex justify-center items-center border border-secondary group hover:bg-secondary">
                                 <svg
                                     className="text-secondary group-hover:text-white"
@@ -84,7 +84,7 @@ const Features = () => {
                                     />
                                 </svg>
                             </div>
-                        </Link>
+                        </a>
                     </button>
                 </div>
             </div>
