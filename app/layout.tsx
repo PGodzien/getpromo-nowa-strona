@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import NavBar from './components/nav';
 import Footer from './components/footer';
 import Script from 'next/script';
+import ScrollUp from './components/scrollup';
 const GTM_ID = 'GTM-KGZT6KS';
 
 const clashGrotesk = localFont({
@@ -251,7 +252,7 @@ export default function RootLayout({
   return (
     <html lang="pl" className={`${roboto.variable} ${clash.variable} ${satoshi.variable} ${clashGrotesk.variable} ${inter.variable}`}>
 
-
+<ScrollUp />
 
       <Script id="google-tag-manager" strategy="afterInteractive">
         {`
