@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Sygnet from "../../public/getpromo-sygnet.svg";
 import Arrow from "../../public/arrow.svg";
-import { goToTop } from "@/utils";
+// import { goToTop } from "@/utils";
 import Link from "next/link";
 import Chart from "../../public/chart-logo-getpromo.svg";
 import Pattern from "../../public/pattern.svg";
