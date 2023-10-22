@@ -166,7 +166,7 @@ export default function Contact() {
           </div>
           <div className="grid-cols-2 pt-8 pb-16 md:grid">
             <h2 className="font-medium text-center text-white font-serif md:text-left text-7xl">
-              Zapytaj nas o ofertę!
+              Zapraszamy do kontaktu
             </h2>
           </div>
           <ContactForm

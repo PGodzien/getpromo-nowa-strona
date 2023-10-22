@@ -7,6 +7,7 @@ import { reviews, names, company } from "./reviews-data";
 import quote from "@/public/quote-fill.svg";
 import Image from "next/image";
 import pattern from "@/public/pattern.svg";
+import { StarIcon } from '@heroicons/react/20/solid'
 
 const variants = {
   enter: (direction: number) => {

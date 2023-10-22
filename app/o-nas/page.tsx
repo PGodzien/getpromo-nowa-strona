@@ -37,6 +37,7 @@ import onas7 from "@/public/o-nas-07.jpg"
 import onas8 from "@/public/o-nas-08.jpg"
 import { Testimonials } from "../../components/testimonials";
 import Clients from "@/components/clients";
+import OpinionsTwo from "@/components/opinions";
 
 function addReviewJsonLd() {
   return {
@@ -105,7 +106,7 @@ export default function Strony() {
                     <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                       <div className="relative">
                         <Image
-                          src={onas8}
+                          src={onas2}
                           alt=""
                           className="aspect-[2/3] w-full bg-gray-900/5 object-cover shadow-lg"
                         />
@@ -115,7 +116,7 @@ export default function Strony() {
                     <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                       <div className="relative">
                         <Image
-                          src={onas2}
+                          src={onas8}
                           alt=""
                           className="aspect-[2/3] w-full bg-gray-900/5 object-cover shadow-lg"
                         />
@@ -123,7 +124,7 @@ export default function Strony() {
                       </div>
                       <div className="relative">
                         <Image
-                          src={onas4}
+                          src={onas3}
                           alt=""
                           className="aspect-[2/3] w-full bg-gray-900/5 object-cover shadow-lg"
                         />
@@ -172,7 +173,8 @@ export default function Strony() {
         </section>
         <Clients />
       </div>
-      <Testimonials />
+      <OpinionsTwo />
+      {/* <Testimonials /> */}
       <CtaFooter />
     </>
   );

@@ -19,7 +19,7 @@ const CtaFooter = () => {
           <div className="w-full md:w-1/2">
             <div className="">
               <h3 className="font-medium text-white max-w-md font-serif mb-14 md:mb-16 text-5xl md:text-7xl">
-                Zapytaj nas o ofertę!
+                Zapraszamy do kontaktu
               </h3>
             </div>
             <div>
