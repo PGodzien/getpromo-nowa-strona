@@ -152,6 +152,7 @@ const NavBar = () => {
                                                     <div className="flex flex-col font-serif justify-center py-20 w-full md:mx-20">
                                                         <ul className="">
                                                             <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" onClick={closeModal} href="/">Strona główna</Link></li>
+                                                            <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-medium font-serif text-secondary hover:text-white" onClick={closeModal} href="/o-nas">O agencji</Link></li>
                                                             <Disclosure>
                                                                 {({ open }) => (
                                                                     <>

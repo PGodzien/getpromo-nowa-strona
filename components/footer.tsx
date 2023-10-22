@@ -44,6 +44,12 @@ function Footer() {
 
 
               <li className={pathname == "/strony-internetowe" ? "underline underline-offset-4" : ""}>
+                <a href="/o-nas">
+                  O agencji
+                </a>
+              </li>
+
+              <li className={pathname == "/strony-internetowe" ? "underline underline-offset-4" : ""}>
                 <a href="/strony-internetowe">
                   Strony internetowe
                 </a>
