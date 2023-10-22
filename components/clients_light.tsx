@@ -80,8 +80,8 @@ function ClientsLight() {
               <a href="#kontakt" className="flex items-center">
                 <div className="relative overflow-clip border border-black z-10 group flex">
                   <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-black"></span>
-                  <div className="relative group-hover:bg-transparent bg-black h-16">
-                    <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif text-white font-medium text-center group-hover:text-primary">
+                  <div className="relative group-hover:bg-transparent bg-transparent border-r border-black h-16">
+                    <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif text-black font-medium text-center group-hover:text-primary">
                       skontaktuj się</p>
                   </div>
                   <div className="flex items-center justify-center w-16 h-16">
