@@ -1,17 +1,18 @@
 'use client';
 import * as React from "react";
-import { Opinions } from "./reviews";
+import Opinions from "./opinions";
 
 export const Testimonials = () => {
   return (
     <>
-      <section className="relative py-8 md:py-16 bg-black text-white">
-        <div className="container max-w-5xl mx-auto">
-          <div className="font-serif mx-auto">
-            <div className="space-y-3 px-4 lg:px-0 pb-8 md:pb-16">
-              <p className="font-serif text-3xl font-medium tracking-tight sm:text-4xl text-white">Klienci o nas</p>
-              <p className="md:text-lg font-sans text-gray-300">Naszym głównym celem jest zapewnienie sukcesu naszym klientom, ponieważ wiemy, że zadowoleni klienci przyciągają nowych.</p>
-              <p className="md:text-lg font-sans text-gray-300 hidden md:block">Dokładamy starań, aby nasza współpraca z klientem opierała się na przyjaznym partnerstwie, pełnej transparentności i wyborze rozwiązań dopasowanych do oczekiwanych efektów biznesowych.</p>
+      <section>
+        <div className="bg-black text-white py-24 sm:py-32">
+          <div className="mx-auto max-w-5xl px-6 lg:px-8">
+            <div className="mx-auto lg:mx-0">
+              <h2 className="text-3xl font-serif font-medium tracking-tight sm:text-4xl max-w-2xl">Opinie naszych klientów</h2>
+              <p className="mt-6 text-base lg:text-lg font-serif leading-8 text-gray-400">
+              Naszym głównym celem jest zapewnienie sukcesu naszym klientom, ponieważ wiemy, że zadowoleni klienci przyciągają nowych. Dokładamy starań, aby nasza współpraca z klientem opierała się na przyjaznym partnerstwie, pełnej transparentności i wyborze rozwiązań dopasowanych do oczekiwanych efektów biznesowych.
+              </p>
             </div>
             <Opinions />
           </div>

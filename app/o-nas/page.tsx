@@ -38,6 +38,7 @@ import onas8 from "@/public/o-nas-08.jpg"
 import { Testimonials } from "../../components/testimonials";
 import Clients from "@/components/clients";
 import OpinionsTwo from "@/components/opinions";
+import Opinions from "@/components/opinions";
 
 function addReviewJsonLd() {
   return {
@@ -173,7 +174,7 @@ export default function Strony() {
         </section>
         <Clients />
       </div>
-      <OpinionsTwo />
+      <Opinions />
       {/* <Testimonials /> */}
       <CtaFooter />
     </>

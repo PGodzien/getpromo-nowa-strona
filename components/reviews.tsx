@@ -40,7 +40,7 @@ const swipeConfidenceThreshold = 10000;
 const swipePower = (offset: number, velocity: number) => {
   return Math.abs(offset) * velocity;
 };
-export const Opinions = () => {
+export const OpinionsOld = () => {
   const [[page, direction], setPage] = useState([0, 0]);
 
   const reviewIndex = wrap(0, reviews.length, page);
@@ -54,7 +54,7 @@ export const Opinions = () => {
     <>
       <div className="relative">
 
-        <div className="md:max-w-5xl h-56 px-4 lg:px-0">
+        <div className="md:max-w-7xl h-56 px-4 lg:px-0">
           <Image className="absolute md:-top-10 md:-right-10 w-24 h-auto bottom-16 right-4 transform rotate-180" alt="" src={quote} />
           <AnimatePresence initial={false} custom={direction}>
             <motion.div
@@ -85,7 +85,7 @@ export const Opinions = () => {
             </motion.div>
           </AnimatePresence>
         </div>
-        <div className="flex justify-start max-w-5xl px-4 md:px-0">
+        <div className="flex justify-start max-w-7xl px-4 md:px-0">
           <div className="" onClick={() => paginate(-1)}>
             <div className="flex items-center justify-center cursor-pointer bg-secondary border-gray-500 border hover:bg-getGray w-16 h-16">
               <svg

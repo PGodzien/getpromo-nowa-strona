@@ -41,7 +41,7 @@ const swipePower = (offset: number, velocity: number) => {
     return Math.abs(offset) * velocity;
 };
 
-export default function OpinionsTwo() {
+export default function Opinions() {
     const [[page, direction], setPage] = useState([0, 0]);
 
     const reviewIndex = wrap(0, reviews.length, page);
@@ -76,7 +76,7 @@ export default function OpinionsTwo() {
                                 paginate(-1);
                             }
                         }}>
-                        <figure className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 w-full lg:max-w-5xl px-4">
+                        <figure className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 w-full lg:max-w-5xl">
                             <p className="sr-only">5 out of 5 stars</p>
                             <div className="flex mb-12 gap-x-1 text-primary">
                                 <StarIcon className="h-5 w-5 flex-none" aria-hidden="true" />
@@ -100,8 +100,8 @@ export default function OpinionsTwo() {
                     </motion.div>
                 </AnimatePresence>
             </section >
-            <div className="bg-black pb-12">
-                <div className="flex relative z-20 lg:justify-end justify-start px-4 mx-auto max-w-5xl">
+            <div className="bg-black">
+                <div className="flex relative z-20 lg:justify-end justify-start mx-auto max-w-5xl">
                     <div className="" onClick={() => paginate(-1)}>
                         <div className="flex items-center justify-center cursor-pointer bg-secondary border-gray-500 border hover:bg-getGray w-16 h-16">
                             <svg
