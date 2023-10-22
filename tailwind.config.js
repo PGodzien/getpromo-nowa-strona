@@ -30,7 +30,7 @@ module.exports = {
       },
       fontFamily: {
         serif: ["var(--font-clash)"],
-        sans: ["var(--font-clashGrotesk)"],
+        sans: ["var(--font-inter)"],
       },
       colors: {
         primary: "#D5FF40",

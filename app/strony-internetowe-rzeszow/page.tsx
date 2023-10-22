@@ -212,7 +212,7 @@ export default function StronyRzeszow() {
           <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto lg:mx-0">
-                <h2 className="text-3xl font-medium tracking-tight sm:text-4xl max-w-2xl">Projektowanie stron internetowych Rzeszów</h2>
+                <h2 className="text-3xl font-serif font-medium tracking-tight sm:text-4xl max-w-2xl">Projektowanie stron internetowych Rzeszów</h2>
                 <p className="mt-6 text-lg font-serif leading-8 text-gray-600">
                   Nasza agencja w Rzeszowie specjalizuje się w projektowaniu i tworzeniu nowoczesnych stron internetowych, dostosowanych do indywidualnych potrzeb Twojego biznesu. Oferujemy kompleksowe rozwiązania, które pomogą Ci osiągnąć sukces online.
                 </p>
@@ -224,13 +224,13 @@ export default function StronyRzeszow() {
           <div className="bg-gray-100 py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">
+                <h2 className="text-3xl font-serif font-medium tracking-tight sm:text-4xl">
                   Dlaczego wybrać naszą firmę?
                 </h2>
                 <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2">
                   {features.map((feature) => (
                     <div key={feature.name}>
-                      <dt className="text-base leading-7">
+                      <dt className="text-lg font-medium leading-7 font-serif">
                         <div className="mb-6 flex h-10 w-10 text-medium items-center justify-center rounded-lg bg-black">
                           <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                         </div>
@@ -259,7 +259,7 @@ export default function StronyRzeszow() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
               <div className="mx-auto w-full max-w-xl lg:mx-0">
-                <h2 className="text-3xl font-medium tracking-tight text-gray-900">Tworzenie stron internetowych Rzeszów</h2>
+                <h2 className="text-3xl font-medium tracking-tight text-gray-900 font-serif max-w-lg">Tworzenie stron internetowych Rzeszów</h2>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   Tworzenie stron internetowych opiera się na nowoczesnych technologiach, które są nie tylko wydajne, ale także doskonale dostosowane do potrzeb użytkowników i optymalizacji pod kątem SEO.
                 </p>
