@@ -39,6 +39,7 @@ import { Testimonials } from "../../components/testimonials";
 import Clients from "@/components/clients";
 import OpinionsTwo from "@/components/opinions";
 import Opinions from "@/components/opinions";
+import ClientsLight from "@/components/clients_light";
 
 function addReviewJsonLd() {
   return {
@@ -172,10 +173,9 @@ export default function Strony() {
             </div>
           </div>
         </section>
-        <Clients />
+        <ClientsLight />
       </div>
-      <Opinions />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <CtaFooter />
     </>
   );

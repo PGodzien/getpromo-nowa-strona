@@ -13,7 +13,7 @@ function Clients() {
   return (
     <div className="container xs:max-w-[475px] px-5 mx-auto md:max-w-[768px] lg:max-w-[1200px]">
       <div className="flex flex-col items-center pt-16 pb-16">
-        <h3 className="mb-10 text-3xl text-white font-serif font-medium lg:mb-24">
+        <h3 className="mb-10 text-3xl sm:text-4xl text-white font-serif font-medium lg:mb-24">
           Nasi klienci
         </h3>
         <div className="flex flex-wrap items-center mx-auto mb-10 max-w-7xl md:mb-12 lg:mb-24">
