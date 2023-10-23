@@ -108,7 +108,7 @@ export default function Contact() {
                   />
                 </svg>
                 <p className="flex mt-10 text-3xl font-normal text-grayText font-serif">
-                  kontakt<span className="font-light">@</span>getpromo.com
+                  kontakt<span className="font-light">@</span>getpromo.pl
                 </p>
               </a>
             </div>
