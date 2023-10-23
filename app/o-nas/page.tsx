@@ -1,44 +1,11 @@
 import Image from "next/image";
-import Cta from "../../components/cta";
-import pattern from "../../public/pattern.svg";
-import marketing from "../../public/marketing.svg";
-import landing from "../../public/landing.svg";
-import pozycjonowanie from "../../public/pozycjonowanie.svg";
-import portal from "../../public/portal.svg";
-import ReactLogo from "../../public/react_logo.png";
-import WordPressLogo from "../../public/wordpress_logo.svg";
-import NextjsLogo from "../../public/next_logo.svg";
-import GolangLogo from "../../public/golang_logo.svg";
-import TailwindLogo from "../../public/tailwind_logo.svg";
-import goddess from "../../public/goddess-www2.png";
-import anilama from "../../public/anilama.jpg";
-import barber from "../../public/barber.jpg";
-import radio from "../../public/radio.jpg";
-import dgc from "../../public/dgc.jpg";
-import weldoro from "../../public/weldoro.jpg";
-import deski from "../../public/deski.jpeg";
-import damansdak from "../../public/damansdak.jpg";
-import sep from "../../public/sep.jpg";
-import shoprimo from "../../public/shoprimo.jpg";
-import przystanek from "../../public/przystanek.jpg";
-import harmonia from "../../public/harmonia.jpeg";
-import skycar from "../../public/skycar.jpeg";
-import adblue from "../../public/adblue.jpg";
-import transbet from "../../public/transbet.jpg";
-import agrofruct from "../../public/agrofruct.jpg";
 import CtaFooter from "../../components/ctaFooter";
-import onas1 from "@/public/o-nas-01.jpg"
 import onas2 from "@/public/o-nas-02.jpg"
 import onas3 from "@/public/o-nas-03.jpg"
-import onas4 from "@/public/o-nas-04.jpg"
 import onas5 from "@/public/o-nas-05.jpg"
-import onas6 from "@/public/o-nas-06.jpg"
 import onas7 from "@/public/o-nas-07.jpg"
 import onas8 from "@/public/o-nas-08.jpg"
 import { Testimonials } from "../../components/testimonials";
-import Clients from "@/components/clients";
-import OpinionsTwo from "@/components/opinions";
-import Opinions from "@/components/opinions";
 import ClientsLight from "@/components/clients_light";
 
 function addReviewJsonLd() {
@@ -63,6 +30,30 @@ export const metadata = {
   title: "Projektowanie stron internetowych",
   description: "Projektowanie stron internetowych. Tworzenie stron www. Responsywne, szybkie i wydajne strony internetowe. Skuteczne strony internetowe dla firm. "
 }
+
+const timeline = [
+  {
+    name: 'Powstaje startup',
+    description:
+      'Powstaje agencja jako startup przy Akademickich Inkubatorach Przedsiębiorczości Szkoły Głównej Handlowej w Warszawie.',
+    date: 'Wrzesień 2014',
+    dateTime: '2014-09',
+  },
+  {
+    name: 'Zołożenie Agecnji Marketingowej Getpromo',
+    description:
+      'Powstaje Agencja Marketingowa Getpromo - firma skupia się na obsłudze marketingowej firm oraz wsparciu merytorycznym agecnji interaktywnych z zakresu digital marketingu.',
+    date: 'Listopad 2017',
+    dateTime: '2017-11',
+  },
+  {
+    name: 'Getpromo staje się częścią Otherland Labs Sp. z o.o.',
+    description:
+      'Getpromo staje się częścią spółki technologicznej Otherland Labs, aby móc kompleksowo obsługiwać swoich klientów z zakresu tworzenia aplikacji i stron wwww.',
+    date: 'Styczeń 2019',
+    dateTime: '219-01',
+  },
+]
 
 export default function Strony() {
   return (
@@ -159,7 +150,7 @@ export default function Strony() {
         </section>
 
         <section>
-          <div className="bg-white px-6 py-32 lg:px-8">
+          <div className="bg-white px-6 py-24 lg:px-8">
             <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
               <h1 className="mt-2 text-3xl font-semibold font-serif tracking-tight text-gray-900 sm:text-4xl">O nas</h1>
               <p className="mt-6 text-xl leading-8">
