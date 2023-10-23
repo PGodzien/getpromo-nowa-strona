@@ -13,7 +13,7 @@ function Clients() {
   return (
     <div className="container xs:max-w-[475px] px-5 mx-auto md:max-w-[768px] lg:max-w-[1200px]">
       <div className="flex flex-col items-center pt-16 pb-16">
-        <h3 className="mb-10 text-3xl sm:text-4xl text-white font-serif font-medium lg:mb-24">
+        <h3 className="mb-10 text-3xl sm:text-4xl text-white font-serif font-semibold lg:mb-24">
           Nasi klienci
         </h3>
         <div className="flex flex-wrap items-center mx-auto mb-10 max-w-7xl md:mb-12 lg:mb-24">
@@ -80,7 +80,7 @@ function Clients() {
               <div className="relative overflow-clip border border-primary z-10 group flex">
                 <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
                 <div className="relative group-hover:bg-transparent bg-primary h-16">
-                  <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-medium text-center group-hover:text-black">
+                  <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-semibold text-center group-hover:text-black">
                     skontaktuj się</p>
                 </div>
                 <div className="flex items-center justify-center w-16 h-16">
@@ -104,7 +104,7 @@ function Clients() {
           </button>
           <div className="absolute top-1/2 transform -translate-y-1/2 w-24 -left-24 h-[1px] bg-primary"></div>
         </div>
-        
+
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const Cta = () => {
           </div>
           <div className="container relative mx-auto max-w-7xl w-full lg:w-1/2 px-8 flex items-center justify-center">
             <div className="space-y-8">
-              <p className="font-serif text-3xl font-medium tracking-tight sm:text-4xl text-white">Skontaktuj się z nami</p>
+              <p className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl text-white">Skontaktuj się z nami</p>
               <p className="text-white md:text-lg leading-loose">Robimy wszystko, aby nasi klienci odnieśli sukces, bo wiemy, że sukces oznacza więcej klientów.</p>
               <button className="cursor-pointer" type="button">
                 <a href="#kontakt" className="flex items-center">
@@ -20,7 +20,7 @@ const Cta = () => {
                   <div className="relative overflow-clip border border-primary z-10 group flex">
                     <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
                     <div className="relative group-hover:bg-transparent bg-primary h-16">
-                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-medium text-center group-hover:text-black">
+                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-semibold text-center group-hover:text-black">
                         skontaktuj się</p>
                     </div>
                     <div className="flex items-center justify-center w-16 h-16">

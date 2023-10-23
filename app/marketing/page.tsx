@@ -78,7 +78,7 @@ export default function Marketing() {
           <div className="relative flex lg:flex-row flex-col py-10 lg:py-20 space-y-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
               <h1
-                className="font-serif leading-tight text-white text-4xl font-medium lg:text-5xl 2xl:text-6xl">
+                className="font-serif leading-tight text-white text-4xl font-semibold lg:text-5xl 2xl:text-6xl">
                 Marketing <br /> internetowy</h1>
               <p className="max-w-3xl relative md:text-xl z-10 text-white ">Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM. Projektowanie wizualne generujące klientów i zwiększające sprzedaż.</p>
               <button className="cursor-pointer" type="button">
@@ -87,7 +87,7 @@ export default function Marketing() {
                   <div className="relative overflow-clip border border-primary z-10 group flex">
                     <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
                     <div className="relative group-hover:bg-transparent bg-primary h-16">
-                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-medium text-center group-hover:text-black">
+                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-semibold text-center group-hover:text-black">
                         skontaktuj się</p>
                     </div>
                     <div className="flex items-center justify-center w-16 h-16">
@@ -117,7 +117,7 @@ export default function Marketing() {
                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-violet-500 blur rounded-full"></div>
               </div>
-              <p className="absolute bottom-20 right-20 text-white font-serif font-medium text-4xl"><span className="text-primary">Ads</span>tena</p>
+              <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">Ads</span>tena</p>
             </div>
           </div>
           <Image className="hidden -z-10 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />
@@ -172,7 +172,7 @@ export default function Marketing() {
         </section>
         <section className="py-16 md:py-20 bg-white">
           <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
-            <h1 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-medium lg:text-5xl">Marketing internetowy</h1>
+            <h1 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">Marketing internetowy</h1>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Nasze działania to skuteczne strategie marketingowe, potwierdzone realnymi wynikami sprzedaży naszych klientów. Zajmujemy się realizacją celów marketingowych, reklamą graficzną i wizualną. Jesteśmy zespołem ludzi o otwartych głowach z dużą dawką kreatywnego zaangażowania. </p>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Zadbamy o Twoją widoczność w sieci. Zaprojektujemy Twoją stronę internetową na osiąganie jak najlepszych wyników w rankingach Google.
               Promocja w Internecie to ważny element budowania swojej marki i pozycji wśród konkurencji. Wiemy, jakimi kanałami network marketingu dotrzeć do potencjalnych odbiorców usługi lub produktu, a tym samym zdobyć wierne i zadowolone grono klientów. Wykorzystujemy najbardziej skuteczne narzędzia promocji zwiększające sprzedaż, rozpoznawalność marki oraz pozwalające na zajęcie wysokich pozycji w wyszukiwarkach. </p>
@@ -224,7 +224,7 @@ export default function Marketing() {
             </ul>
           </div>
           <div className="grid md:grid-cols-2 pt-16">
-            <h2 className="mb-8 text-left font-serif leading-tight text-3xl md:text-4xl max-w-lg font-medium lg:text-5xl">
+            <h2 className="mb-8 text-left font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">
               Skuteczna reklama w internecie
             </h2>
             <div className="flex flex-col items-center md:-mt-8 md:items-start">
@@ -235,19 +235,19 @@ export default function Marketing() {
           </div>
           <div className="grid pb-16 md:grid-cols-2">
             <div className="relative pr-10 pt-10 space-y-2">
-              <h3 className="text-2xl font-medium font-serif">Pozycjonowanie w wyszukiwarkach</h3>
+              <h3 className="text-2xl font-semibold font-serif">Pozycjonowanie w wyszukiwarkach</h3>
               <p className="text-gray-700 md:text-lg">Pozycjonowanie SEO – audyt SEO, optymalizacja strony i treści, raportowanie i analiza wyników.</p>
             </div>
             <div className="relative pr-10 pt-10 space-y-2">
-              <h3 className="text-2xl font-medium font-serif">Reklama w internecie</h3>
+              <h3 className="text-2xl font-semibold font-serif">Reklama w internecie</h3>
               <p className="text-gray-700 md:text-lg">Google i Facebook Ads – wszystkie formy reklamy: reklama tekstowa, remarketing, reklama produktowa, reklama graficzna, reklama na YouTube, reklama na Instagramie.</p>
             </div>
             <div className="relative pr-10 pt-10 space-y-2">
-              <h3 className="text-2xl font-medium font-serif">Analityka internetowa</h3>
+              <h3 className="text-2xl font-semibold font-serif">Analityka internetowa</h3>
               <p className="text-gray-700 md:text-lg">Analizujemy działania w internecie w celu wyłonienia odpowiedzi na najważniejsze pytania dotyczące wzrostu sprzedaży.</p>
             </div>
             <div className="relative pr-10 pt-10 space-y-2">
-              <h3 className="text-2xl font-medium font-serif">Obsługa mediów społecznościowych</h3>
+              <h3 className="text-2xl font-semibold font-serif">Obsługa mediów społecznościowych</h3>
               <p className="text-gray-700 md:text-lg">Social media – prowadzimy skuteczną i profesjonalną komunikację w mediach społecznościowych, która zwiększy zyski Twojej firmy.</p>
             </div>
           </div>

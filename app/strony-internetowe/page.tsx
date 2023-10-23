@@ -84,7 +84,7 @@ export default function Strony() {
           <div className="relative flex lg:flex-row flex-col py-10 lg:py-20 space-y-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
               <h1
-                className="font-serif leading-tight text-white text-4xl font-medium lg:text-5xl 2xl:text-6xl">
+                className="font-serif leading-tight text-white text-4xl font-semibold lg:text-5xl 2xl:text-6xl">
                 Strony <br /> internetowe</h1>
               <p className="max-w-3xl relative md:text-xl z-10 text-white ">Tworzymy skuteczne strony internetowe, które pracuja i zarabiają dla nszych klientów 24 godziny na dobę przez 7 dni w tygodniu.</p>
               <button className="cursor-pointer" type="button">
@@ -93,7 +93,7 @@ export default function Strony() {
                   <div className="relative overflow-clip border border-primary z-10 group flex">
                     <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
                     <div className="relative group-hover:bg-transparent bg-primary h-16">
-                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-medium text-center group-hover:text-black">
+                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-semibold text-center group-hover:text-black">
                         skontaktuj się</p>
                     </div>
                     <div className="flex items-center justify-center w-16 h-16">
@@ -123,7 +123,7 @@ export default function Strony() {
                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-pink-500 blur rounded-full"></div>
               </div>
-              <p className="absolute bottom-20 right-20 text-white font-serif font-medium text-4xl"><span className="text-primary">DEV</span>meter</p>
+              <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">DEV</span>meter</p>
             </div>
           </div>
           <Image className="hidden -z-10 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />
@@ -156,7 +156,7 @@ export default function Strony() {
         </section>
         <section className="py-16 md:py-20 bg-white">
           <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
-            <h1 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-medium lg:text-5xl"> Projektowanie stron internetowych</h1>
+            <h1 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl"> Projektowanie stron internetowych</h1>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Wiemy, jak tworzyć profesjonalne strony internetowe zarówno dla dużych firm, jak i start-upów, stawiających swoje pierwsze kroki w biznesie.</p>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Jeśli poszukujesz specjalistów od marketingu sieciowego, jesteś w dobrym miejscu. Od lat zajmujemy się tworzeniem profesjonalnych stron internetowych, które wyróżniają się wysoką estetyką, responsywnością i szybkim czasem ładowania. Jako webmasterzy nie pozwalamy sobie na przeciętność. Wierzymy w kluczowe znaczenie wizerunku w sieci dla powodzenia każdej marki.
             </p>
@@ -208,7 +208,7 @@ export default function Strony() {
             </ul>
           </div>
           <div className="grid md:grid-cols-2 py-12">
-            <h2 className="mb-8 md:text-left font-serif leading-tight text-3xl md:text-4xl max-w-lg font-medium lg:text-5xl">
+            <h2 className="mb-8 md:text-left font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">
               Strony internetowe dla firm
             </h2>
             <div className="flex flex-col items-center md:-mt-8 md:items-start">

@@ -55,7 +55,7 @@ export default function Contact() {
       <div className="relative w-full h-full mx-auto pt-[164px] -mt-[164px] bg-getDark">
         <div className="absolute inset-0 w-full h-full bg-center bg-no-repeat bg-[url('/bg_rounded.png')]"></div>
         <div className="container mx-auto py-8 md:py-16 px-4 max-w-6xl">
-          <h1 className="text-6xl md:text-7xl max-w-lg font-serif font-medium text-white">
+          <h1 className="text-6xl md:text-7xl max-w-lg font-serif font-semibold text-white">
             Dane kontaktowe
           </h1>
         </div>
@@ -165,7 +165,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="grid-cols-2 pt-8 pb-16 md:grid">
-            <h2 className="font-medium text-center text-white font-serif md:text-left text-7xl">
+            <h2 className="font-semibold text-center text-white font-serif md:text-left text-7xl">
               Zapraszamy do kontaktu
             </h2>
           </div>

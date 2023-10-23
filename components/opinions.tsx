@@ -85,14 +85,14 @@ export default function Opinions() {
                                 <StarIcon className="h-5 w-5 flex-none" aria-hidden="true" />
                                 <StarIcon className="h-5 w-5 flex-none" aria-hidden="true" />
                             </div>
-                            <blockquote className="text-xl font-medium font-serif text-white leading-8 tracking-tight sm:text-2xl sm:leading-9">
+                            <blockquote className="text-xl font-semibold font-serif text-white leading-8 tracking-tight sm:text-2xl sm:leading-9">
                                 <p>
                                     {reviews[reviewIndex]}
                                 </p>
                             </blockquote>
                             <figcaption className="mt-10 flex items-center gap-x-6">
                                 <div className="text-sm leading-6">
-                                    <div className="font-medium font-serif text-white">{names[nameIndex]}</div>
+                                    <div className="font-semibold font-serif text-white">{names[nameIndex]}</div>
                                     <div className="mt-0.5 text-gray-600">{company[nameIndex]}</div>
                                 </div>
                             </figcaption>

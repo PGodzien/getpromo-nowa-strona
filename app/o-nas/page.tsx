@@ -97,7 +97,7 @@ export default function Strony() {
               <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
                 <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                   <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                    <h1 className="text-4xl font-medium font-serif tracking-tight text-white sm:text-6xl">
+                    <h1 className="text-4xl font-semibold font-serif tracking-tight text-white sm:text-6xl">
                       Poznajmy się lepiej
                     </h1>
                     <p className="relative mt-6 text-lg leading-8 text-gray-300 sm:max-w-md lg:max-w-none">
@@ -161,7 +161,7 @@ export default function Strony() {
         <section>
           <div className="bg-white px-6 py-32 lg:px-8">
             <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-              <h1 className="mt-2 text-3xl font-medium font-serif tracking-tight text-gray-900 sm:text-4xl">O nas</h1>
+              <h1 className="mt-2 text-3xl font-semibold font-serif tracking-tight text-gray-900 sm:text-4xl">O nas</h1>
               <p className="mt-6 text-xl leading-8">
                 Getpromo jest agencją kreatywną, która pomaga firmom i startupom w marketingu ich produktów. Używamy najnowocześniejszych technologii, aby pomóc naszym klientom zrozumieć konsumentów, przekształcić ich w klientów i rozwijać ich marki.
               </p>

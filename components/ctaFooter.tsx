@@ -18,7 +18,7 @@ const CtaFooter = () => {
         <div className="max-w-6xl px-4 py-16 flex flex-col md:flex-row justify-between items-start mx-auto container">
           <div className="w-full md:w-1/2">
             <div className="">
-              <h3 className="font-medium text-white max-w-md font-serif mb-14 md:mb-16 text-5xl md:text-7xl">
+              <h3 className="font-semibold text-white max-w-md font-serif mb-14 md:mb-16 text-5xl md:text-7xl">
                 Zapraszamy do kontaktu
               </h3>
             </div>
@@ -28,7 +28,7 @@ const CtaFooter = () => {
                 href="tel:+48 571 210 571"
               >
                 <Image className="mr-5" src={forCtaPhoneSvg} alt="Phone icon" />
-                <p className="flex text-xl text-white font-sans font-medium md:ml-5 lg:ml-10 md:mt-0">
+                <p className="flex text-xl text-white font-sans font-semibold md:ml-5 lg:ml-10 md:mt-0">
                   <span className="mr-1 font-light">+48</span>571 210 571
                 </p>
               </a>
@@ -37,7 +37,7 @@ const CtaFooter = () => {
                 href="mailto:kontakt@getpromo.pl"
               >
                 <Image className="mr-5" src={forCtaDogSvg} alt="@ icon" />
-                <p className="flex text-xl text-white font-sans font-medium md:ml-5 lg:ml-10 md:mt-0">
+                <p className="flex text-xl text-white font-sans font-semibold md:ml-5 lg:ml-10 md:mt-0">
                   kontakt<span className="font-light">@</span>getpromo.pl
                 </p>
               </a>
@@ -47,7 +47,7 @@ const CtaFooter = () => {
               >
                 <Image className="mr-5" src={forCtaMapSvg} alt="Geolocation icon" />
                 <div className="flex flex-col md:mt-0 md:ml-5 lg:ml-10">
-                  <p className="text-xl text-white break-all font-sans font-medium">
+                  <p className="text-xl text-white break-all font-sans font-semibold">
                     ul. Kolejowa 12 / 310
                   </p>
                   <p className="font-normal text-white font-serif text-baseSM">
@@ -61,7 +61,7 @@ const CtaFooter = () => {
               >
                 <Image className="mr-5" src={forCtaMapSvg} alt="Geolocation icon" />
                 <div className="flex flex-col md:mt-0 md:ml-5 lg:ml-10">
-                  <p className="text-xl text-white break-all font-sans font-medium">
+                  <p className="text-xl text-white break-all font-sans font-semibold">
                     ul. Piotra Skargi 1
                   </p>
                   <p className="font-normal text-white font-serif text-baseSM">

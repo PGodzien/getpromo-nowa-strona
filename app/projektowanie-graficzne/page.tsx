@@ -70,7 +70,7 @@ export default function Design() {
           <div className="relative flex lg:flex-row flex-col py-10 lg:py-20 space-y-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
               <h1
-                className="font-serif leading-tight text-white text-4xl font-medium lg:text-5xl 2xl:text-6xl">
+                className="font-serif leading-tight text-white text-4xl font-semibold lg:text-5xl 2xl:text-6xl">
                 Projektowanie <br /> graficzne</h1>
               <p className="max-w-3xl relative md:text-xl z-10 text-white ">Wyróżnij się jakością i postaw na projekty graficzne wyróżniające się nowoczesną estetyką, jasnym przekazem i niebanalnym designem.</p>
               <button className="cursor-pointer" type="button">
@@ -79,7 +79,7 @@ export default function Design() {
                   <div className="relative overflow-clip border border-primary z-10 group flex">
                     <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
                     <div className="relative group-hover:bg-transparent bg-primary h-16">
-                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-medium text-center group-hover:text-black">
+                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-semibold text-center group-hover:text-black">
                         skontaktuj się</p>
                     </div>
                     <div className="flex items-center justify-center w-16 h-16">
@@ -109,7 +109,7 @@ export default function Design() {
                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-green-500 blur rounded-full"></div>
               </div>
-              <p className="absolute bottom-20 right-20 text-white font-serif font-medium text-4xl">Ze<span className="text-primary">UX</span></p>
+              <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl">Ze<span className="text-primary">UX</span></p>
             </div>
           </div>
           <Image className="hidden -z-10 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />
@@ -164,7 +164,7 @@ export default function Design() {
         </section>
         <section className="py-16 md:py-20 bg-white">
           <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
-            <h1 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-medium lg:text-5xl"> Projektowanie graficzne</h1>
+            <h1 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl"> Projektowanie graficzne</h1>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Dobrze wyglądające logo i estetycznie zaprojektowane materiały promocyjne to jedna z wielu form komunikacji wizualnej z klientem. To, jaki odniesie sukces, zależy od jej warstwy typograficznej, dobranej kolorystyki i motywu przewodniego. Dla naszych klientów tworzymy wysokiej jakości projekty graficzne, dostosowane do charakteru i specyfiki branży oraz oczekiwanych celów marketingowych.</p>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Przykładamy ogromną wagę do każdego elementu graficznego, dbając o harmonię kolorów, perfekcyjny dobór fontów oraz oryginalne kompozycje. Naszym celem jest stworzenie materiałów, które nie tylko wzbudzą zachwyt, ale także skutecznie przekazują wartości i wizję Twojej marki.</p>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Wierzymy w siłę wizualnego przekazu i wiemy, jak istotne jest, aby Twoja marka była prezentowana z godnym podziwu profesjonalizmem. Dlatego oddajemy nasze pełne zaangażowanie i pasję w każdy projekt, który realizujemy.</p>
@@ -178,7 +178,7 @@ export default function Design() {
         <div className="container relative z-10 px-4 mx-auto max-w-7xl">
           <div className="md:flex-row flex flex-col mb-12">
             <div className="w-full md:w-8/12">
-              <h2 className="mb-8 text-center md:text-left font-serif leading-tight text-3xl md:text-4xl max-w-lg font-medium lg:text-5xl">
+              <h2 className="mb-8 text-center md:text-left font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl">
                 Projekty graficzne i poligrafia cyfrowa
               </h2>
               <div className="flex flex-col items-center md:-mt-8 md:items-start">

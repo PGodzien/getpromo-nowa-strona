@@ -68,7 +68,7 @@ export default function Marketing() {
           <div className="relative flex lg:flex-row flex-col py-20 md:py-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
               <h1
-                className="font-serif leading-tight text-white text-4xl font-medium lg:text-5xl 2xl:text-6xl">
+                className="font-serif leading-tight text-white text-4xl font-semibold lg:text-5xl 2xl:text-6xl">
                 Blog marketingowy</h1>
               <p className="max-w-3xl relative z-10 md:text-xl text-white ">Blog o strategiach, narzędziach i trendach. Rozwijaj swoje umiejętności marketingowe, dowiedz się, jak zwiększyć zasięg i pozyskiwać nowych klientów. </p>
               {/* <button className="cursor-pointer" type="button">
@@ -77,7 +77,7 @@ export default function Marketing() {
                   <div className="relative overflow-clip border border-primary z-10 group flex">
                     <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
                     <div className="relative group-hover:bg-transparent bg-primary h-16">
-                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-medium text-center group-hover:text-black">
+                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-semibold text-center group-hover:text-black">
                         skontaktuj się</p>
                     </div>
                     <div className="flex items-center justify-center w-16 h-16">
@@ -107,7 +107,7 @@ export default function Marketing() {
                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-red-500 blur rounded-full"></div>
               </div>
-              <p className="absolute bottom-20 right-20 text-white font-serif font-medium text-4xl"><span className="text-primary">Dioniz</span>blog</p>
+              <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">Dioniz</span>blog</p>
             </div>
           </div>
           <Image className="hidden -z-10 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />
@@ -122,11 +122,11 @@ export default function Marketing() {
                 <div className="w-full lg:w-9/12 px-4 mb-10 lg:mb-0">
                   <div className="max-w-2xl">
                     <span className="block text-gray-400 mb-1">lut 2, 2023</span>
-                    <p className="md:text-2xl font-medium text-gray-200 font-serif">Jak wstawić zdjęcie na Instagram z komputera?</p>
+                    <p className="md:text-2xl font-semibold text-gray-200 font-serif">Jak wstawić zdjęcie na Instagram z komputera?</p>
                   </div>
                 </div>
                 <div className="w-full lg:w-auto px-4 ml-auto text-right">
-                  <Link className="inline-flex items-center md:text-xl font-medium text-primary hover:text-gray-200" href="#">
+                  <Link className="inline-flex items-center md:text-xl font-semibold text-primary hover:text-gray-200" href="#">
                     <span className="font-serif mr-2">Czytaj</span>
                     <svg className="" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1.33301 14.6668L14.6663 1.3335" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -144,11 +144,11 @@ export default function Marketing() {
                 <div className="w-full lg:w-9/12 px-4 mb-10 lg:mb-0">
                   <div className="max-w-2xl">
                     <span className="block text-gray-400 mb-1">wrz 15, 2022</span>
-                    <p className="md:text-2xl font-medium text-gray-200 font-serif">3 strategie na poznanie reklam konkurencji</p>
+                    <p className="md:text-2xl font-semibold text-gray-200 font-serif">3 strategie na poznanie reklam konkurencji</p>
                   </div>
                 </div>
                 <div className="w-full lg:w-auto px-4 ml-auto text-right">
-                  <Link className="inline-flex items-center md:text-xl font-medium text-primary hover:text-gray-200" href="#">
+                  <Link className="inline-flex items-center md:text-xl font-semibold text-primary hover:text-gray-200" href="#">
                     <span className="font-serif mr-2">Czytaj</span>
                     <svg className="" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1.33301 14.6668L14.6663 1.3335" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -166,11 +166,11 @@ export default function Marketing() {
                 <div className="w-full lg:w-9/12 px-4 mb-10 lg:mb-0">
                   <div className="max-w-2xl">
                     <span className="block text-gray-400 mb-1">wrz 12, 2022</span>
-                    <p className="md:text-2xl font-medium text-gray-200 font-serif">Looker Studio – ogarnij swoje dane [SZABLON RAPORTU DO POBRANIA]</p>
+                    <p className="md:text-2xl font-semibold text-gray-200 font-serif">Looker Studio – ogarnij swoje dane [SZABLON RAPORTU DO POBRANIA]</p>
                   </div>
                 </div>
                 <div className="w-full lg:w-auto px-4 ml-auto text-right">
-                  <Link className="inline-flex items-center md:text-xl font-medium text-primary hover:text-gray-200" href="#">
+                  <Link className="inline-flex items-center md:text-xl font-semibold text-primary hover:text-gray-200" href="#">
                     <span className="font-serif mr-2">Czytaj</span>
                     <svg className="" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1.33301 14.6668L14.6663 1.3335" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -187,7 +187,7 @@ export default function Marketing() {
                   <div className="relative overflow-clip border border-primary z-10 group flex">
                     <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
                     <div className="relative group-hover:bg-transparent bg-primary h-16">
-                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-medium text-center group-hover:text-black">
+                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-semibold text-center group-hover:text-black">
                         Więcej artykułów</p>
                     </div>
                     <div className="flex items-center justify-center w-16 h-16">

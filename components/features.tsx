@@ -8,7 +8,7 @@ const Features = () => {
             <div className="container relative z-10 bg-transparent px-4 mx-auto max-w-6xl py-12">
                 {/* marketing */}
                 <div className="bg-secondary flex flex-col items-center text-center py-20 space-y-10 w-full md:w-1/2 text-white">
-                    <h3 className="max-w-xs font-serif text-3xl md:text-4xl font-medium">Marketing internetowy</h3>
+                    <h3 className="max-w-xs font-serif text-3xl md:text-4xl font-semibold">Marketing internetowy</h3>
                     <p className="max-w-sm leading-loose mx-4">Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM. Tworzymy kampanie, które generują wyniki i zwiększają sprzedaż.</p>
                     <button className="flex items-center">
                         <div className="w-24 bg-primary h-[1px]"></div>
@@ -35,7 +35,7 @@ const Features = () => {
                 </div>
                 {/* strony internetowe */}
                 <div className="bg-primary md:ml-auto md:-mt-56 flex flex-col items-center text-center py-20 space-y-10 w-full md:w-1/2">
-                    <h3 className="max-w-xs font-serif text-3xl md:text-4xl font-medium">Strony internetowe</h3>
+                    <h3 className="max-w-xs font-serif text-3xl md:text-4xl font-semibold">Strony internetowe</h3>
                     <p className="max-w-sm leading-loose mx-4">Strony www, sklepy internetowe, landing page i wizytówki internetowe. Nasz cel to dostarczenie Ci strony internetowej, która wzbudza zaufanie i zwiększa sprzedaż.</p>
                     <button className="flex items-center">
                         <div className="w-24 bg-secondary h-[1px]"></div>
@@ -62,7 +62,7 @@ const Features = () => {
                 </div>
                 {/* projektowanie graficzne */}
                 <div className="md:mr-auto md:-mt-72 flex flex-col items-center text-center py-20 space-y-10 w-full md:w-1/2 bg-white">
-                    <h3 className="max-w-xs font-serif text-3xl md:text-4xl font-medium">Projektowanie graficzne</h3>
+                    <h3 className="max-w-xs font-serif text-3xl md:text-4xl font-semibold">Projektowanie graficzne</h3>
                     <p className="max-w-sm leading-loose mx-4">Logo, projekty graficzne i druk. Profesjonalnie i szybko dostarczamy wysokiej jakości materiały, które przez długi czas pracują dla naszych klientów.</p>
                     <button className="flex items-center">
                         <div className="w-24 bg-secondary h-[1px]"></div>
