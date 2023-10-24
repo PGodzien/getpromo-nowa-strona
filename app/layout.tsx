@@ -227,7 +227,6 @@ const inter = localFont({
   src: [
     {
       path: '../public/font/Inter-VariableFont_slnt,wght.ttf',
-      weight: '400'
     },
   ],
   variable: '--font-inter'
@@ -251,8 +250,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl" className={`${roboto.variable} ${clash.variable} ${satoshi.variable} ${clashGrotesk.variable} ${inter.variable}`}>
-
-<ScrollUp />
 
       <Script id="google-tag-manager" strategy="afterInteractive">
         {`
