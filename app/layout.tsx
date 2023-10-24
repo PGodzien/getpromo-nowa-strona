@@ -227,7 +227,6 @@ const inter = localFont({
   src: [
     {
       path: '../public/font/Inter-VariableFont_slnt,wght.ttf',
-      weight: '400'
     },
   ],
   variable: '--font-inter'
