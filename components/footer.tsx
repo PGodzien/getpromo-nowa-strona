@@ -38,13 +38,6 @@ function Footer() {
           <div className="md:mx-10">
             <ul className="font-serif md:space-x-8 hidden xl:flex">
 
-              <li className={pathname == "/" ? "" : "undeline underline-offset-8"}>
-                <Link href="/">
-                  Getpromo
-                </Link>
-              </li>
-
-
               <li className={pathname == "/strony-internetowe" ? "underline underline-offset-4" : ""}>
                 <a href="/o-nas">
                   O agencji
@@ -71,6 +64,11 @@ function Footer() {
                 </a>
               </li>
 
+              <li className={pathname == "/" ? "" : "undeline underline-offset-8"}>
+                <a href="/blog/">
+                  Blog
+                </a>
+              </li>
 
               <li className={pathname == "/kontakt" ? "underline underline-offset-4" : ""}>
                 <a href="/kontakt">
