@@ -252,8 +252,6 @@ export default function RootLayout({
   return (
     <html lang="pl" className={`${roboto.variable} ${clash.variable} ${satoshi.variable} ${clashGrotesk.variable} ${inter.variable}`}>
 
-<ScrollUp />
-
       <Script id="google-tag-manager" strategy="afterInteractive">
         {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

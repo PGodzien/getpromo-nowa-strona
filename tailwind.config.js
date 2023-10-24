@@ -3,9 +3,9 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -26,7 +26,7 @@ module.exports = {
         },
       },
       animation: {
-        flash: 'flash 6s infinite',
+        flash: "flash 6s infinite",
       },
       fontFamily: {
         serif: ["var(--font-clash)"],
@@ -42,4 +42,5 @@ module.exports = {
       },
     },
   },
-}
+  plugins: [require("@tailwindcss/typography")],
+};

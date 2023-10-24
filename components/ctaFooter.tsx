@@ -9,7 +9,7 @@ import Image from "next/image";
 const CtaFooter = () => {
   return (
     <>
-      <div id="kontakt" className="bg-getDark xl:-mb-20 pt-8 md:pt-16">
+      <div id="kontakt" className="bg-getDark pt-8 md:py-16">
         <div className="max-w-6xl mx-auto container px-4">
           <a className="" href="/">
             <Image className="w-28 h-auto" src={Logo} alt="Logo icon getPromo" />
