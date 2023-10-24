@@ -80,7 +80,7 @@ export default function Marketing() {
               <h1
                 className="font-serif leading-tight text-white text-4xl font-semibold lg:text-5xl 2xl:text-6xl">
                 Marketing <br /> internetowy</h1>
-              <p className="max-w-3xl relative md:text-xl z-10 text-white ">Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM. Projektowanie wizualne generujące klientów i zwiększające sprzedaż.</p>
+              <p className="max-w-xl relative md:text-xl z-10 text-white ">Pozycjonowanie stron internetowych, kampanie marketingowe Google i Facebook Ads, SEO/SEM. Projektowanie wizualne generujące klientów i zwiększające sprzedaż.</p>
               <button className="cursor-pointer" type="button">
                 <a href="#kontakt" className="flex items-center">
                   <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>
