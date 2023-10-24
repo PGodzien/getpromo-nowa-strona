@@ -23,7 +23,7 @@ const NavBar = () => {
     }
     return (
         <>
-            <div className="h-32 flex items-center bg-getDark sticky top-0 z-50">
+            <div className="h-32 flex items-center bg-getDark backdrop-blur-md bg-opacity-90 sticky top-0 z-50">
                 <div className="max-w-7xl container px-4 mx-auto flex items-center justify-between">
                     <Link href="/" className="relative z-30"><Image alt="" src={Logo} /></Link>
                     <div className="flex items-center relative z-30">
