@@ -177,7 +177,7 @@ const NavBar = () => {
                                                                     </>
                                                                 )}
                                                             </Disclosure>
-                                                            <li className="mb-6 md:my-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/blog">Blog</Link></li>
+                                                            <li className="my-6 md:my-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/blog">Blog</Link></li>
                                                             <li className="my-6 md:my-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/kontakt">Kontakt</Link></li>
                                                         </ul>
                                                         <div className="bg-secondary h-[1px] w-80"></div>
