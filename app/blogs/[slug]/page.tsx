@@ -43,8 +43,8 @@ export default function Post({ params }: any) {
     return (
         <>
             <section className='bg-white py-20'>
-                <article className='prose prose-sm md:prose-base lg:prose-lg prose-slate mx-auto'>
-                    <h1 className='font-serif font-semibold'>{props.frontMatter.title}</h1>
+                <article className='prose prose-sm md:prose-base lg:prose-lg prose-slate mx-auto prose-headings:font-serif prose-headings:font-semibold'>
+                    <h1 className='font-semibold'>{props.frontMatter.title}</h1>
                     <MDXRemote source={props.content} />
                 </article>
             </section>
