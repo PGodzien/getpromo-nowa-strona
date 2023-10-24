@@ -4,8 +4,10 @@ import matter from 'gray-matter'
 
 import Image from 'next/image'
 import { MDXRemote } from 'next-mdx-remote/rsc'
-import goddessPhone from "@/public/goddess-phone.png";
 import CtaFooter from '@/components/ctaFooter'
+import facebook from "@/public/facebook-green.svg";
+import twitter from "@/public/twitter-dark.svg";
+import linkedin from "@/public/linkedin-white.svg";
 
 export async function generateStaticParams() {
     const files = fs.readdirSync(path.join('blogs'))
@@ -44,17 +46,19 @@ export default function Post({ params }: any) {
     return (
         <>
             <section className='bg-white py-20 relative'>
-                <div className="max-w-7xl relative flex justify-between mx-auto">
-                    <div className="sticky top-0 left-0 lg:block hidden">
-                        <div className="h-20 w-20 border-r border-l border-t"></div>
+                <div className="max-w-7xl relative flex mx-auto">
+                    {/* <div className="sticky top-10 lg:block hidden">
+                        <div className="h-20 w-20 flex justify-center items-center border-r border-l border-t">
+                            <Image src={facebook} alt='Facebook' />
+                        </div>
                         <div className="h-20 w-20 border"></div>
                         <div className="h-20 w-20 border-b border-l border-r"></div>
-                    </div>
-                    <article className='prose prose-sm md:prose-base lg:prose-lg prose-slate mx-auto prose-headings:font-serif prose-headings:font-semibold prose-strong:font-medium'>
+                    </div> */}
+                    <article className='prose prose-sm md:prose-base lg:prose-lg prose-slate mx-auto prose-headings:font-serif prose-headings:font-semibold prose-strong:font-medium px-4'>
                         <h1 className='font-semibold'>{props.frontMatter.title}</h1>
                         <MDXRemote source={props.content} />
                     </article>
-                    <div className="sticky top-0 h-80 w-80 border lg:flex hidden">
+                    <div className="sticky top-10 h-80 w-80 border lg:flex hidden">
                         {/* <Image className="" src={goddessPhone} alt="Getpromo logo black" /> */}
                         <div className="p-10 space-y-12">
                             <p className="font-serif text-3xl">Bezpłatna konsultacja marketingowa</p>
