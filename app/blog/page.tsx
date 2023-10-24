@@ -143,7 +143,7 @@ export default function Marketing() {
 
 
         <section className="py-12 md:py-20">
-          <div className="max-w-7xl mx-auto">
+          <div className="max-w-7xl mx-auto container px-8">
             {blogs.map(blog => (
               <Link href={'/blogs/' + blog.slug} passHref key={blog.slug}>
                 <div className="py-6 md:py-12 border-t-2 border-getGray">
