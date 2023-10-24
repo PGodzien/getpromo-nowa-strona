@@ -58,7 +58,7 @@ export default function Post({ params }: any) {
                         <h1 className='font-semibold'>{props.frontMatter.title}</h1>
                         <MDXRemote source={props.content} />
                     </article>
-                    <div className="sticky top-10 h-80 w-80 border lg:flex hidden">
+                    <div className="sticky top-40 h-80 w-80 border lg:flex hidden">
                         {/* <Image className="" src={goddessPhone} alt="Getpromo logo black" /> */}
                         <div className="p-10 space-y-12">
                             <p className="font-serif text-3xl">Bezpłatna konsultacja marketingowa</p>
