@@ -81,8 +81,8 @@ export default function Strony() {
 
         <section className="relative z-10 w-full py-6">
           {/* <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div> */}
-          <div className="relative flex lg:flex-row flex-col py-10 lg:py-20 space-y-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
-            <div className="space-y-8 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
+          <div className="relative flex lg:flex-row flex-col-reverse lg:py-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
+            <div className="space-y-8 mt-12 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
               <h1
                 className="font-serif leading-tight text-white text-4xl font-semibold lg:text-5xl 2xl:text-6xl">
                 Strony <br /> internetowe</h1>
@@ -93,7 +93,7 @@ export default function Strony() {
                   <div className="relative overflow-clip border border-primary z-10 group flex">
                     <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
                     <div className="relative group-hover:bg-transparent bg-primary h-16">
-                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-semibold text-center group-hover:text-black">
+                      <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-medium text-center group-hover:text-black">
                         skontaktuj się</p>
                     </div>
                     <div className="flex items-center justify-center w-16 h-16">

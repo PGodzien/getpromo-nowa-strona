@@ -58,7 +58,7 @@ function ContactForm() {
           <div className="relative overflow-clip border border-primary z-10 group flex">
             <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
             <div className="relative group-hover:bg-transparent bg-primary h-16">
-              <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-semibold text-center group-hover:text-black">
+              <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-medium text-center group-hover:text-black">
                 skontaktuj
                 się</p>
             </div>
