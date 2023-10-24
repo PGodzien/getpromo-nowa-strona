@@ -167,7 +167,8 @@ export default function Marketing() {
                 </div>
               </Link>
             ))}
-            <div className="pt-12 border-t-2 border-getGray text-center">
+            <div className="pt-12 border-t-2 border-getGray"></div>
+            {/* <div className="pt-12 border-t-2 border-getGray text-center">
               <button className="cursor-pointer" type="button">
                 <a href="#_" className="flex items-center">
                   <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>
@@ -196,7 +197,7 @@ export default function Marketing() {
                   </div>
                 </a>
               </button>
-            </div>
+            </div> */}
           </div>
         </section>
       </div>
