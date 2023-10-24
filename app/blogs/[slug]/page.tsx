@@ -54,7 +54,7 @@ export default function Post({ params }: any) {
                         <div className="h-20 w-20 border"></div>
                         <div className="h-20 w-20 border-b border-l border-r"></div>
                     </div> */}
-                    <article className='prose lg:prose-lg mx-auto prose-headings:font-serif prose-headings:font-semibold prose-p:text-gray-600 prose-p:leading-loose prose-p:text-lg prose-strong:font-medium px-8'>
+                    <article className='prose lg:prose-lg mx-auto prose-headings:font-serif prose-headings:font-semibold prose-p:text-gray-600 prose-p:leading-relaxed prose-p:text-lg prose-strong:font-medium px-8'>
                         <h1 className='font-semibold'>{props.frontMatter.title}</h1>
                         <MDXRemote source={props.content} />
                     </article>
