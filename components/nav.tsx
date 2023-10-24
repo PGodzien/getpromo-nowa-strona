@@ -10,7 +10,15 @@ import Arrow from "@/public/arrow.svg";
 import Image from "next/image";
 import { Dialog, Transition, Disclosure } from '@headlessui/react'
 import { Fragment, useState } from 'react'
-
+import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
+const faqs = [
+    {
+        question: "What's the best thing about Switzerland?",
+        answer:
+            "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    },
+    // More questions...
+]
 const NavBar = () => {
     let [isOpen, setIsOpen] = useState(false)
 
@@ -23,7 +31,7 @@ const NavBar = () => {
     }
     return (
         <>
-            <div className="h-32 flex items-center bg-getDark backdrop-blur-md bg-opacity-90 sticky top-0 z-50">
+            <div className="h-32 flex items-center bg-getDark backdrop-blur-md bg-opacity-90 sticky top-0 z-40">
                 <div className="max-w-7xl container px-4 mx-auto flex items-center justify-between">
                     <Link href="/" className="relative z-30"><Image alt="" src={Logo} /></Link>
                     <div className="flex items-center relative z-30">
@@ -146,11 +154,9 @@ const NavBar = () => {
                                                                 </button>
                                                             </div>
                                                         </div>
-
-
                                                     </div>
-                                                    <div className="flex flex-col font-serif justify-center py-20 w-full md:mx-20">
-                                                        <ul className="">                                                    
+                                                    <div className="relative flex flex-col mt-40 font-serif justify-center py-20 w-full md:mx-20">
+                                                        <ul className="absolute inset-0">
                                                             <li className="mb-6 md:mb-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/o-nas">O agencji</Link></li>
                                                             <Disclosure>
                                                                 {({ open }) => (
@@ -168,7 +174,7 @@ const NavBar = () => {
                                                                             leaveFrom='-translate-x-0'
                                                                             leaveTo='-translate-x-full'
                                                                         >
-                                                                            <Disclosure.Panel>
+                                                                            <Disclosure.Panel as="dd" static>
                                                                                 <li className="mt-6"><Link className="ml-10 font-serif text-xl md:text-3xl hover:text-white" onClick={closeModal} href="/strony-internetowe">Strony internetowe</Link></li>
                                                                                 <li className="mt-6"><Link className="ml-10 font-serif text-xl md:text-3xl hover:text-white" onClick={closeModal} href="/marketing">Marketing</Link></li>
                                                                                 <li className="mt-6"><Link className="ml-10 font-serif text-xl md:text-3xl hover:text-white" onClick={closeModal} href="/projektowanie-graficzne">Projektowanie graficzne</Link></li>
@@ -179,13 +185,14 @@ const NavBar = () => {
                                                             </Disclosure>
                                                             <li className="my-6 md:my-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/blog">Blog</Link></li>
                                                             <li className="my-6 md:my-12"><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} href="/kontakt">Kontakt</Link></li>
-                                                        </ul>
-                                                        <div className="bg-secondary h-[1px] w-80"></div>
+                                                            <div className="bg-secondary h-[1px] w-80"></div>
                                                         <ul className="flex items-end space-x-8 mt-12">
                                                             <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://www.facebook.com/GetpromoMarketing"><Image alt="Facebook" src={Facebook} /></Link></li>
                                                             <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://www.linkedin.com/company/getpromo/"><Image alt="Linkedin" src={Linkedin} /></Link></li>
                                                             <li className=""><Link className="mr-5 text-3xl md:text-5xl font-semibold font-serif text-secondary hover:text-white" onClick={closeModal} target="_blank" href="https://twitter.com/GetpromoReklama"><Image alt="Twitter" src={Twitter} /></Link></li>
                                                         </ul>
+                                                        </ul>
+                                                        
                                                     </div>
                                                 </div>
                                             </nav>

@@ -51,7 +51,7 @@ export default function Contact() {
       <meta property="twitter:title" content="Kontakt" />
       <meta property="twitter:description" content="Zapraszamy do kontaktu z naszą agencją marketingową – zachęcamy do skorzystania z darmowej konsultacji marketingowej." />
       <meta property="twitter:image" content="https://getpromo.pl/cover_contact.jpg" />
-      <div className="absolute z-20 -mt-72 blur-3xl opacity-10 p-60 h-10 w-10 bg-primary top-0 rounded-full mx-auto left-0 right-0"></div>
+      <div className="absolute z-50 -mt-72 blur-3xl opacity-10 p-60 h-10 w-10 bg-primary top-0 rounded-full mx-auto left-0 right-0"></div>
       <div className="relative w-full h-full mx-auto pt-[164px] -mt-[164px] bg-getDark">
         <div className="absolute inset-0 w-full h-full bg-center bg-no-repeat bg-[url('/bg_rounded.png')]"></div>
         <div className="container mx-auto py-8 md:py-16 px-4 max-w-6xl">

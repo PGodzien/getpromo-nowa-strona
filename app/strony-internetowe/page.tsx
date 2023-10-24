@@ -76,10 +76,11 @@ export default function Strony() {
       <meta property="twitter:title" content="Projektowanie stron internetowych" />
       <meta property="twitter:description" content="Projektowanie stron internetowych. Tworzenie stron www. Responsywne, szybkie i wydajne strony internetowe. Skuteczne strony internetowe dla firm. " />
       <meta property="twitter:image" content="https://getpromo.pl/cover_web.jpg" />
-      <div className="absolute z-20 -mt-32 shadow-2xl shadow-pink-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-pink-600 top-0 rounded-full mx-auto left-0 right-0"></div>
+
+      <div className="absolute z-50 -mt-32 shadow-2xl shadow-pink-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-pink-600 top-0 rounded-full mx-auto left-0 right-0"></div>
       <div className="relative">
 
-        <section className="relative z-10 w-full py-6">
+        <section className="relative z-10 max-w-7xl mx-auto py-6">
           {/* <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div> */}
           <div className="relative flex lg:flex-row flex-col-reverse lg:py-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 mt-12 lg:-mt-28 max-w-lg 2xl:max-w-2xl relative z-20 w-full">
