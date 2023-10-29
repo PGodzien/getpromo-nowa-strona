@@ -99,15 +99,15 @@ export default function Marketing() {
                 Blog <br /> marketingowy</h1>
               <p className="max-w-xl relative md:text-xl z-10 text-white ">Blog o strategiach, narzędziach i trendach. Rozwijaj swoje umiejętności marketingowe, dowiedz się, jak zwiększyć zasięg i pozyskiwać nowych klientów. </p>
               <button className="cursor-pointer" type="button">
-                <a href="#kontakt" className="flex items-center">
+                <a href="#blog" className="flex items-center">
                   <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>
                   <div className="relative overflow-clip border border-primary z-10 group flex">
                     <span className="absolute w-full h-full -left-full bg-transparent z-10 group-hover:left-0 duration-500 box-border group-hover:transition-all group-hover:duration-500 group-hover:bg-primary"></span>
                     <div className="relative group-hover:bg-transparent bg-primary h-16">
                       <p className="flex relative z-20 items-center justify-center h-16 px-8 font-serif font-medium text-center group-hover:text-black">
-                        skontaktuj się</p>
+                        idź do artykułów</p>
                     </div>
-                    <div className="flex items-center justify-center w-16 h-16">
+                    <div className="flex items-center justify-center w-16 h-16 tranform rotate-90">
                       <svg
                         className="fill-white relative z-20 group-hover:fill-black duration-500 group-hover:transition-all"
                         width="24"
@@ -142,7 +142,7 @@ export default function Marketing() {
 
 
 
-        <section className="py-12 md:py-20">
+        <section id="blog" className="py-12 md:py-20">
           <div className="max-w-7xl mx-auto container px-8">
             {blogs.map(blog => (
               <Link href={'/blogs/' + blog.slug} passHref key={blog.slug}>
