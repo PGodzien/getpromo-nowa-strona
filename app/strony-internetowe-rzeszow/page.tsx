@@ -9,7 +9,7 @@ import NextjsLogo from "../../public/next_logo.svg";
 import GolangLogo from "../../public/golang_logo.svg";
 import TailwindLogo from "../../public/tailwind_logo.svg";
 import Typescript from "../../public/typescript.svg";
-import webRzeszow from "../../public/strony_internetowe_rzeszow.png";
+import webRzeszow from "../../public/strony-internetowe-rzeszow.png";
 import anilama from "../../public/anilama.jpg";
 import barber from "../../public/barber.jpg";
 import radio from "../../public/radio.jpg";
@@ -121,7 +121,7 @@ export default function StronyRzeszow() {
               <h1
                 className="font-serif leading-tight text-white text-4xl font-semibold lg:text-6xl">
                 Strony internetowe Rzeszów</h1>
-              <h2 className="max-w-3xl relative md:text-lg z-10 text-white ">Tworzymy skuteczne strony internetowe, które pracują i zarabiają dla nszych klientów z Rzeszowa 24 godziny na dobę przez 7 dni w tygodniu.</h2>
+              <h2 className="max-w-3xl relative md:text-lg z-10 text-white ">Projektujemy strony internetowe dla klientów z całej Polski oraz z zagranicy – w tym dla naszych klientów ze stolicy Podkarpacia.</h2>
               <button className="cursor-pointer" type="button">
                 <a href="#kontakt" className="flex items-center">
                   <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>
