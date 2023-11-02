@@ -121,7 +121,7 @@ export default function StronyRzeszow() {
               <h1
                 className="font-serif leading-tight text-white text-4xl font-semibold lg:text-6xl">
                 Strony internetowe Rzeszów</h1>
-              <h2 className="max-w-3xl relative md:text-lg z-10 text-white ">Tworzymy skuteczne strony internetowe, które pracuja i zarabiają dla nszych klientów z Rzeszowa 24 godziny na dobę przez 7 dni w tygodniu.</h2>
+              <h2 className="max-w-3xl relative md:text-lg z-10 text-white ">Tworzymy skuteczne strony internetowe, które pracują i zarabiają dla nszych klientów z Rzeszowa 24 godziny na dobę przez 7 dni w tygodniu.</h2>
               <button className="cursor-pointer" type="button">
                 <a href="#kontakt" className="flex items-center">
                   <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>
@@ -221,24 +221,24 @@ export default function StronyRzeszow() {
           </div>
         </section>
         <section className="bg-gray-100">
-        <div className="mx-auto xl:w-3/4 px-4 grid xl:grid-cols-3 md:grid-cols-2 gap-2 xl:gap-8 py-16">
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Polskie Radio Rzeszów strona internetowa" src={radio} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Shoprimo strona www" src={shoprimo} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="D&G Consulting - strona konsultingowa" src={dgc} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona www dla hotelu" src={przystanek} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla sklepu internetowego" src={weldoro} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="BarberRoom strona internetowa" src={barber} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla producenta dachów płaskich" src={damansdak} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla agencji eventowej" src={anilama} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona medycyny chińskiej i ziołolecznictwa" src={harmonia} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona www Stowarzyszenie Elektryków Polkskich" src={sep} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona internetowa dla agencji turystycznej" src={deski} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona www tapicer samochodowy" src={skycar} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla betoniarnii" src={transbet} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona internetowa dla agencji turystycznej" src={adblue} />
-          <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla producenta przetworów owocowych" src={agrofruct} />
-        </div>
-      </section>
+          <div className="mx-auto xl:w-3/4 px-4 grid xl:grid-cols-3 md:grid-cols-2 gap-2 xl:gap-8 py-16">
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Polskie Radio Rzeszów strona internetowa" src={radio} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Shoprimo strona www" src={shoprimo} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="D&G Consulting - strona konsultingowa" src={dgc} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona www dla hotelu" src={przystanek} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla sklepu internetowego" src={weldoro} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="BarberRoom strona internetowa" src={barber} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla producenta dachów płaskich" src={damansdak} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla agencji eventowej" src={anilama} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona medycyny chińskiej i ziołolecznictwa" src={harmonia} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona www Stowarzyszenie Elektryków Polkskich" src={sep} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona internetowa dla agencji turystycznej" src={deski} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona www tapicer samochodowy" src={skycar} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla betoniarnii" src={transbet} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona internetowa dla agencji turystycznej" src={adblue} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla producenta przetworów owocowych" src={agrofruct} />
+          </div>
+        </section>
         <section>
           <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
