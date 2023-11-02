@@ -212,9 +212,12 @@ export default function StronyRzeszow() {
           <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto lg:mx-0">
-                <h2 className="text-3xl font-serif font-semibold tracking-tight sm:text-4xl max-w-2xl">Projektowanie stron internetowych Rzeszów</h2>
+                <h2 className="text-3xl font-serif font-semibold tracking-tight sm:text-4xl max-w-2xl">Tworzenie stron www w Rzeszowie – profesjonalne strony internetowe</h2>
                 <p className="mt-6 text-lg font-serif leading-8 text-gray-600">
-                  Nasza agencja w Rzeszowie specjalizuje się w projektowaniu i tworzeniu nowoczesnych stron internetowych, dostosowanych do indywidualnych potrzeb Twojego biznesu. Oferujemy kompleksowe rozwiązania, które pomogą Ci osiągnąć sukces online.
+                  Rynek się zmienił, zmieniła się też koncepcja marketingu. Strona internetowa to idealne miejsce dla konsumentów, w którym mogą zaspokoić swoje potrzeby, zamówić produkty lub usługi oraz uzyskać więcej informacji na ich temat.
+                </p>
+                <p className="mt-6 text-lg font-serif leading-8 text-gray-600">
+                  Prowadzenie działalności w oparciu o stronę internetową szybko przyniesie Ci uznanie lokalnych klientów z Rzeszowa.
                 </p>
               </div>
             </div>
@@ -242,23 +245,39 @@ export default function StronyRzeszow() {
         <section>
           <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                <h2 className="text-3xl font-serif font-semibold tracking-tight sm:text-4xl">
-                  Dlaczego wybrać naszą firmę?
-                </h2>
-                <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2">
-                  {features.map((feature) => (
-                    <div key={feature.name}>
-                      <dt className="text-lg font-semibold leading-7 font-serif">
-                        <div className="mb-6 flex h-10 w-10 text-medium items-center justify-center rounded-lg bg-black">
-                          <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
-                        </div>
-                        {feature.name}
-                      </dt>
-                      <dd className="mt-1 text-base leading-7 text-gray-600">{feature.description}</dd>
-                    </div>
-                  ))}
-                </dl>
+              <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
+                <div className="mx-auto w-full max-w-xl lg:mx-0">
+                  <h2 className="text-3xl font-semibold tracking-tight text-gray-900 font-serif max-w-lg">Projektowanie stron internetowych Rzeszów</h2>
+                  <p className="mt-6 text-lg leading-8 text-gray-600">
+                    Jeśli chcesz, aby Twoja firma wyróżniała się na tle innych firm z Rzeszowa, skorzystaj z nowoczesnych technologii. Zajmujemy się projektowaniem stron internetowych dla firm i organizacji w Rzeszowie. Wiemy, co jest ważne – słuchamy i odpowiadamy na potrzeby naszych klientów.
+                  </p>
+                </div>
+                <div className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
+                  <div className="flex items-center">
+                    <Image className="w-14 h-auto" src={ReactLogo} alt="React logo" />
+                    <p className="ml-4 text-base font-serif">React</p>
+                  </div>
+                  <div className="flex items-center">
+                    <Image className="w-14 h-auto" src={WordPressLogo} alt="React logo" />
+                    <p className="ml-4 text-base font-serif">WordPress</p>
+                  </div>
+                  <div className="flex items-center">
+                    <Image className="w-14 h-auto" src={NextjsLogo} alt="React logo" />
+                    <p className="ml-4 text-base font-serif">Next.js</p>
+                  </div>
+                  <div className="flex items-center">
+                    <Image className="w-14 h-auto" src={GolangLogo} alt="React logo" />
+                    <p className="ml-4 text-base font-serif">Golang</p>
+                  </div>
+                  <div className="flex items-center">
+                    <Image className="w-14 h-auto" src={TailwindLogo} alt="React logo" />
+                    <p className="ml-4 text-base font-serif">Twilwind CSS</p>
+                  </div>
+                  <div className="flex items-center">
+                    <Image className="w-14 h-auto" src={Typescript} alt="React logo" />
+                    <p className="ml-4 text-base font-serif">Typescript</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -276,39 +295,23 @@ export default function StronyRzeszow() {
       <section>
         <div className="bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
-              <div className="mx-auto w-full max-w-xl lg:mx-0">
-                <h2 className="text-3xl font-semibold tracking-tight text-gray-900 font-serif max-w-lg">Tworzenie stron internetowych Rzeszów</h2>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Tworzenie stron internetowych opiera się na nowoczesnych technologiach, które są nie tylko wydajne, ale także doskonale dostosowane do potrzeb użytkowników i optymalizacji pod kątem SEO.
-                </p>
-              </div>
-              <div className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
-                <div className="flex items-center">
-                  <Image className="w-14 h-auto" src={ReactLogo} alt="React logo" />
-                  <p className="ml-4 text-base font-serif">React</p>
-                </div>
-                <div className="flex items-center">
-                  <Image className="w-14 h-auto" src={WordPressLogo} alt="React logo" />
-                  <p className="ml-4 text-base font-serif">WordPress</p>
-                </div>
-                <div className="flex items-center">
-                  <Image className="w-14 h-auto" src={NextjsLogo} alt="React logo" />
-                  <p className="ml-4 text-base font-serif">Next.js</p>
-                </div>
-                <div className="flex items-center">
-                  <Image className="w-14 h-auto" src={GolangLogo} alt="React logo" />
-                  <p className="ml-4 text-base font-serif">Golang</p>
-                </div>
-                <div className="flex items-center">
-                  <Image className="w-14 h-auto" src={TailwindLogo} alt="React logo" />
-                  <p className="ml-4 text-base font-serif">Twilwind CSS</p>
-                </div>
-                <div className="flex items-center">
-                  <Image className="w-14 h-auto" src={Typescript} alt="React logo" />
-                  <p className="ml-4 text-base font-serif">Typescript</p>
-                </div>
-              </div>
+            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+              <h2 className="text-3xl font-serif font-semibold tracking-tight sm:text-4xl">
+                Dlaczego wybrać naszą firmę?
+              </h2>
+              <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2">
+                {features.map((feature) => (
+                  <div key={feature.name}>
+                    <dt className="text-lg font-semibold leading-7 font-serif">
+                      <div className="mb-6 flex h-10 w-10 text-medium items-center justify-center rounded-lg bg-black">
+                        <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                      </div>
+                      {feature.name}
+                    </dt>
+                    <dd className="mt-1 text-base leading-7 text-gray-600">{feature.description}</dd>
+                  </div>
+                ))}
+              </dl>
             </div>
           </div>
         </div>
