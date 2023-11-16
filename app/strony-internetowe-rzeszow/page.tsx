@@ -81,7 +81,7 @@ function addReviewJsonLd() {
 
 export const metadata = {
   title: "Strony internetowe Rzeszów",
-  description: "Strony internetowe Rzeszów. Profesjonalne tworzenie stron internetowych w Rzeszowie. Responsywne i wydaje strony www."
+  description: "Strony internetowe Rzeszów. Profesjonalne tworzenie stron WWW Rzeszów. Responsywne i wydaje strony www w Rzeszowie."
 }
 
 export default function StronyRzeszow() {
