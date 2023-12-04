@@ -7,4 +7,20 @@ export function middleware(request: NextRequest) {
     url.pathname = "/kontakt/";
     return NextResponse.redirect(url);
   }
+  if (url.pathname === "/realization/") {
+    url.pathname = "/";
+    return NextResponse.redirect(url);
+  }
+  if (url.pathname === "/kampanie-internetowe//") {
+    url.pathname = "/marketing/";
+    return NextResponse.redirect(url);
+  }
+  if (url.pathname === "/marketing-internetowy/") {
+    url.pathname = "/marketing/";
+    return NextResponse.redirect(url);
+  }
+  if (url.pathname === "/social-media/") {
+    url.pathname = "/marketing/";
+    return NextResponse.redirect(url);
+  }
 }
