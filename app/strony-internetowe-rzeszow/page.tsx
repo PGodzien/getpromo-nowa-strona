@@ -80,7 +80,7 @@ function addReviewJsonLd() {
 };
 
 export const metadata = {
-  title: "Strony internetowe Rzeszów",
+  title: "Strony internetowe Rzeszów | Tworzenie stron www",
   description: "Strony internetowe Rzeszów. Profesjonalne tworzenie stron WWW Rzeszów. Responsywne i wydaje strony www w Rzeszowie."
 }
 

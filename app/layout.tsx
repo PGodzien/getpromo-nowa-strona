@@ -96,6 +96,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
   return (
     <html lang="pl" className={`${clash.variable} ${inter.variable}`}>
 
