@@ -4,49 +4,39 @@ import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
 const faqs = [
     {
-        question: "Co to jest strona internetowa i dlaczego moja firma w Rzeszowie potrzebuje własnej strony?",
+        question: "Ile kosztuje strona internetowa?",
         answer:
-            "Strona internetowa to witryna online, na której można prezentować swoją firmę, produkty lub usługi. Dla firm w Rzeszowie jest to ważne narzędzie, które pozwala dotrzeć do klientów online, budować świadomość marki i zwiększać dostępność informacji o firmie.",
+            "Cena strony internetowej zależy od jej wielkości, funkcji oraz technologii i metod, którymi została wykonana. Cennik stron internetowych może wyglądać inaczej dla różnego rodzaju projektów. Prosta wizytówka może kosztować kilkaset złotych, bardziej złożona strona firmowa to koszty ok. 2500-3500 zł, natomiast duże i zaawansowane serwisy mogą kosztować kilkadziesiąt lub kilkaset tysięcy złotych.",
     },
     {
-        question: "Jakie korzyści przynosi posiadanie strony internetowej dla firmy w Rzeszowie?",
+        question: "Czy Getpromo wykonuje aktualizowanie stron internetowych?",
         answer:
-            "Posiadanie strony internetowej pozwala na: zwiększenie widoczności firmy w Internecie, dostępność informacji 24/7 dla klientów, prezentację oferty, zdjęć produktów i opinii klientów, komunikację z klientami poprzez formularze kontaktowe, budowanie zaufania do firmy.",
+            "Tak, w ramach naszych usług realizujemy regularne aktualizacje stron internetowych. Aktualizacje dotyczą technologii, aktualizacji motywów, wtyczek oraz aktualizacji treści zawartych na stronie internetowej - aktualizacja treści, obrazów, dodawanie nowych podstron itp. ",
     },
     {
         question: "Jak długo trwa projektowanie i tworzenie strony internetowej?",
         answer:
-            "Czas tworzenia strony internetowej zależy od jej skomplikowania. Prosty projekt może być gotowy ju w tydzień, podczas gdy bardziej zaawansowane strony mogą wymagać kilku miesięcy. Ważne jest, aby współpracować z agencją podczas tworzenia strony.",
+            "Proces budowania strony internetowej zwykle trwa ok. 2-4 tygodni. Dużo zależy od wielkości projektu oraz od zaangażowania firmy zlecającej tworzenie strony www - niektóre rzeczy wymagają akceptacji lub dosłania materiałów, które powinny znaleźć się na stronie. Małe projekty zazwyczaj są gotowe w około dwa tygodnie. ",
     },
     {
-        question: "Jakie informacje powinny znaleźć się na stronie internetowej firmy w Rzeszowie?",
+        question: "Czy moja strona będzie zoptymalizowana pod kątem wyszukiwarek internetowych?",
         answer:
-            "Na stronie powinny być podane podstawowe informacje, takie jak nazwa firmy, adres, numer telefonu i godziny otwarcia. Warto także uwzględnić opis oferty, informacje o zespołu, galerię zdjęć, opinie klientów oraz formularz kontaktowy.",
+            "Pozycjonowanie stron internetowych to bardzo istotny elementów strategii biznesowych firm. Zajmujemy się projektowaniem stron internetowych, które są zoptymalizowane z uwzględnieniem SEO. Dodatkowo istnieje możliwość wykupienia opcji pozycjonowania strony internetowej po jej przekazaniu dla klienta.",
     },
     {
-        question: "Ile kosztuje stworzenie strony internetowej dla firmy w Rzeszowie?",
+        question: "Jak strona będzie wyglądać na urządzeniach mobilnych?",
         answer:
-            "Koszty projektowania strony internetowej różnią się w zależności od jej rozmiaru i funkcjonalności. Koszt może wynosić od kilkuset złotych, w przypadku bardzo prostych stron, do kilkuset tysięcy złotych. Warto skonnsultować się ze specjalistą w zakresie technologii i rozwiązań, aby nie generować niepotrzebnych kosztów.",
+            "Strona zostanie zaprojektowana z zastosowaniem podejścia responsywnego, co oznacza, że będzie dostosowana i dobrze wyglądać na różnych urządzeniach mobilnych o różnych rozmiarach ekranu. To ważne dla doświadczenia użytkownika i pozycji w wynikach wyszukiwania.",
     },
     {
-        question: "Czy strona internetowa musi być dostosowana do urządzeń mobilnych?",
+        question: "Co z hostingiem i domeną?",
         answer:
-            "Tak, strona internetowa powinna być responsywna, czyli dostosowana do różnych urządzeń, w tym smartfonów i tabletów. To ważne, aby zapewnić użytkownikom wygodne przeglądanie strony na dowolnym urządzeniu.",
+            "Jeżeli klient posiada domenę i hosting to korzystamy z jego zaplecza i umieszczamy stronę na wybranym serwerze www pod wskazanym adresem. Jeżeli klient nie posiada domeny i serwera zapewniamy je w ramach naszych usług utrzymania i zarządzania stroną internetową.",
     },
     {
         question: "Czy można samodzielnie zarządzać treścią na stronie?",
         answer:
             "Tak, jeżeli klient zdecyduje się na stronę, która jest oparta o system zarządzania treścią (CMS), to taka strona pozwala właścicielom na samodzielne dodawanie, edytowanie i usuwanie treści, takich jak artykuły, zdjęcia czy produkty.",
-    },
-    {
-        question: "Czy istnieje konieczność optymalizacji SEO dla strony internetowej?",
-        answer:
-            "Tak, optymalizacja SEO (Search Engine Optimization) pomaga zwiększyć widoczność strony w wynikach wyszukiwania Google. Jest to istotne, jeśli chcesz przyciągnąć więcej klientów online. Budowane przez nas strony uwzględniają dobre praktyki z obszaru pozycjonowania.",
-    },
-    {
-        question: "Jak mogę promować swoją stronę internetową w Rzeszowie?",
-        answer:
-            "Promocja strony internetowej może obejmować kampanie reklamowe w Internecie, działania na mediach społecznościowych, lokalne katalogi biznesowe oraz tradycyjne formy reklamy. Ważne jest także monitorowanie i analiza wyników działań promocyjnych.",
     },
     {
         question: "Czy istnieje wsparcie techniczne po wdrożeniu strony?",
