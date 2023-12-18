@@ -9,7 +9,7 @@ import NextjsLogo from "../../public/next_logo.svg";
 import GolangLogo from "../../public/golang_logo.svg";
 import TailwindLogo from "../../public/tailwind_logo.svg";
 import Typescript from "../../public/typescript.svg";
-import webRzeszow from "../../public/strony-internetowe-rzeszow.png";
+import webRzeszow from "../../public/strony-internetowe-rzeszow-tworzenie-www.png";
 import anilama from "../../public/anilama.jpg";
 import barber from "../../public/barber.jpg";
 import radio from "../../public/radio.jpg";
@@ -116,7 +116,7 @@ export default function StronyRzeszow() {
 
         <section className="relative z-10 max-w-7xl mx-auto py-6">
           {/* <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div> */}
-          <div className="relative flex lg:flex-row flex-col-reverse lg:py-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
+          <div className="relative flex lg:flex-row flex-col-reverse py-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 lg:-mt-28 max-w-xl 2xl:max-w-2xl relative z-20 w-full mt-12">
               <h1
                 className="font-serif leading-tight text-white text-4xl font-semibold lg:text-6xl">
@@ -153,12 +153,12 @@ export default function StronyRzeszow() {
             </div>
             <div className="relative lg:w-1/2">
               <Image className="relative" alt="design-god" src={webRzeszow} />
-              <div className="animate-flash -z-10 w-10 h-10 p-44 sd:p-64 xl:p-80 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 m-3">
+              <div className="animate-flash -z-10 w-10 h-10 p-44 sd:p-72 absolute inset-0 right-0 m-3">
                 <div className="absolute inset-0 z-10 m-0.5  bg-transparent border-8 border-blue-500 blur rounded-full"></div>
                 <div className="absolute inset-0 z-20  bg-transparent border-4 border-white rounded-full"></div>
                 <div className="absolute inset-0 z-10 -m-1  bg-transparent border-8 border-blue-500 blur rounded-full"></div>
               </div>
-              <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">rZe</span>us</p>
+              {/* <p className="absolute bottom-20 right-20 text-white font-serif font-semibold text-4xl"><span className="text-primary">rZe</span>us</p> */}
             </div>
           </div>
           <Image className="hidden -z-10 lg:block mx-auto absolute top-96 inset-0" src={pattern} alt="" />
