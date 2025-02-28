@@ -27,6 +27,8 @@ import transbet from "../../public/transbet.jpg";
 import agrofruct from "../../public/agrofruct.jpg";
 import { Cog6ToothIcon, DevicePhoneMobileIcon, MagnifyingGlassIcon, ShieldCheckIcon, UserCircleIcon, MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 import Faq from "../../components/faq";
+import ImageCarousel from "@/components/carouselImage";
+import Carousel from "@/components/carouselImage";
 
 const features = [
   {
@@ -223,7 +225,11 @@ export default function StronyRzeszow() {
             </div>
           </div>
         </section>
-        <section className="bg-gray-100">
+
+        <Carousel />
+
+
+        {/* <section className="bg-gray-100">
           <div className="mx-auto xl:w-3/4 px-4 grid xl:grid-cols-3 md:grid-cols-2 gap-2 xl:gap-8 py-16">
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Polskie Radio Bielsko-Biała strona internetowa" src={radio} />
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Shoprimo strona www" src={shoprimo} />
@@ -241,7 +247,7 @@ export default function StronyRzeszow() {
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona internetowa dla agencji turystycznej" src={adblue} />
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla producenta przetworów owocowych" src={agrofruct} />
           </div>
-        </section>
+        </section> */}
         <section>
           <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
