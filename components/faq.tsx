@@ -1,5 +1,5 @@
 'use client'
-import { Disclosure } from '@headlessui/react'
+import { Disclosure, Transition } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
 const faqs = [
@@ -11,12 +11,12 @@ const faqs = [
     {
         question: "Czy Getpromo wykonuje aktualizowanie stron internetowych?",
         answer:
-            "Tak, w ramach naszych usług realizujemy regularne aktualizacje stron internetowych. Aktualizacje dotyczą technologii, aktualizacji motywów, wtyczek oraz aktualizacji treści zawartych na stronie internetowej - aktualizacja treści, obrazów, dodawanie nowych podstron itp. ",
+            "Tak, w ramach naszych usług realizujemy regularne aktualizacje stron internetowych. Aktualizacje dotyczą technologii, aktualizacji motywów, wtyczek oraz aktualizacji treści zawartych na stronie internetowej - aktualizacja treści, obrazów, dodawanie nowych podstron itp.",
     },
     {
         question: "Jak długo trwa projektowanie i tworzenie strony internetowej?",
         answer:
-            "Proces budowania strony internetowej zwykle trwa ok. 2-4 tygodni. Dużo zależy od wielkości projektu oraz od zaangażowania firmy zlecającej tworzenie strony www - niektóre rzeczy wymagają akceptacji lub dosłania materiałów, które powinny znaleźć się na stronie. Małe projekty zazwyczaj są gotowe w około dwa tygodnie. ",
+            "Proces budowania strony internetowej zwykle trwa ok. 2-4 tygodni. Dużo zależy od wielkości projektu oraz od zaangażowania firmy zlecającej tworzenie strony www - niektóre rzeczy wymagają akceptacji lub dosłania materiałów, które powinny znaleźć się na stronie. Małe projekty zazwyczaj są gotowe w około dwa tygodnie.",
     },
     {
         question: "Czy moja strona będzie zoptymalizowana pod kątem wyszukiwarek internetowych?",
@@ -61,16 +61,26 @@ export default function Faq() {
                                                 <span className="text-lg font-semibold font-serif leading-7">{faq.question}</span>
                                                 <span className="ml-6 flex h-7 items-center">
                                                     {open ? (
-                                                        <MinusSmallIcon className="h-6 w-6" aria-hidden="true" />
+                                                        <MinusSmallIcon className="h-6 w-6 transition-transform duration-200 transform rotate-180" aria-hidden="true" />
                                                     ) : (
-                                                        <PlusSmallIcon className="h-6 w-6" aria-hidden="true" />
+                                                        <PlusSmallIcon className="h-6 w-6 transition-transform duration-200" aria-hidden="true" />
                                                     )}
                                                 </span>
                                             </Disclosure.Button>
                                         </dt>
-                                        <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                                            <p className="text-base leading-7 text-gray-600">{faq.answer}</p>
-                                        </Disclosure.Panel>
+                                        <Transition
+                                            show={open}
+                                            enter="transition-opacity duration-300 ease-out"
+                                            enterFrom="opacity-0"
+                                            enterTo="opacity-100"
+                                            leave="transition-opacity duration-200 ease-in"
+                                            leaveFrom="opacity-100"
+                                            leaveTo="opacity-0"
+                                        >
+                                            <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                                                <p className="text-base leading-7 text-gray-600">{faq.answer}</p>
+                                            </Disclosure.Panel>
+                                        </Transition>
                                     </>
                                 )}
                             </Disclosure>
