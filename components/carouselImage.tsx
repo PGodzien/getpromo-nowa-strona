@@ -53,10 +53,10 @@ export default function InfiniteCarousel() {
         <section className="bg-white">
             <div className="bg-white py-16 relative overflow-hidden">
                 {/* Gradient overlay for the left side */}
-                <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+                <div className="hidden md:block absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
 
                 {/* Gradient overlay for the right side */}
-                <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
+                <div className="hidden md:block absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
 
                 {/* Container for the carousel */}
                 <div className="mx-auto xl:w-3/4 px-4 relative">
@@ -76,14 +76,14 @@ export default function InfiniteCarousel() {
                             <div
                                 key={`row1-${index}`}
                                 className="flex-shrink-0 xl:border-4 border-2 border-white shadow-lg mx-2"
-                                style={{ width: "450px", height: "300px" }} // Adjust image size as needed
+                                style={{ width: "450px", height: "250px" }} // Adjust image size as needed
                             >
                                 <Image
                                     src={image.src}
                                     alt={image.alt}
                                     className="w-full h-full object-cover"
-                                    width={450}
-                                    height={300}
+                                    width={250}
+                                    height={250}
                                 />
                             </div>
                         ))}
@@ -105,14 +105,14 @@ export default function InfiniteCarousel() {
                             <div
                                 key={`row2-${index}`}
                                 className="flex-shrink-0 xl:border-4 border-2 border-white shadow-lg mx-2"
-                                style={{ width: "450px", height: "300px" }} // Adjust image size as needed
+                                style={{ width: "450px", height: "250px" }} // Adjust image size as needed
                             >
                                 <Image
                                     src={image.src}
                                     alt={image.alt}
                                     className="w-full h-full object-cover"
-                                    width={450}
-                                    height={300}
+                                    width={250}
+                                    height={250}
                                 />
                             </div>
                         ))}
@@ -134,14 +134,14 @@ export default function InfiniteCarousel() {
                             <div
                                 key={`row3-${index}`}
                                 className="flex-shrink-0 xl:border-4 border-2 border-white shadow-lg mx-2"
-                                style={{ width: "450px", height: "300px" }} // Adjust image size as needed
+                                style={{ width: "450px", height: "250px" }} // Adjust image size as needed
                             >
                                 <Image
                                     src={image.src}
                                     alt={image.alt}
                                     className="w-full h-full object-cover"
-                                    width={450}
-                                    height={300}
+                                    width={250}
+                                    height={250}
                                 />
                             </div>
                         ))}
