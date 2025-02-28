@@ -43,29 +43,37 @@ const CtaFooter = () => {
               </a>
               <a
                 className="flex items-center  mb-10 md:flex-row justify-start"
-                href="https://goo.gl/maps/CeEjQKqMbvc2EX7X9"
+                target="_blank"
+                href="https://maps.app.goo.gl/A7q1UcNoVo8FfEqS7"
               >
                 <Image className="mr-5" src={forCtaMapSvg} alt="Geolocation icon" />
                 <div className="flex flex-col md:mt-0 md:ml-5 lg:ml-10">
                   <p className="text-xl text-white break-all font-sans font-semibold">
-                    ul. Kolejowa 12 / 310
+                    Bielsko-Biała
                   </p>
                   <p className="font-normal text-white font-serif text-baseSM">
-                    35-073 Rzeszów
+                    Mikołaja Reja 18
+                  </p>
+                  <p className="font-normal text-white font-serif text-baseSM">
+                    43-300 Bielsko-Biała
                   </p>
                 </div>
               </a>
               <a
                 className="flex items-center  mb-10 md:flex-row justify-start"
-                href="https://goo.gl/maps/iSXxWyJiGoo36PCG9"
+                target="_blank"
+                href="https://goo.gl/maps/CeEjQKqMbvc2EX7X9"
               >
                 <Image className="mr-5" src={forCtaMapSvg} alt="Geolocation icon" />
                 <div className="flex flex-col md:mt-0 md:ml-5 lg:ml-10">
                   <p className="text-xl text-white break-all font-sans font-semibold">
-                    ul. Piotra Skargi 1
+                    Rzeszów
                   </p>
                   <p className="font-normal text-white font-serif text-baseSM">
-                    37-700 Przemyśl
+                    ul. Kolejowa 12 / 310
+                  </p>
+                  <p className="font-normal text-white font-serif text-baseSM">
+                    35-073 Rzeszów
                   </p>
                 </div>
               </a>

@@ -32,7 +32,7 @@ const features = [
   {
     name: 'Doświadczenie',
     description:
-      'Jesteśmy doświadczoną agencją internetową w Rzeszowie z wieloletnią historią projektów.',
+      'Jesteśmy doświadczoną agencją internetową w Bielsku-Białej z wieloletnią historią projektów.',
     icon: ShieldCheckIcon,
   },
   {
@@ -67,7 +67,7 @@ function addReviewJsonLd() {
       
         "@context": "https://schema.org/",
         "@type": "CreativeWorkSeries",
-        "name": "Strony Internetowe Rzeszów",
+        "name": "Strony Internetowe Bielsko-Biała",
         "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
@@ -80,8 +80,8 @@ function addReviewJsonLd() {
 };
 
 export const metadata = {
-  title: "Strony internetowe Rzeszów | Tworzenie stron www",
-  description: "Strony internetowe Rzeszów. Profesjonalne tworzenie stron WWW Rzeszów. Responsywne i wydaje strony www w Rzeszowie."
+  title: "Strony internetowe Bielsko-Biała | Tworzenie stron www",
+  description: "Strony internetowe Bielsko-Biała. Profesjonalne tworzenie stron WWW Bielsko-Biała. Responsywne i wydaje strony www w Bielsku-Białej."
 }
 
 export default function StronyRzeszow() {
@@ -89,7 +89,7 @@ export default function StronyRzeszow() {
     <>
       <link
         rel="canonical"
-        href="https://getpromo.pl/strony-internetowe-rzeszow"
+        href="https://getpromo.pl/strony-internetowe-bielsko-biala"
         key="canonical"
       />
       <script
@@ -98,15 +98,15 @@ export default function StronyRzeszow() {
         key="Review-jsonld"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://getpromo.pl/strony-internetowe-rzeszow" />
-      <meta property="og:title" content="Strony internetowe Rzeszów" />
-      <meta property="og:description" content="Strony internetowe Rzeszów. Profesjonalne tworzenie stron internetowych w Rzeszowie. Responsywne i wydaje strony www." />
+      <meta property="og:url" content="https://getpromo.pl/strony-internetowe-bielsko-biala" />
+      <meta property="og:title" content="Strony internetowe Bielsko-Biała" />
+      <meta property="og:description" content="Strony internetowe Bielsko-Biała. Profesjonalne tworzenie stron internetowych w Bielsku-Białej. Responsywne i wydaje strony www." />
       <meta property="og:image" content="https://getpromo.pl/cover_webRzeszow.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://getpromo.pl/strony-internetowe-rzeszow" />
-      <meta property="twitter:title" content="Strony internetowe Rzeszów" />
-      <meta property="twitter:description" content="Strony internetowe Rzeszów. Profesjonalne tworzenie stron internetowych w Rzeszowie. Responsywne i wydaje strony www." />
+      <meta property="twitter:url" content="https://getpromo.pl/strony-internetowe-bielsko-biala" />
+      <meta property="twitter:title" content="Strony internetowe Bielsko-Biała" />
+      <meta property="twitter:description" content="Strony internetowe Bielsko-Biała. Profesjonalne tworzenie stron internetowych w Bielsku-Białej. Responsywne i wydaje strony www." />
       <meta property="twitter:image" content="https://getpromo.pl/cover_webRzeszow.jpg" />
       {/* <Image className="absolute inset-0 z-20" alt="Circle BG" src={bgCircle} /> */}
       <div className="absolute z-50 -mt-32 shadow-2xl shadow-blue-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-blue-600 top-0 rounded-full mx-auto left-0 right-0"></div>
@@ -120,8 +120,8 @@ export default function StronyRzeszow() {
             <div className="space-y-8 lg:-mt-28 max-w-xl 2xl:max-w-2xl relative z-20 w-full mt-12">
               <h1
                 className="font-serif leading-tight text-white text-4xl font-semibold lg:text-6xl">
-                Strony internetowe Rzeszów</h1>
-              <h2 className="max-w-3xl relative md:text-lg z-10 text-white ">Projektujemy strony internetowe dla klientów z całej Polski oraz z zagranicy – w tym dla naszych klientów ze stolicy Podkarpacia.</h2>
+                Strony internetowe Bielsko-Biała</h1>
+              <h2 className="max-w-3xl relative md:text-lg z-10 text-white ">Projektujemy strony internetowe dla klientów z całej Polski oraz z zagranicy – w tym dla naszych klientów ze stolicy Podbeskidzia.</h2>
               <button className="cursor-pointer" type="button">
                 <a href="#kontakt" className="flex items-center">
                   <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>
@@ -212,12 +212,12 @@ export default function StronyRzeszow() {
           <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto lg:mx-0">
-                <h2 className="text-3xl font-serif font-semibold tracking-tight sm:text-4xl max-w-2xl">Tworzenie stron www w Rzeszowie – profesjonalne strony internetowe</h2>
+                <h2 className="text-3xl font-serif font-semibold tracking-tight sm:text-4xl max-w-2xl">Tworzenie stron www w Bielsku-Białej – profesjonalne strony internetowe</h2>
                 <p className="mt-6 text-lg font-serif leading-8 text-gray-600">
                   Rynek się zmienił, zmieniła się też koncepcja marketingu. Strona internetowa to idealne miejsce dla konsumentów, w którym mogą zaspokoić swoje potrzeby, zamówić produkty lub usługi oraz uzyskać więcej informacji na ich temat.
                 </p>
                 <p className="mt-6 text-lg font-serif leading-8 text-gray-600">
-                  Prowadzenie działalności w oparciu o stronę internetową szybko przyniesie Ci uznanie lokalnych klientów z Rzeszowa.
+                  Prowadzenie działalności w oparciu o stronę internetową szybko przyniesie Ci uznanie lokalnych klientów z Bielska-Białej.
                 </p>
               </div>
             </div>
@@ -225,7 +225,7 @@ export default function StronyRzeszow() {
         </section>
         <section className="bg-gray-100">
           <div className="mx-auto xl:w-3/4 px-4 grid xl:grid-cols-3 md:grid-cols-2 gap-2 xl:gap-8 py-16">
-            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Polskie Radio Rzeszów strona internetowa" src={radio} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Polskie Radio Bielsko-Biała strona internetowa" src={radio} />
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Shoprimo strona www" src={shoprimo} />
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="D&G Consulting - strona konsultingowa" src={dgc} />
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona www dla hotelu" src={przystanek} />
@@ -247,9 +247,9 @@ export default function StronyRzeszow() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
                 <div className="mx-auto w-full max-w-xl lg:mx-0">
-                  <h2 className="text-3xl font-semibold tracking-tight text-gray-900 font-serif max-w-lg">Projektowanie stron internetowych Rzeszów</h2>
+                  <h2 className="text-3xl font-semibold tracking-tight text-gray-900 font-serif max-w-lg">Projektowanie stron internetowych Bielsko-Biała</h2>
                   <p className="mt-6 text-lg leading-8 text-gray-600">
-                    Jeśli chcesz, aby Twoja firma wyróżniała się na tle innych firm z Rzeszowa, skorzystaj z nowoczesnych technologii. Zajmujemy się projektowaniem stron internetowych dla firm i organizacji w Rzeszowie. Wiemy, co jest ważne – słuchamy i odpowiadamy na potrzeby naszych klientów.
+                    Jeśli chcesz, aby Twoja firma wyróżniała się na tle innych firm z Bielska-Białej, skorzystaj z nowoczesnych technologii. Zajmujemy się projektowaniem stron internetowych dla firm i organizacji w Bielsku-Białej. Wiemy, co jest ważne – słuchamy i odpowiadamy na potrzeby naszych klientów.
                   </p>
                 </div>
                 <div className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
@@ -284,9 +284,9 @@ export default function StronyRzeszow() {
         </section>
         {/* <section className="py-16 md:py-20 bg-white">
           <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
-            <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl"> Projektowanie stron internetowych Rzeszów</h2>
+            <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl"> Projektowanie stron internetowych Bielsko-Biała</h2>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Wiemy, jak tworzyć profesjonalne strony internetowe zarówno dla dużych firm, jak i start-upów z Rzeszowa, stawiających swoje pierwsze kroki w biznesie.</p>
-            <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Jeśli poszukujesz specjalistów od marketingu sieciowego w Rzeszowie, jesteś w dobrym miejscu. Od lat zajmujemy się tworzeniem profesjonalnych stron internetowych, które wyróżniają się wysoką estetyką, responsywnością i szybkim czasem ładowania. Jako webmasterzy nie pozwalamy sobie na przeciętność. Wierzymy w kluczowe znaczenie wizerunku w sieci dla powodzenia każdej marki.
+            <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Jeśli poszukujesz specjalistów od marketingu sieciowego w Bielsku-Białej, jesteś w dobrym miejscu. Od lat zajmujemy się tworzeniem profesjonalnych stron internetowych, które wyróżniają się wysoką estetyką, responsywnością i szybkim czasem ładowania. Jako webmasterzy nie pozwalamy sobie na przeciętność. Wierzymy w kluczowe znaczenie wizerunku w sieci dla powodzenia każdej marki.
             </p>
           </div>
         </section> */}

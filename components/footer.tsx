@@ -23,10 +23,11 @@ function Footer() {
           <div className="bg-black w-16 -top-4 -left-14 h-1 absolute transform -translate-x-1/2 -translate-y-1/2"></div>
           <div className="bg-black absolute border-4 border-black w-80 h-40 right-20 -top-24 flex justify-center p-3 flex-col font-serif">
             <h4 className="text-primary font-semibold text-lg">Getpromo Agencja Marketingowa | Strony Internetowe</h4>
-            <p className="text-white text-sm">Kolejowa 12/310, 35-073 Rzeszów</p>
+            <p className="text-white text-sm">Mikołaja Reja 18, 43-300 Bielsko-Biała</p>
           </div>
         </div>
-        <iframe className="w-full h-96 grayscale" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.4086440516758!2d22.005846715716544!3d50.041175779420925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfbfdd5b9fe33%3A0x7614bec802e05c47!2sAgencja%20marketingowa%20Getpromo!5e0!3m2!1spl!2spl!4v1688138225938!5m2!1spl!2spl" width="600" height="450"></iframe>
+
+        <iframe className="w-full h-96 grayscale" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d329287.4673143993!2d18.941172688856522!3d49.850755713717376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716a12e8a7b38fd%3A0xfa23d3b6fd0f64f9!2sStrony%20internetowe%20-%20agencja%20marketingowa%20Getpromo!5e0!3m2!1spl!2spl!4v1740737473233!5m2!1spl!2spl" width="600" height="450"></iframe>
       </div>
 
       <div className="w-full relative bg-primary py-8">
