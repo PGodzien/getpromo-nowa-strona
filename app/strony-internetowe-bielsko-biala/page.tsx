@@ -123,7 +123,7 @@ export default function StronyRzeszow() {
               <h1
                 className="font-serif leading-tight text-white text-4xl font-semibold lg:text-6xl">
                 Strony internetowe Bielsko-Biała</h1>
-              <h2 className="max-w-3xl relative md:text-lg z-10 text-white ">Projektujemy strony internetowe dla klientów z całej Polski oraz z zagranicy – w tym dla naszych klientów ze stolicy Podbeskidzia.</h2>
+              <h2 className="max-w-3xl relative md:text-lg z-10 text-white ">Projektujemy strony internetowe dla klientów z całej Polski oraz z zagranicy – w tym dla naszych klientów z Bielska-Białej - stolicy Podbeskidzia.</h2>
               <button className="cursor-pointer" type="button">
                 <a href="#kontakt" className="flex items-center">
                   <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>
