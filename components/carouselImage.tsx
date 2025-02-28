@@ -51,7 +51,7 @@ export default function InfiniteCarousel() {
 
     return (
         <div className="bg-white">
-            <div className="bg-white py-16 relative overflow-hidden">
+            <div className="bg-white relative overflow-hidden">
                 {/* Gradient overlay for the left side */}
                 <div className="hidden md:block absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
 
