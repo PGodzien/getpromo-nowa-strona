@@ -226,10 +226,11 @@ export default function StronyRzeszow() {
           </div>
         </section>
 
-        <Carousel />
+        <section className="hidden md:block">
+          <Carousel />
+        </section>
 
-
-        {/* <section className="bg-gray-100">
+        <section className="bg-gray-100 md:hidden">
           <div className="mx-auto xl:w-3/4 px-4 grid xl:grid-cols-3 md:grid-cols-2 gap-2 xl:gap-8 py-16">
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Polskie Radio Bielsko-Biała strona internetowa" src={radio} />
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Shoprimo strona www" src={shoprimo} />
@@ -247,7 +248,7 @@ export default function StronyRzeszow() {
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona internetowa dla agencji turystycznej" src={adblue} />
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona dla producenta przetworów owocowych" src={agrofruct} />
           </div>
-        </section> */}
+        </section>
         <section>
           <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
