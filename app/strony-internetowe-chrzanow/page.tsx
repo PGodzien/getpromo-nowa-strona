@@ -91,7 +91,7 @@ export default function StronyRzeszow() {
     <>
       <link
         rel="canonical"
-        href="https://getpromo.pl/strony-internetowe-bielsko-biala"
+        href="https://getpromo.pl/strony-internetowe-chrzanow"
         key="canonical"
       />
       <script
@@ -100,13 +100,13 @@ export default function StronyRzeszow() {
         key="Review-jsonld"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://getpromo.pl/strony-internetowe-bielsko-biala" />
+      <meta property="og:url" content="https://getpromo.pl/strony-internetowe-chrzanow" />
       <meta property="og:title" content="Strony internetowe Chrzanów" />
       <meta property="og:description" content="Strony internetowe Chrzanów. Profesjonalne tworzenie stron internetowych w Chrzanowie. Responsywne i wydaje strony www." />
       <meta property="og:image" content="https://getpromo.pl/cover_webRzeszow.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://getpromo.pl/strony-internetowe-bielsko-biala" />
+      <meta property="twitter:url" content="https://getpromo.pl/strony-internetowe-chrzanow" />
       <meta property="twitter:title" content="Strony internetowe Chrzanów" />
       <meta property="twitter:description" content="Strony internetowe Chrzanów. Profesjonalne tworzenie stron internetowych w Chrzanowie. Responsywne i wydaje strony www." />
       <meta property="twitter:image" content="https://getpromo.pl/cover_webRzeszow.jpg" />
@@ -117,9 +117,7 @@ export default function StronyRzeszow() {
 
 
         <section className="relative z-10 max-w-7xl mx-auto py-6">
-          <Image src={chrzanow} alt="" className="absolute inset-0" />
-          {/* <div className="absolute inset-0 bg-red-500"></div> */}
-          <div className="absolute inset-0 bg-getDark bg-opacity-70 z-20"></div>
+          <Image src={chrzanow} alt="" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-10" />
           <div className="relative flex lg:flex-row flex-col-reverse py-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 lg:-mt-28 max-w-xl 2xl:max-w-2xl relative z-20 w-full mt-12">
               <h1
