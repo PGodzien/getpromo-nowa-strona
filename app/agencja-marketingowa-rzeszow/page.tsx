@@ -246,7 +246,7 @@ export default function Marketing() {
       </section>
       <Testimonials />
       <section className="pt-16 bg-white">
-        <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
+        <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark prose">
           <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-xl font-semibold lg:text-5xl">Agencja reklamowa Rzeszów</h2>
           <p className="md:text-xl mt-4">Getpromo to interaktywna agencja marketingowa z Rzeszowa, której działania marketingowe cechują się wysoką skutecznością. Do naszych wysokiej jakości usług marketingowych należą: marketing internetowy, prowadzenie kampanii reklamowych, automatyzacja procesów, dbanie o wizerunek firmy, social media, e-sprzedaż, responsywne strony internetowe, analiza strony internetowej, content marketing, media marketing, social media marketing, google ads, pozycjonowanie stron, optymalizacja strony internetowej, usługi pozyskiwania klientów, strategie marketingowe, reklama w Google.</p>
           <h3 className="font-serif md:pt-12 md:mt-12 pt-8 mt-8 leading-tight text-xl md:text-2xl font-semibold border-t">Czy warto wybrać usługi agencji reklamowej biorąc pod uwagę wysokie cenniki agencji marketingowych? Czy obsługa marketingowa firmy musi być droga? </h3>

@@ -9,7 +9,7 @@ import NextjsLogo from "../../public/next_logo.svg";
 import GolangLogo from "../../public/golang_logo.svg";
 import TailwindLogo from "../../public/tailwind_logo.svg";
 import Typescript from "../../public/typescript.svg";
-import webRzeszow from "../../public/strony-internetowe-bielsko-biala-tworzenie-www.png";
+import webRzeszow from "../../public/strony-internetowe-rzeszow-tworzenie-www.png";
 import anilama from "../../public/anilama.jpg";
 import barber from "../../public/barber.jpg";
 import radio from "../../public/radio.jpg";
@@ -27,14 +27,14 @@ import transbet from "../../public/transbet.jpg";
 import agrofruct from "../../public/agrofruct.jpg";
 import { Cog6ToothIcon, DevicePhoneMobileIcon, MagnifyingGlassIcon, ShieldCheckIcon, UserCircleIcon, MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 import Faq from "../../components/faq";
-import ImageCarousel from "@/components/carouselImage";
+import chrzanow from "@/public/POL_Chrzanów_COA.svg"
 import Carousel from "@/components/carouselImage";
 
 const features = [
   {
     name: 'Doświadczenie',
     description:
-      'Jesteśmy doświadczoną agencją internetową w Bielsku-Białej z wieloletnią historią projektów.',
+      'Jesteśmy doświadczoną agencją internetową w Chrzanowie z wieloletnią historią projektów.',
     icon: ShieldCheckIcon,
   },
   {
@@ -69,7 +69,7 @@ function addReviewJsonLd() {
       
         "@context": "https://schema.org/",
         "@type": "CreativeWorkSeries",
-        "name": "Strony Internetowe Bielsko-Biała",
+        "name": "Strony Internetowe Chrzanów",
         "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
@@ -82,8 +82,8 @@ function addReviewJsonLd() {
 };
 
 export const metadata = {
-  title: "Strony internetowe Bielsko-Biała | Tworzenie stron www",
-  description: "Strony internetowe Bielsko-Biała. Profesjonalne tworzenie stron WWW Bielsko-Biała. Responsywne i wydaje strony www w Bielsku-Białej."
+  title: "Strony internetowe Chrzanów | Tworzenie stron www",
+  description: "Strony internetowe Chrzanów. Profesjonalne tworzenie stron WWW Chrzanów. Responsywne i wydaje strony www w Chrzanowie."
 }
 
 export default function StronyRzeszow() {
@@ -101,14 +101,14 @@ export default function StronyRzeszow() {
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://getpromo.pl/strony-internetowe-bielsko-biala" />
-      <meta property="og:title" content="Strony internetowe Bielsko-Biała" />
-      <meta property="og:description" content="Strony internetowe Bielsko-Biała. Profesjonalne tworzenie stron internetowych w Bielsku-Białej. Responsywne i wydaje strony www." />
+      <meta property="og:title" content="Strony internetowe Chrzanów" />
+      <meta property="og:description" content="Strony internetowe Chrzanów. Profesjonalne tworzenie stron internetowych w Chrzanowie. Responsywne i wydaje strony www." />
       <meta property="og:image" content="https://getpromo.pl/cover_webRzeszow.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://getpromo.pl/strony-internetowe-bielsko-biala" />
-      <meta property="twitter:title" content="Strony internetowe Bielsko-Biała" />
-      <meta property="twitter:description" content="Strony internetowe Bielsko-Biała. Profesjonalne tworzenie stron internetowych w Bielsku-Białej. Responsywne i wydaje strony www." />
+      <meta property="twitter:title" content="Strony internetowe Chrzanów" />
+      <meta property="twitter:description" content="Strony internetowe Chrzanów. Profesjonalne tworzenie stron internetowych w Chrzanowie. Responsywne i wydaje strony www." />
       <meta property="twitter:image" content="https://getpromo.pl/cover_webRzeszow.jpg" />
       {/* <Image className="absolute inset-0 z-20" alt="Circle BG" src={bgCircle} /> */}
       <div className="absolute z-50 -mt-32 shadow-2xl shadow-blue-500 blur-2xl opacity-10 md:h-96 md:w-96 w-56 h-56 bg-blue-600 top-0 rounded-full mx-auto left-0 right-0"></div>
@@ -117,13 +117,15 @@ export default function StronyRzeszow() {
 
 
         <section className="relative z-10 max-w-7xl mx-auto py-6">
-          {/* <div className="absolute inset-0 bg-getDark bg-opacity-70 md:bg-transparent z-20"></div> */}
+          <Image src={chrzanow} alt="" className="absolute inset-0" />
+          {/* <div className="absolute inset-0 bg-red-500"></div> */}
+          <div className="absolute inset-0 bg-getDark bg-opacity-70 z-20"></div>
           <div className="relative flex lg:flex-row flex-col-reverse py-20 lg:space-y-0 items-center justify-between px-4 mx-auto container md:px-12 2xl:px-0 lg:max-w-screen-2xl">
             <div className="space-y-8 lg:-mt-28 max-w-xl 2xl:max-w-2xl relative z-20 w-full mt-12">
               <h1
                 className="font-serif leading-tight text-white text-4xl font-semibold lg:text-6xl">
-                Strony internetowe Bielsko-Biała</h1>
-              <h2 className="max-w-3xl relative md:text-lg z-10 text-white ">Projektujemy strony internetowe dla klientów z całej Polski oraz z zagranicy – w tym dla naszych klientów z Bielska-Białej - stolicy Podbeskidzia.</h2>
+                Strony internetowe Chrzanów</h1>
+              <h2 className="max-w-3xl relative md:text-lg z-10 text-white ">Projektujemy strony internetowe dla klientów z całej Polski oraz z zagranicy – w tym dla naszych klientów z Chrzanowa.</h2>
               <button className="cursor-pointer" type="button">
                 <a href="#kontakt" className="flex items-center">
                   <div className="hidden md:block w-24 relative z-50 h-[1px] bg-primary"></div>
@@ -214,12 +216,12 @@ export default function StronyRzeszow() {
           <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto lg:mx-0">
-                <h2 className="text-3xl font-serif font-semibold tracking-tight sm:text-4xl max-w-2xl">Tworzenie stron www w Bielsku-Białej – profesjonalne strony internetowe</h2>
+                <h2 className="text-3xl font-serif font-semibold tracking-tight sm:text-4xl max-w-2xl">Tworzenie stron www w Chrzanowie – profesjonalne strony internetowe</h2>
                 <p className="mt-6 text-lg font-serif leading-8 text-gray-600">
                   Rynek się zmienił, zmieniła się też koncepcja marketingu. Strona internetowa to idealne miejsce dla konsumentów, w którym mogą zaspokoić swoje potrzeby, zamówić produkty lub usługi oraz uzyskać więcej informacji na ich temat.
                 </p>
                 <p className="mt-6 text-lg font-serif leading-8 text-gray-600">
-                  Prowadzenie działalności w oparciu o stronę internetową szybko przyniesie Ci uznanie lokalnych klientów z Bielska-Białej.
+                  Prowadzenie działalności w oparciu o stronę internetową szybko przyniesie Ci uznanie lokalnych klientów z Chrzanowa.
                 </p>
               </div>
             </div>
@@ -232,7 +234,7 @@ export default function StronyRzeszow() {
 
         <section className="bg-gray-100 md:hidden">
           <div className="mx-auto xl:w-3/4 px-4 grid xl:grid-cols-3 md:grid-cols-2 gap-2 xl:gap-8 py-16">
-            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Polskie Radio Bielsko-Biała strona internetowa" src={radio} />
+            <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Polskie Radio Chrzanów strona internetowa" src={radio} />
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Shoprimo strona www" src={shoprimo} />
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="D&G Consulting - strona konsultingowa" src={dgc} />
             <Image className="xl:border-4 border-2 border-white shadow-lg" alt="Strona www dla hotelu" src={przystanek} />
@@ -254,9 +256,9 @@ export default function StronyRzeszow() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
                 <div className="mx-auto w-full max-w-xl lg:mx-0">
-                  <h2 className="text-3xl font-semibold tracking-tight text-gray-900 font-serif max-w-lg">Projektowanie stron internetowych Bielsko-Biała</h2>
+                  <h2 className="text-3xl font-semibold tracking-tight text-gray-900 font-serif max-w-lg">Projektowanie stron internetowych Chrzanów</h2>
                   <p className="mt-6 text-lg leading-8 text-gray-600">
-                    Jeśli chcesz, aby Twoja firma wyróżniała się na tle innych firm z Bielska-Białej, skorzystaj z nowoczesnych technologii. Zajmujemy się projektowaniem stron internetowych dla firm i organizacji w Bielsku-Białej. Wiemy, co jest ważne – słuchamy i odpowiadamy na potrzeby naszych klientów.
+                    Jeśli chcesz, aby Twoja firma wyróżniała się na tle innych firm z Chrzanowa, skorzystaj z nowoczesnych technologii. Zajmujemy się projektowaniem stron internetowych dla firm i organizacji w Chrzanowie. Wiemy, co jest ważne – słuchamy i odpowiadamy na potrzeby naszych klientów.
                   </p>
                 </div>
                 <div className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
@@ -291,13 +293,24 @@ export default function StronyRzeszow() {
         </section>
         {/* <section className="py-16 md:py-20 bg-white">
           <div className="max-w-7xl mx-auto container pb-0 md:pb-12 px-4 text-getDark">
-            <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl"> Projektowanie stron internetowych Bielsko-Biała</h2>
+            <h2 className="font-serif leading-tight text-3xl md:text-4xl max-w-lg font-semibold lg:text-5xl"> Projektowanie stron internetowych Chrzanów</h2>
             <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Wiemy, jak tworzyć profesjonalne strony internetowe zarówno dla dużych firm, jak i start-upów z Rzeszowa, stawiających swoje pierwsze kroki w biznesie.</p>
-            <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Jeśli poszukujesz specjalistów od marketingu sieciowego w Bielsku-Białej, jesteś w dobrym miejscu. Od lat zajmujemy się tworzeniem profesjonalnych stron internetowych, które wyróżniają się wysoką estetyką, responsywnością i szybkim czasem ładowania. Jako webmasterzy nie pozwalamy sobie na przeciętność. Wierzymy w kluczowe znaczenie wizerunku w sieci dla powodzenia każdej marki.
+            <p className="md:text-xl md:pt-12 md:mt-12 pt-8 mt-8 border-t">Jeśli poszukujesz specjalistów od marketingu sieciowego w Chrzanowie, jesteś w dobrym miejscu. Od lat zajmujemy się tworzeniem profesjonalnych stron internetowych, które wyróżniają się wysoką estetyką, responsywnością i szybkim czasem ładowania. Jako webmasterzy nie pozwalamy sobie na przeciętność. Wierzymy w kluczowe znaczenie wizerunku w sieci dla powodzenia każdej marki.
             </p>
           </div>
         </section> */}
         <Cta />
+        <div className="relative">
+          <div className="hidden xl:block absolute bg-red-500 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+            <div className="bg-black w-16 -top-4 -left-14 h-1 absolute transform -translate-x-1/2 -translate-y-1/2"></div>
+            <div className="bg-black absolute border-4 border-black w-80 h-40 right-20 -top-24 flex justify-center p-3 flex-col font-serif">
+              <h4 className="text-primary font-semibold text-lg">Getpromo - Strony internetowe Chrzanów</h4>
+              <p className="text-white text-sm"></p>
+            </div>
+          </div>
+
+          <iframe className="w-full h-96 grayscale" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81846.70666955311!2d19.27704971868285!3d50.12915614769845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716ebdd9d1e2a0b%3A0x5761d70c6361a3f4!2zQ2hyemFuw7N3!5e0!3m2!1spl!2spl!4v1740857934437!5m2!1spl!2spl" width="600" height="450"></iframe>
+        </div>
       </div>
       <section>
         <div className="bg-white py-24 sm:py-32">
